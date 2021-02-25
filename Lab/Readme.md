@@ -8,6 +8,6 @@ Contents:
 - [x] Lab3 - Kafka
 - [x] Lab4 - SQL Alchemy
 - [x] Lab5 - Snowflake
-- [x] Lab 6 - SEVIR Notebook
+- [x] Lab6 - SEVIR Notebook
 
 NOTE: Refer README.md inside the respective directories for setup instructions.
