@@ -28,6 +28,5 @@ There are 3 major components:
 Link to guide [Webinar Zero to Snowflake in 90 minutes](https://guides.snowflake.com/guide/getting_started_with_snowflake/#0)
 
 ## CodeLab document:  
-https://codelabs-preview.appspot.com/?file_id=1UVHcXn-L02bQKkmgh6N_Lyg0SC4suv8IdJCXBEoW_F0#0
-
+For more information on lab refer the [CodeLab Document](https://codelabs-preview.appspot.com/?file_id=1UVHcXn-L02bQKkmgh6N_Lyg0SC4suv8IdJCXBEoW_F0#0)
 
