@@ -4,10 +4,10 @@ Kafka is a distributed streaming platform which can be used for building real-ti
 
 These are four main parts in a Kafka system:
 
-*Broker: Handles all requests from clients (produce, consume, and metadata) and keeps data replicated within the cluster. There can be one or more brokers in a cluster.  
-*Zookeeper: Keeps the state of the cluster (brokers, topics, users).  
-*Producer: Sends records to a broker.  
-*Consumer: Consumes batches of records from the broker.  
+* Broker: Handles all requests from clients (produce, consume, and metadata) and keeps data replicated within the cluster. There can be one or more brokers in a cluster.  
+* Zookeeper: Keeps the state of the cluster (brokers, topics, users).  
+* Producer: Sends records to a broker.  
+* Consumer: Consumes batches of records from the broker.  
 
 
 
