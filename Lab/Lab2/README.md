@@ -5,6 +5,7 @@ In this lab, we will explore a structured dataset and then create training and e
 __Dataflow__ is a managed service for executing a wide variety of data processing patterns. When you run your pipeline with the Cloud Dataflow service, the runner uploads your executable code and dependencies to a Google Cloud Storage bucket and creates a Cloud Dataflow job, which executes your pipeline on managed resources in Google Cloud Platform.[1](https://medium.com/google-cloud/basic-streaming-data-enrichment-on-google-cloud-with-dataflow-sql-a7684353119c)
 
 __Datalab__ is used to explore, analyze, transform data and build Machine Learning (ML) models on Google’s Cloud virtual machine. 
+
 __BigQuery__ is cloud-based big data analytics web service for processing very large read-only data sets, using SQL-like syntax.
 
 ## Lab completion date - 
