@@ -12,3 +12,25 @@ Link to [Research Paper](https://proceedings.neurips.cc/paper/2020/file/fa78a161
 Link to [Github](https://github.com/MIT-AI-Accelerator/neurips-2020-sevir)
 
 Link to [Synthetic Radar Notebook](https://github.com/MIT-AI-Accelerator/neurips-2020-sevir/blob/master/notebooks/AnalyzeSyntheticRadar.ipynb)
+
+##Configuration:
+  Install the following python packages:
+  * Tensorflow 2.1.0 or higher 
+  * pandas
+  * matplotlib
+  * h5py
+
+###Pretrained models:
+   Before running the notebook create a folder under as SYNRAD under models download the pretrained models from the below links and place them under SYNRAD
+
+   Gan_mae_weights.h5: https://www.dropbox.com/s/d1e2p36nu4sqq7m/gan_mae_weights.h5?dl=0
+
+   Synradmse_vgg_weights.h5: https://www.dropbox.com/s/a39ig25nxkrmbkx/mse_vgg_weights.h5?dl=0
+
+   Synradmse_weights.h5: https://www.dropbox.com/s/6cqtrv2yliwcyh5/mse_weights.h5?dl=0
+
+
+
+
+##Codelab Document:
+  For more information refer the [Codelab Document](https://docs.google.com/document/d/1U_E9OhYmezjdiWyntQrGYI4fWmiUgKk4I4VXRZtmsAE/edit#"Codelab Document")
