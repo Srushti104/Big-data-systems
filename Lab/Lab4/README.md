@@ -28,6 +28,4 @@ engine = db.create_engine('dialect+driver://user:pass@host:port/db')
 ```
 
 ## CodeLab document:  
-https://codelabs-preview.appspot.com/?file_id=1W2rSmS3Xvj2T2jowlxd-dWCOLhdimBsIhjftX0pfxu8#0
-
-
+For more information on lab refer the [CodeLab Document](https://codelabs-preview.appspot.com/?file_id=1W2rSmS3Xvj2T2jowlxd-dWCOLhdimBsIhjftX0pfxu8#0)
