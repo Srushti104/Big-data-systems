@@ -10,4 +10,4 @@ Contents:
 - [x] Lab5 - Snowflake
 - [x] Lab6 - SEVIR Notebook
 
-NOTE: Refer README.md inside the respective directories for setup instructions.
+NOTE: Refer README.md inside the respective directories for setup instructions. 
