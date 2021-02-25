@@ -39,6 +39,6 @@ __BigQuery__ is cloud-based big data analytics web service for processing very l
 
 ## CodeLab document:
 
-https://codelabs-preview.appspot.com/?file_id=1U5hDAUHTgloic_77oFvMeox299I9D2zWlN0fZhhgvIo#0
+For more information please refer the [CodeLab Document](https://codelabs-preview.appspot.com/?file_id=1U5hDAUHTgloic_77oFvMeox299I9D2zWlN0fZhhgvIo#0 "CodeLab Document")
  
 
