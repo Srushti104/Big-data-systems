@@ -27,14 +27,13 @@ __BigQuery__ is cloud-based big data analytics web service for processing very l
 ### Launching Datalab:
 
     * Run command to enter into the project created from the cloud shell
-    ```
+  ```
       --gcloud config set project babyweight-project
-    ```
-   
+  ``` 
     * Create a Datalab instance and make sure the project name is same the projectId created on GCP
-    ```
+  ```  
       --gcloud config set project (babyweight-project)
-     ```
+   ``` 
      
     * Once the instance has been created change the port to 8081
  
