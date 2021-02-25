@@ -22,18 +22,18 @@ Setup:
 
 Configuration:
 
-$pip3 install kafka-python
+$ pip3 install kafka-python
 
 
 Once you unzip the binaries, navigate to the location on your local machine and run:
 
-$bin/zookeeper-server-start.sh config/zookeeper.properties
+$ bin/zookeeper-server-start.sh config/zookeeper.properties
 
 All the scripts are in Lab folder.
 
 Trigger Kafka broker:
 
-$bin/kafka-server-start.sh config/server.properties
+$ bin/kafka-server-start.sh config/server.properties
 
 CodeLab document:
 https://codelabs-preview.appspot.com/?file_id=1elvYBfSGrvoB3NuqWbCt4qWFycmci1cyspyYzYsJp7I#0
