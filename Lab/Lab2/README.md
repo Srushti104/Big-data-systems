@@ -6,7 +6,7 @@ __Dataflow__ is a managed service for executing a wide variety of data processin
 
 __Datalab__ is used to explore, analyze, transform data and build Machine Learning (ML) models on Google’s Cloud virtual machine. 
 
-__BigQuery__ is cloud-based big data analytics web service for processing very large read-only data sets, using SQL-like syntax.
+__BigQuery__ is cloud-based big data analytics web service for processing very large read-only data sets, using SQL-like syntax
 
 
 
