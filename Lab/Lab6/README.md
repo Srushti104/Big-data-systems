@@ -33,4 +33,4 @@ Link to [Synthetic Radar Notebook](https://github.com/MIT-AI-Accelerator/neurips
 
 
 ## Codelab Document:
-  For more information refer the [Codelab Document](https://docs.google.com/document/d/1U_E9OhYmezjdiWyntQrGYI4fWmiUgKk4I4VXRZtmsAE/edit#"Codelab Document")
+  For more information refer the [Codelab Document](https://docs.google.com/document/d/1U_E9OhYmezjdiWyntQrGYI4fWmiUgKk4I4VXRZtmsAE/edit# "Codelab Document")
