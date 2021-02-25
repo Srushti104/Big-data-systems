@@ -2,7 +2,7 @@
 
 As part of CSYE 7245 - Big Data Systems & Intelligence Analytics Labs, we have covered below tool and platforms.
 
-Contents:
+## Content under Lab folder:
 - [x] Lab1 - AWS Getting Started + Lambda
 - [x] Lab2 - GCP - Dataflow, Datalab
 - [x] Lab3 - Kafka
@@ -10,4 +10,4 @@ Contents:
 - [x] Lab5 - Snowflake
 - [x] Lab 6 - SEVIR Notebook
 
-NOTE: Refer README.md inside the respective directories for setup instructions.
+* NOTE: Refer README.md inside the respective directories for setup instructions. 
