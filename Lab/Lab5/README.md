@@ -10,8 +10,6 @@ There are 3 major components:
 
 
 
-## Lab completion date - 02/17/2021
-
 ## Setup:
 
 - Snowflake account - Standard (Free trial account)
