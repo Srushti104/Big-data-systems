@@ -9,10 +9,10 @@ AWS Lambda is a service which computes the code without any server. It is said t
 
 ## Setup:
 
--Create AWS account. 
--Setup AWS Command Line Interface. 
+-Create AWS account.   
+-Setup AWS Command Line Interface.   
 
-AWS Console 
+AWS Console   
 * Create S3 Bucket. 
 * Create role which has permission to work with s3 and lambda. 
 * Create lambda function and add s3 as the trigger.  
