@@ -11,16 +11,16 @@ These are four main parts in a Kafka system:
 
 
 
-Lab completion date - 02/05/2021
+## Lab completion date - 02/05/2021
 
-Setup:
+## Setup:
 
 - Download Binaries: https://kafka.apache.org/downloads
 - Setup Project in Pycharm with virtual environment
 - Twitter developer account to generate API keys and bearer tokens
 
 
-Configuration:
+## Configuration:
 ```
 $ pip3 install kafka-python
 ```
@@ -35,7 +35,7 @@ Trigger Kafka broker:
 ```
 $ bin/kafka-server-start.sh config/server.properties
 ```
-CodeLab document:
+## CodeLab document:  
 https://codelabs-preview.appspot.com/?file_id=1elvYBfSGrvoB3NuqWbCt4qWFycmci1cyspyYzYsJp7I#0
 
 
