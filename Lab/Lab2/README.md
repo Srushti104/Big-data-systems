@@ -8,7 +8,6 @@ __Datalab__ is used to explore, analyze, transform data and build Machine Learni
 
 __BigQuery__ is cloud-based big data analytics web service for processing very large read-only data sets, using SQL-like syntax.
 
-## Lab completion date - 
 
 
 ## Setup:
