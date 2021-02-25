@@ -10,16 +10,34 @@ __BigQuery__ is cloud-based big data analytics web service for processing very l
 
 ## Lab completion date - 
 
+
 ## Setup:
- * Create an AWS account 
- * Install AWS CLI and configure
- * Create S3 bucket 
- * Python 3.7 
- * Boto3 - pip install boto3
- * Faker - from faker import Faker 
- * Random- import random (to generate a random file number)
+
+   * Create a GCP account
+   * Create a new project -babyweight-project
+   * Enable the following API’s: BigQuery API, AI Platform, Cloud Source Repositories, Dataflow, Data Labeling
+   * Create a datalab instance 
+   * Python 3 
+   * Tensor flow 
+   * Apache beam
+
+
+## Configuration:
+
+### Launching Datalab:
+
+    * Run command --gcloud config set project babyweight-project-- to enter into the project created from the cloud shell 
+    * Create a Datalab instance using --gcloud config set project (babyweight-project)
+    * Make sure the project name is same the projectId created on GCP
+    * Once the instance has been created change the port to 8081
+ 
+### Clone datalab notebook:
+
+    * Create a new notebook and then run the following command to clone the repo--!git clone https://github.com/GoogleCloudPlatform/training-data-analyst
+    * In Datalab, open the notebook --training-data-analyst/blogs/babyweight/babyweight.ipynb.
 
 ## CodeLab document:
+
 https://codelabs-preview.appspot.com/?file_id=1U5hDAUHTgloic_77oFvMeox299I9D2zWlN0fZhhgvIo#0
  
 
