@@ -36,6 +36,4 @@ Trigger Kafka broker:
 $ bin/kafka-server-start.sh config/server.properties
 ```
 ## CodeLab document:  
-https://codelabs-preview.appspot.com/?file_id=1elvYBfSGrvoB3NuqWbCt4qWFycmci1cyspyYzYsJp7I#0
-
-
+For more information on lab refer the [CodeLab Document](https://codelabs-preview.appspot.com/?file_id=1elvYBfSGrvoB3NuqWbCt4qWFycmci1cyspyYzYsJp7I#0)
