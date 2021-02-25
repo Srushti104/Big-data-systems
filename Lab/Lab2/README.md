@@ -35,8 +35,12 @@ __BigQuery__ is cloud-based big data analytics web service for processing very l
 
 ```
    * Create a new notebook and then run the following command to clone the repo 
+  
      --!git clone https://github.com/GoogleCloudPlatform/training-data-analyst
-   * In Datalab, open the notebook --training-data-analyst/blogs/babyweight/babyweight.ipynb.
+     
+   * In Datalab, open the notebook 
+   
+     --training-data-analyst/blogs/babyweight/babyweight.ipynb.
 ```
 
 ## CodeLab document:
