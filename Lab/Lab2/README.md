@@ -49,6 +49,10 @@ __BigQuery__ is cloud-based big data analytics web service for processing very l
    ```
      --training-data-analyst/blogs/babyweight/babyweight.ipynb.
    ```
+   
+   
+**Link to [Notebook](https://colab.research.google.com/github/GoogleCloudPlatform/training-data-analyst/blob/master/blogs/babyweight/babyweight.ipynb#scrollTo=At2ygTPBm8Kp)**
+
 
 ## CodeLab document:
 
