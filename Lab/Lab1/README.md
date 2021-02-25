@@ -9,7 +9,7 @@ AWS Lambda is a service which computes the code without any server. It is said t
 
 ## Setup:
 
--Create AWS account.   
+-Create AWS account [here](https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2"here").   
 -Setup AWS Command Line Interface.   
 
 AWS Console   
