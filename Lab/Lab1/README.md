@@ -36,7 +36,7 @@ $ pip3 install boto3
 
 
 ## CodeLab document:  
-For more information on lab refer the [CodeLab Document](https://codelabs-preview.appspot.com/?file_id=1d7ccmkfmId_ocuwMUo7beXXEWKneau8omkSy3lzIHtc#0"CodeLab Document")
+For more information on lab refer the [CodeLab Document](https://codelabs-preview.appspot.com/?file_id=1d7ccmkfmId_ocuwMUo7beXXEWKneau8omkSy3lzIHtc#0 "CodeLab Document")
 
 
 
