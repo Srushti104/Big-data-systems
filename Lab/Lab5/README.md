@@ -24,5 +24,6 @@ There are 3 major components:
 ## CodeLab document:  
 https://codelabs-preview.appspot.com/?file_id=1UVHcXn-L02bQKkmgh6N_Lyg0SC4suv8IdJCXBEoW_F0#0
 
-Ref:https://medium.com/@achilleus/snowflake-cloud-data-warehouse-66569157a399
+Ref:
+[1](https://medium.com/@achilleus/snowflake-cloud-data-warehouse-66569157a399)
 
