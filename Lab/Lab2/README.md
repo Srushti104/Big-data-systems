@@ -24,16 +24,16 @@ __BigQuery__ is cloud-based big data analytics web service for processing very l
 
 ## Configuration:
 
-## Launching Datalab:
+### Launching Datalab:
 
    * Run command --gcloud config set project babyweight-project-- to enter into the project created from the cloud shell 
    * Create a Datalab instance using --gcloud config set project (babyweight-project)
    * Make sure the project name is same the projectId created on GCP
    * Once the instance has been created change the port to 8081
  
-## Clone datalab notebook:
+### Clone datalab notebook:
 
-   * Create a new notebook and then run the following command to clone the repo--!git clone https://github.com/GoogleCloudPlatform/training-data-analyst
+   * Create a new notebook and then run the following command to clone the repo--!git clone https\://github.com/GoogleCloudPlatform/training-data-analyst
    * In Datalab, open the notebook --training-data-analyst/blogs/babyweight/babyweight.ipynb.
 
 ## CodeLab document:
