@@ -10,9 +10,6 @@ These are four main parts in a Kafka system:
 * Consumer: Consumes batches of records from the broker.  
 
 
-
-## Lab completion date - 02/05/2021
-
 ## Setup:
 
 - Download Binaries: https://kafka.apache.org/downloads
