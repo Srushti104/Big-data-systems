@@ -74,7 +74,7 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
 ### Big Query and Data Studio:
    
    * Query the dataset and explore the dataset using Bigquery and Data Studio 
-   * Create [visualizations](https://datastudio.google.com/u/2/reporting/35d379b0-5e06-4ac6-904c-13282ccfbe62/page/jFp4B/edit "visualizations") using Data Studio using Storm Data Set 
+   * Create visualizations using Data Studio using Storm Data Set 
    
  
 ### Documentation:
