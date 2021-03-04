@@ -13,7 +13,7 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
 
 
 ## Architecture:
-![image](https://user-images.githubusercontent.com/78016518/110038226-73749880-7d0d-11eb-80aa-b44c75b67d2a.png)
+![image](https://user-images.githubusercontent.com/78016518/110046500-22b76c80-7d1a-11eb-8938-cac972ccfdf0.png)
 
 
 ## Configuration:
