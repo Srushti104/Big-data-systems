@@ -13,7 +13,7 @@ __BigQuery__ is cloud-based big data analytics web service for processing very l
 __DataStudio__ Data Studio is a free tool that turns your data into informative, easy to read, easy to share, and fully customizable dashboards and reports.
 
 ## Architecture:
-![image](https://user-images.githubusercontent.com/78016518/110035637-ee3bb480-7d09-11eb-98c2-0f1b972a2054.png)
+![image](https://user-images.githubusercontent.com/78016518/110038226-73749880-7d0d-11eb-80aa-b44c75b67d2a.png)
 
 
 ## Configuration:
