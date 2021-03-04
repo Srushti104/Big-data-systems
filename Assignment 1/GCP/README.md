@@ -70,10 +70,11 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
 ```
   * Run the notebook to execute the pipeline
  
- ### Big Query and Data Studio:
+
+### Big Query and Data Studio:
    
-    * Query the dataset and Explore the dataset using Biqquery and Data Studio 
-    * Create visualizations using Data Studion using Storm Data Set
+   * Query the dataset and explore the dataset using Bigquery and Data Studio 
+   * Create visualizations using Data Studio using Storm Data Set
    
  
 ### Documentation:
