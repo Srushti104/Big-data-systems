@@ -12,19 +12,21 @@ __BigQuery__ is cloud-based big data analytics web service for processing very l
 
 __DataStudio__ Data Studio is a free tool that turns your data into informative, easy to read, easy to share, and fully customizable dashboards and reports.
 
+
 ## Architecture:
 ![image](https://user-images.githubusercontent.com/78016518/110038226-73749880-7d0d-11eb-80aa-b44c75b67d2a.png)
 
 
 ## Configuration:
+
   * Create a GCP account using the link https://console.cloud.google.com/getting-started
   * Enable the following API’s: BigQuery API, AI Platform, Cloud Source Repositories, Dataflow, Data Labeling,Big Query, Data Studio on GCP
   * Create a datalab instance on GCP
   * Python 3 
   
-## Requirments:
 
 ### Upload sample data to Cloud Storage
+
    * Create a Storage Bucket on GCP
    * Create an IAM role and a download a Secret Access Key JSON file from GCP which should be used to connect to Google Cloud Storage bucket 
    * Provide the JSON file path and the bucket name in py file
@@ -33,7 +35,7 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
       --pip install google-cloud-storage
    ``` 
    
- ### Launching Datalab:
+### Launching Datalab:
     
    * Create a New Project on GCP 
    * Connect to google Cloud Shell
@@ -46,8 +48,11 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
       --datalab create --zone us-central1-a mydatalab
    ``` 
    
-### Pipeline for Processing and loading the Data to Big query
+### Pipeline Execution
    
+   * Reads the data from google cloud storage bucket
+   * Preprocessing such as splitting data by comma, dropping unwanted columns, converting data types.
+   * Loading the data to big query
    * Install the following dependencies prior to running the notebook
 ``` 
    pip install --ignore-installed --upgrade pytz==2018.4
@@ -56,14 +61,20 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
    pip install google-cloud-bigquery --upgrade
 ```
 
-  * Once done import the foloowing packages
+  * Once done import the following packages
 ```
    import apache_beam as beam
    import argparse
    from apache_beam.options.pipeline_options import PipelineOptions
    from sys import argv
 ```
-  * Change the project_ID variable  
+  * Run the notebook to execute the pipeline
+ 
+ ### Big Query and Data Studio:
+   
+    * Query the dataset and Explore the dataset using Biqquery and Data Studio 
+    * Create visualizations using Data Studion using Storm Data Set
+   
  
 
 
