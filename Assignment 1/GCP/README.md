@@ -18,8 +18,8 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
 
 ## Configuration:
   * Create a GCP account using the link https://console.cloud.google.com/getting-started
-  * Enable the following API’s: BigQuery API, AI Platform, Cloud Source Repositories, Dataflow, Data Labeling,Big Query, Data Studio
-  * Create a datalab instance 
+  * Enable the following API’s: BigQuery API, AI Platform, Cloud Source Repositories, Dataflow, Data Labeling,Big Query, Data Studio on GCP
+  * Create a datalab instance on GCP
   * Python 3 
   
 ## Requirments:
@@ -29,9 +29,9 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
    * Create an IAM role and a download a Secret Access Key JSON file which should be used to connect to Google Cloud Storage bucket 
    * Provide the file path in and the bucket name in py file
    * Install the dependencies on the local machine
-  '''
-    pip install google-cloud-storage
-  '''
+  ```  
+      --pip install google-cloud-storage
+   ``` 
   
 ### Launching Datalab:
     
@@ -41,10 +41,11 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
   ```
       --gcloud config set project Project-ID
   ``` 
-   Create a Datalab instance
+   * Create a Datalab instance
   ```  
       --datalab create --zone us-central1-a mydatalab
    ``` 
+   
 ###
 
 
