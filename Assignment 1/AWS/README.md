@@ -1,3 +1,0 @@
-# Assignment 1
-
-
