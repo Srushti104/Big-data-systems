@@ -30,6 +30,7 @@ We did this using an AWS Lambda function invoked by an Amazon S3 trigger to star
 When the crawler is finished creating the table definition, we invoke a second Lambda function using an Amazon CloudWatch Events rule. This step starts an AWS Glue ETL job to process and output the data into another Amazon S3 bucket sevirdatapipeline-processeds3bucket.  Once the processed data reaches S3 we pick the output S3 from quicksight to crate Dashboard.
 
 ## Architecture
+![SEVIR_AWS](https://user-images.githubusercontent.com/59776740/110042602-057f9f80-7d14-11eb-845c-2e020d9db1ed.png)
 
 
 
