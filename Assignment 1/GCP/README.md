@@ -26,14 +26,14 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
 
 ### Upload sample data to Cloud Storage
    * Create a Storage Bucket on GCP
-   * Create an IAM role and a download a Secret Access Key JSON file which should be used to connect to Google Cloud Storage bucket 
-   * Provide the file path in and the bucket name in py file
+   * Create an IAM role and a download a Secret Access Key JSON file from GCP which should be used to connect to Google Cloud Storage bucket 
+   * Provide the JSON file path and the bucket name in py file
    * Install the dependencies on the local machine
   ```  
       --pip install google-cloud-storage
    ``` 
-  
-### Launching Datalab:
+   
+ ### Launching Datalab:
     
    * Create a New Project on GCP 
    * Connect to google Cloud Shell
