@@ -1,3 +1,52 @@
-# Assignment 1
+# Google Cloud Platform
+
+In this assignment we are be exploring a sample dataset of SEVIR+NOAA Storm data loaded to Google cloud storage.
+We Build a pipeline to ingest the data to bigquery from Google cloud Storage using Apache Beam with DataFlow and explore the sampled data using
+Big Query and Data Studio
+
+__Dataflow__ is a managed service for executing a wide variety of data processing patterns. When you run your pipeline with the Cloud Dataflow service, the runner uploads your executable code and dependencies to a Google Cloud Storage bucket and creates a Cloud Dataflow job, which executes your pipeline on managed resources in Google Cloud Platform.[1](https://medium.com/google-cloud/basic-streaming-data-enrichment-on-google-cloud-with-dataflow-sql-a7684353119c)
+
+__Datalab__ is used to explore, analyze, transform data and build Machine Learning (ML) models on Google’s Cloud virtual machine. 
+
+__BigQuery__ is cloud-based big data analytics web service for processing very large read-only data sets, using SQL-like syntax
+
+__DataStudio__ Data Studio is a free tool that turns your data into informative, easy to read, easy to share, and fully customizable dashboards and reports.
+
+## Architecture:
+![image](https://user-images.githubusercontent.com/78016518/110035637-ee3bb480-7d09-11eb-98c2-0f1b972a2054.png)
+
+
+## Configuration:
+  * Create a GCP account using the link https://console.cloud.google.com/getting-started
+  * Enable the following API’s: BigQuery API, AI Platform, Cloud Source Repositories, Dataflow, Data Labeling,Big Query, Data Studio
+  * Create a datalab instance 
+  * Python 3 
+  
+## Requirments:
+
+### Upload sample data to Cloud Storage
+   * Create a Storage Bucket on GCP
+   * Create an IAM role and a download a Secret Access Key JSON file which should be used to connect to Google Cloud Storage bucket 
+   * Provide the file path in and the bucket name in py file
+   * Install the dependencies on the local machine
+  '''
+    pip install google-cloud-storage
+  '''
+  
+### Launching Datalab:
+    
+   * Create a New Project on GCP 
+   * Connect to google Cloud Shell
+   * Run command to enter into the project created from the cloud shell
+  ```
+      --gcloud config set project Project-ID
+  ``` 
+   Create a Datalab instance
+  ```  
+      --datalab create --zone us-central1-a mydatalab
+   ``` 
+###
+
+
 
 
