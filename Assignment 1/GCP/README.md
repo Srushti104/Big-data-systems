@@ -19,7 +19,7 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
 
 ## Configuration:
 
-  * Create a GCP account using the link https://console.cloud.google.com/getting-started
+  * Create a GCP account using the [link](https://console.cloud.google.com/getting-started "link"
   * Enable the following API’s: BigQuery API, AI Platform, Cloud Source Repositories, Dataflow, Data Labeling,Big Query, Data Studio on GCP
   * Create a datalab instance on GCP
   * Python 3 
@@ -76,6 +76,7 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
     * Create visualizations using Data Studion using Storm Data Set
    
  
+### Documentation:
 
 
 
