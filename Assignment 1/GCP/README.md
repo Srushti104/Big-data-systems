@@ -1,7 +1,6 @@
 # Google Cloud Platform
 
-In this assignment we are be exploring a sample dataset of SEVIR+NOAA Storm data loaded to Google cloud storage.
-We Build a data processing pipeline and ingest the data to bigquery from Google cloud Storage using Apache Beam, DataFlow and explore the sampled data using
+In this assignment we are be exploring a sample dataset of SEVIR+NOAA Storm data loaded to Google cloud storage.We Build a data processing pipeline and ingest the data to bigquery from Google cloud Storage using Apache Beam, DataFlow and explore the sampled data using
 Big Query and Data Studio
 
 __Dataflow__ is a managed service for executing a wide variety of data processing patterns. When you run your pipeline with the Cloud Dataflow service, the runner uploads your executable code and dependencies to a Google Cloud Storage bucket and creates a Cloud Dataflow job, which executes your pipeline on managed resources in Google Cloud Platform.[1](https://medium.com/google-cloud/basic-streaming-data-enrichment-on-google-cloud-with-dataflow-sql-a7684353119c)
@@ -35,6 +34,7 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
       --pip install google-cloud-storage
    ``` 
    
+   
 ### Launching Datalab:
     
    * Create a New Project on GCP 
@@ -48,6 +48,7 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
       --datalab create --zone us-central1-a mydatalab
    ``` 
    
+   
 ### Pipeline Execution
    
    * Reads the data from google cloud storage bucket
@@ -60,7 +61,6 @@ __DataStudio__ Data Studio is a free tool that turns your data into informative,
    pip install --upgrade apache-beam[gcp]==2.12.0
    pip install google-cloud-bigquery --upgrade
 ```
-
   * Once done import the following packages
 ```
    import apache_beam as beam
