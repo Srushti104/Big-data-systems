@@ -37,4 +37,4 @@ Below are the links for the datasets
 For more detailed information please refer to the folders associated to the Architecture
 
  ## Codelab Document:
- Please refer the [document](https://docs.google.com/document/d/1WaIYSb5BqgXXUkx8QnvYN9F2jepINcSv0UbK-06tcps/edit?usp=sharing) 
+ Please refer the [document](https://codelabs-preview.appspot.com/?file_id=1WaIYSb5BqgXXUkx8QnvYN9F2jepINcSv0UbK-06tcps#0) 
