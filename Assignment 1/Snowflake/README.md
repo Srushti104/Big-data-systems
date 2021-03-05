@@ -48,17 +48,18 @@ To start a development web server on port 8088, use -p to bind to another port.
 
 You will get local host link at port 8088. Navigate to hostname:port and Login to link with user and password you have set in previous step.  
 
+
   
-## Configuration. 
+## Configuration.  
  
-Create DB using the script.   
-<script name>.    
+Create DB using the script. 
+>script name    
   
-  
+ 
   
 Load DB from S3 using below command:     
-<script name>.    
-  
+>script name     
+    
 
 The recommended connector library for Snowflake is snowflake-sqlalchemy.    
 Install python libarary before running the script.    
@@ -66,7 +67,7 @@ Install python libarary before running the script.
 
   
 Query the table using python script.    
-<script name>.     
+>script name        
       
 
 ## Connecting to superset.   
