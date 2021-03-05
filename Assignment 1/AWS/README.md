@@ -60,6 +60,8 @@ Script to upload file to S3
 > ```h5_read_file.py```. 
 * Python script to read and sample data in HDF5 file based on year and month. 
 > ```read_h5.py```. 
+From above script we can find the list of filename and index. With these details we can run the script
+> ```save_g5_img.py```
 
 
 
