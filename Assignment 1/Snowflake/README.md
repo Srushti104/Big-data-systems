@@ -51,6 +51,8 @@ To start a development web server on port 8088, use -p to bind to another port.
 
 You will get local host link at port 8088. Navigate to hostname:port and Login to link with user and password you have set in previous step.  
 
+## Architecture.   
+![snowflake](https://user-images.githubusercontent.com/59776740/110061412-8bf8a900-7d35-11eb-9b8f-dccbd192a714.png)
 
   
 ## Configuration.  
