@@ -1,6 +1,5 @@
-# Snowflake
-
-
+# Snowflake. 
+**Snowflake** is a cloud data warehouse built on top of the Amazon Web Services (AWS) cloud infrastructure and is a true SaaS offering. There is no hardware (virtual or physical) for you to select, install, configure, or manage. There is no software for you to install, configure, or manage. All ongoing maintenance, management, and tuning is handled by Snowflake.  
 
 ## Setup
 
