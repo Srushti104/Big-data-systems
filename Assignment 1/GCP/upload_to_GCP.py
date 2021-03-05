@@ -2,7 +2,7 @@ from google.cloud import storage
 import glob
 import os
 import pandas as pd
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'C:/Users/gnana/PycharmProjects/Assignment/sevir/sevir-306302-fdeea5226bfa.json'
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ''
 
 storage_client = storage.Client()
 buckets = list(storage_client.list_buckets())
@@ -22,9 +22,6 @@ def upload_csv_catalog():
 		blob = bucket.blob('Catalog/'+os.path.basename(csv))
 		blob.upload_from_filename('C:/Users/gnana/OneDrive/Desktop/Catalog/'+os.path.basename(csv))
 		print('Catalog data uploaded')
-
-
-
 
 upload_csv_storm()
 upload_csv_catalog()
