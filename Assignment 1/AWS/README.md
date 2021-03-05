@@ -1,3 +1,4 @@
+
 # Amazon Web Service (AWS)
 
 **Amazon Simple Storage Service (Amazon S3)** is an object storage service that offers industry-leading scalability, data availability, security, and performance.
@@ -64,6 +65,14 @@ Script to upload file to S3
 > 
 From above script we can find the list of filename and index. With these details we can run the script.   
 > ```save_g5_img.py```
+
+Sample image: 
+
+File: SEVIR_VIL_STORMEVENTS_2019_0101_0630.h5.  
+Index :  128.   
+Event ID: b'S797364'. 
+
+![vil2](https://user-images.githubusercontent.com/59776740/110068316-68d4f600-7d43-11eb-927c-d05e8495437a.png)
 
 
 
