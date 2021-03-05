@@ -51,28 +51,32 @@ You will get local host link at port 8088. Navigate to hostname:port and Login t
   
 ## Configuration.  
  
-Create DB using the script. 
->```create_<filename>_DB.sql```   
+Create DB using the script.   
+```create_<filename>_DB.sql```     
   
  
   
-Load DB from S3 using below command:     
->```load_<filename>_DB.sql```     
+Load DB from S3 using below command:       
+```load_<filename>_DB.sql```      
     
 
-The recommended connector library for Snowflake is snowflake-sqlalchemy.    
-Install python libarary before running the script.    
+The recommended connector library for Snowflake is snowflake-sqlalchemy.     
+Install python libarary before running the script.     
 ```pip install snowflake-sqlalchemy```       
-
+ 
   
 Query the table using python script. 
->```snowflake_sqlalchemy.py```
->```queries.sql```        
+ 
+> NOTE : Update the ```config.py``` file before running the script with your account details.  
+
+```snowflake_sqlalchemy.py```   
+
+```queries.sql```          
       
 
 ## Connecting to superset.   
 
-Navigate to Data --> Datasets option. Add Database connection enter the below url   
+Navigate to Data --> Datasets option. Add Database connection enter the below url    
 
 
 ```snowflake://{user}:{password}@{account}.{region}/{database}?role={role}&warehouse={warehouse}```    
