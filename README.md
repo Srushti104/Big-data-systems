@@ -10,6 +10,10 @@ As part of CSYE 7245 - Big Data Systems & Intelligence Analytics Labs, we have c
 - [x] Lab4 - SQL Alchemy
 - [x] Lab5 - Snowflake
 - [x] Lab6 - SEVIR Notebook
+- [x] Lab7 - Airflow TFX
+- [x] Lab8 - Airflow CNN - Model Training using the pipeline
+- [x] Lab9 - Streamlit
+- [x] Lab10 - FastAPI
 
 ### Assignment 1 :
 The Storm EVent ImagRy (SEVIR) dataset is a collection of temporally and spatially aligned images containing weather events captured by satellite and radar. We have implemented below three cloud architectures to query the datasets and sample.
