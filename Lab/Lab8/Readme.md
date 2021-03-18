@@ -25,18 +25,18 @@ Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks.
 The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.
 
 
-### Requirements
+## Requirements
 
 Install the dependencies by running `requirements.txt` 
 ```
 pip install -r requirements.txt
 ```
 
-#### Update S3 Bucket details
+### S3 Bucket details
 
 Provide the S3 bucket name in the `bucket_name` parameter in `s3_uploader/upload_models.py`
 
-#### Airflow Configuration
+### Airflow Configuration
 
 Once Airflow is installed, configure the same by running:
 
@@ -61,7 +61,7 @@ airflow users create \
     --email example@example.com
 ```
 
-#### Using Airflow
+### Airflow Initialization
 
 Start the Airflow server in daemon
 ```
@@ -110,7 +110,7 @@ uvicorn main:app --reload
 
 API Documentation can be viewed by visiting 127.0.0.1:8000/docs
 
-### Inference
+## Inference
 
 #### Streamlit App
 
@@ -124,10 +124,10 @@ Visit 127.0.0.1:8000/docs to view API documentation.
 
 You may use the `predict.py` script for inference. Provide the path to your image and run the script.
 
-#### References
+### References
 
 [Apache Airflow](https://airflow.apache.org/)   
 [Tuan Nguyen](https://towardsdatascience.com/getting-started-with-airflow-locally-and-remotely-d068df7fcb4)   
 
-
-Refer the [Code Lab Link](https://codelabs-preview.appspot.com/?file_id=1CtkDbPBoAPG0bsOQuIq2d5i6UIiNXjIyKC4vkLh2gvc#0)
+## Codelab Document:
+For more information refer the [Code Lab Link](https://codelabs-preview.appspot.com/?file_id=1CtkDbPBoAPG0bsOQuIq2d5i6UIiNXjIyKC4vkLh2gvc#0)
