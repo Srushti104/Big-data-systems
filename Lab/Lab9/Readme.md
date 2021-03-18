@@ -3,11 +3,11 @@
 From https://www.tensorflow.org/tfx/tutorials/tfx/airflow_workshop
 Codebase available here: https://github.com/tensorflow/tfx/tree/master/tfx/examples/airflow_workshop
 
-## Introduction:
+### Introduction:
 
   Apache Airflow is an open-source platform to Author, Schedule and Monitor workflows. Airflow helps you to create workflows using Python programming language and these workflows   can be scheduled and monitored easily with it.
 
-## Configuration:
+### Configuration:
    
    * install all the requirmensts 
    
@@ -40,7 +40,7 @@ Codebase available here: https://github.com/tensorflow/tfx/tree/master/tfx/examp
   
   * Kill the process by running kill <PID> 
 
-## References & Citation
+### References & Citation
   
   [TFX Airflow Tutorial](https://www.tensorflow.org/tfx/tutorials/tfx/airflow_workshop)
   [TFX on github](https://github.com/tensorflow/tfx)
