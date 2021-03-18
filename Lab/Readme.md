@@ -9,5 +9,9 @@ Contents:
 - [x] Lab4 - SQL Alchemy
 - [x] Lab5 - Snowflake
 - [x] Lab6 - SEVIR Notebook
+- [x] Lab7 - Airflow TFX
+- [x] Lab8 - Airflow CNN - Model Training using the pipeline
+- [x] Lab9 - Streamlit
+- [x] Lab10 - FastAPI
 
 NOTE: Refer README.md inside the respective directories for setup instructions. 
