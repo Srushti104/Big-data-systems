@@ -17,4 +17,6 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 ## API Documentation  
 http://127.0.0.1:8000/docs
 
-[CodeLab Link](https://codelabs-preview.appspot.com/?file_id=1pxjqXZ1PQl8ArkoUy3UpKr0c86JHALNXvg7psAI_lYI#0)
+
+## Codelab Document:
+For more information refer the [CodeLab Link](https://codelabs-preview.appspot.com/?file_id=1pxjqXZ1PQl8ArkoUy3UpKr0c86JHALNXvg7psAI_lYI#0)
