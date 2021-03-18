@@ -1,9 +1,15 @@
-## Acne Type Classification Pipeline using CNN 
+## Lab 8 - Airflow
+
+**Airflow**
+Airflow is a workflow management platform developed and open-source by AirBnB in 2014 to help the company manage its complicated workflows.
+
+Airflow was developed with four principles in mind, which are scalable, dynamic, extendable, and elegant. Scalable means you can effortlessly scale your pipeline horizontally. Dynamic means dynamic pipeline generation, extensible means you can easily write your custom operators/integrations. Finally, elegant means you can have your pipeline lean and explicit with parameters and Jinja templating.
+
+In this lab we are building Acne Type Classification Pipeline using CNN 
 
 The training pipeline aims to identify the type of Acne-Rosacea, by training a model with images scraped from dermnet.com with a confidence score.
 The front-end application uses Streamlit to predict using the trained model.
 
-<img src="/airflow_cnn_pipeline/img/approach.jpg" alt="approach" width="200"/>
 
 
 #### Model - MobileNet (CNN) 
@@ -25,64 +31,13 @@ Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks.
 
 The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed. [1]
 
-#### Use Cases
-
-- Replace cron jobs: Monitoring cron jobs is hard and tedious. Instead of manually ssh to servers to find out if/why your jobs fail, you can visually see whether your code run or not through the UI and have Airflow notifies you when a job fails.
-- Extract data: Airflow, with its many integrations, are used a lot for data engineering tasks. You can write tasks to extract data from your production databases, check data quality, and write the results to your on-cloud data warehouse.
-- Transform data: You can interface with external services to process your data. For example, you can have a pipeline that submits a job to EMR to process data in S3 with Spark and writes the results to your Redshift data warehouse.
-- Train machine learning models: You can extract data from a data warehouse, do feature engineering, train a model, and write the results to a NoSQL database to be consumed by other applications.
-- Crawl data from the Internet: You can write tasks to periodically crawl data from the Internet and write to your database. For instance, you can get daily competitor’s prices or get all comments from your company’s Facebook page. [2]
 
 ### Requirements
 
-Install the dependencies as outlined in the `requirements.txt` by running
+Install the dependencies by running `requirements.txt` 
 ```
 pip install -r requirements.txt
 ```
-
-### Getting Started 
-
-```
-airflow_cnn_pipeline/
-├── api/
-│   └── main.py
-├── app.py
-├── dags/
-│   ├── retrain.py
-│   └── train_model.py
-├── demo_img/
-│   ├── test1.jpg
-│   ├── test2.jpg
-│   ├── test3.jpg
-│   ├── test4.jpg
-│   └── test5.jpg
-├── get_image/
-│   ├── __init__.py
-│   └── download.py
-├── img/
-│   ├── airflow.jpg
-│   ├── airflow_ui.gif
-│   └── approach.jpg
-├── models/
-│   ├── Mobilenet/
-│   │   └── mobilenet_v1_1.0_224/
-│   │       ├── frozen_graph.pb
-│   │       ├── labels.txt
-│   │       └── quantized_graph.pb
-│   ├── retrained_graph_v2.pb
-│   └── retrained_labels.txt
-├── predict.py
-├── README.md
-├── requirements.txt
-├── s3_uploader/
-│   ├── __init__.py
-│   └── upload_models.py
-├── scraper/
-│   ├── __init__.py
-│   └── dermnet_scrape.py
-└── train.py
-```
-
 
 #### Update S3 Bucket details
 
@@ -146,8 +101,6 @@ Kill the process by running `kill <PID>` - in this case, it would be `kill 13280
 
 Login to Airflow on your browser and turn on the `CNN-Training-Pipeline` DAG from the UI. Start the pipeline by choosing the DAG and clicking on Run.
 
-![airflow_run](/airflow_cnn_pipeline/img/airflow_ui.gif)
-
 
 ### API Usage
 
@@ -178,11 +131,10 @@ Visit 127.0.0.1:8000/docs to view API documentation.
 
 You may use the `predict.py` script for inference. Provide the path to your image and run the script.
 
-#### Citation & References
+#### References
 
-[[1] Apache Airflow](https://airflow.apache.org/) <br>
-[[2] Tuan Nguyen](https://towardsdatascience.com/getting-started-with-airflow-locally-and-remotely-d068df7fcb4) <br>
-[Hands-On Deep Learning for IoT](https://www.packtpub.com/product/hands-on-deep-learning-for-iot/9781789616132) <br>
-[GitHub: PacktPublishing/Hands-On-Deep-Learning-for-IoT](https://github.com/PacktPublishing/Hands-On-Deep-Learning-for-IoT) <br>
+[Apache Airflow](https://airflow.apache.org/)   
+[Tuan Nguyen](https://towardsdatascience.com/getting-started-with-airflow-locally-and-remotely-d068df7fcb4)   
+
 
 [Code Lab Link](https://codelabs-preview.appspot.com/?file_id=1CtkDbPBoAPG0bsOQuIq2d5i6UIiNXjIyKC4vkLh2gvc#0)
