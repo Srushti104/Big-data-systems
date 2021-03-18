@@ -22,7 +22,6 @@ The front-end application uses Streamlit to predict using the trained model.
 - The pipeline can be scheduled to run at a predefined cadence and is constantly retraining the model
 - Continuously upload the trained graph and labels to S3
 
-![pipeline](/airflow_cnn_pipeline/img/airflow.jpg)
 
 ### Training Pipeline
 
@@ -137,4 +136,4 @@ You may use the `predict.py` script for inference. Provide the path to your imag
 [Tuan Nguyen](https://towardsdatascience.com/getting-started-with-airflow-locally-and-remotely-d068df7fcb4)   
 
 
-[Code Lab Link](https://codelabs-preview.appspot.com/?file_id=1CtkDbPBoAPG0bsOQuIq2d5i6UIiNXjIyKC4vkLh2gvc#0)
+Refer the [Code Lab Link](https://codelabs-preview.appspot.com/?file_id=1CtkDbPBoAPG0bsOQuIq2d5i6UIiNXjIyKC4vkLh2gvc#0)
