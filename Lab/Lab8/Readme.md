@@ -16,19 +16,13 @@ The front-end application uses Streamlit to predict using the trained model.
 - Depthwise Separable Convolution is used to reduce the model size and complexity. It is particularly useful for mobile and embedded vision applications
 - The model can be used in edge devices such as IoT devices or mobile applications - owing to its small size.
 
-#### Continuous Model Integration
-
-- Made possible by chaining all processes using Airflow
-- The pipeline can be scheduled to run at a predefined cadence and is constantly retraining the model
-- Continuously upload the trained graph and labels to S3
-
 
 ### Training Pipeline
 
 Airflow is a platform to programmatically author, schedule and monitor workflows.
 Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks. 
 
-The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed. [1]
+The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.
 
 
 ### Requirements
@@ -87,14 +81,14 @@ lsof -i tcp:8080
 You should see a list of all processes that looks like this:
 ```
 COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
-Python  13280 dileepholla    6u  IPv4 0x8f7b5be5240cda23      0t0  TCP *:http-alt (LISTEN)
-Python  13325 dileepholla    6u  IPv4 0x8f7b5be5240cda23      0t0  TCP *:http-alt (LISTEN)
-Python  13362 dileepholla    6u  IPv4 0x8f7b5be5240cda23      0t0  TCP *:http-alt (LISTEN)
-Python  13401 dileepholla    6u  IPv4 0x8f7b5be5240cda23      0t0  TCP *:http-alt (LISTEN)
-Python  13431 dileepholla    6u  IPv4 0x8f7b5be5240cda23      0t0  TCP *:http-alt (LISTEN)
+Python  33911 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91569 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91636 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91699 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91743 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
 ```
 
-Kill the process by running `kill <PID>` - in this case, it would be `kill 13280`
+Kill the process by running `kill <PID>` - in this case, it would be `kill 33911`
 
 ### Running the Pipeline
 
@@ -118,15 +112,15 @@ API Documentation can be viewed by visiting 127.0.0.1:8000/docs
 
 ### Inference
 
-#### Using the Streamlit App
+#### Streamlit App
 
 The Streamlit app can be used for Inference. Start the server by running `streamlit run app.py` from your terminal. Open the app by visiting http://localhost:8501 on your browser.
 
-#### Using the API Endpoint
+#### API Endpoint
 
 Visit 127.0.0.1:8000/docs to view API documentation.
 
-#### Using the Standalone `.py` script
+#### Standalone `.py` script
 
 You may use the `predict.py` script for inference. Provide the path to your image and run the script.
 
