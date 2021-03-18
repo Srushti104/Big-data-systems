@@ -1,6 +1,7 @@
 # Airflow_TFX
 
 From https://www.tensorflow.org/tfx/tutorials/tfx/airflow_workshop
+
 Codebase available here: https://github.com/tensorflow/tfx/tree/master/tfx/examples/airflow_workshop
 
 ### Introduction:
@@ -38,11 +39,12 @@ Codebase available here: https://github.com/tensorflow/tfx/tree/master/tfx/examp
   lsof -i tcp:8080  
   ```
   
-  * Kill the process by running kill <PID> 
+  * Kill the process by running kill ~pid
 
 ### References & Citation
   
   [TFX Airflow Tutorial](https://www.tensorflow.org/tfx/tutorials/tfx/airflow_workshop)
+  
   [TFX on github](https://github.com/tensorflow/tfx)
   
 ## Codelab document 
