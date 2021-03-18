@@ -13,7 +13,6 @@ Codebase available here: https://github.com/tensorflow/tfx/tree/master/tfx/examp
    
    ```
    pip install -r rwquirments.txt
-   
    ```
    * Airflow setup
    ```
@@ -39,8 +38,15 @@ Codebase available here: https://github.com/tensorflow/tfx/tree/master/tfx/examp
   lsof -i tcp:8080  
   ```
   
-  * Kill the process by running kill <PID> - in this case, it would be kill 13280
+  * Kill the process by running kill <PID> 
+
+## References & Citation
   
+  [TFX Airflow Tutorial](https://www.tensorflow.org/tfx/tutorials/tfx/airflow_workshop)
+  [TFX on github](https://github.com/tensorflow/tfx)
+  
+## Codelab document 
+ for more information please refer the [document](https://codelabs-preview.appspot.com/?file_id=1AQlroyQtIoqxq_erCv2zVcXCMexqeSoS4INub_TVmF0#0)
 
 
 
