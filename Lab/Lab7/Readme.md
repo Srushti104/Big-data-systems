@@ -9,7 +9,7 @@ Advantages of using Streamlit:
  * Data caching simplifies and speeds up computation pipelines.
 
 
-## Congiguration:
+## Configuration:
    
    * Install Streamlit
    ```
@@ -22,4 +22,4 @@ Advantages of using Streamlit:
 
 ## Codelab Document
 
-For more information refer the document
+For more information refer the [document](https://codelabs-preview.appspot.com/?file_id=1faA5Qk9HEyEUQluRZ0xYDD_Rpp55DPPzs04YklmZz-M#0)
