@@ -184,3 +184,5 @@ You may use the `predict.py` script for inference. Provide the path to your imag
 [[2] Tuan Nguyen](https://towardsdatascience.com/getting-started-with-airflow-locally-and-remotely-d068df7fcb4) <br>
 [Hands-On Deep Learning for IoT](https://www.packtpub.com/product/hands-on-deep-learning-for-iot/9781789616132) <br>
 [GitHub: PacktPublishing/Hands-On-Deep-Learning-for-IoT](https://github.com/PacktPublishing/Hands-On-Deep-Learning-for-IoT) <br>
+
+[Code Lab Link](https://codelabs-preview.appspot.com/?file_id=1CtkDbPBoAPG0bsOQuIq2d5i6UIiNXjIyKC4vkLh2gvc#0)
