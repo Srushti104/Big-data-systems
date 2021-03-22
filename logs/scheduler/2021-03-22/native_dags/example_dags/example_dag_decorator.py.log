@@ -1,0 +1,476 @@
+[2021-03-22 02:54:57,479] {scheduler_job.py:182} INFO - Started process (PID=26832) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:54:57,481] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 02:54:57,482] {logging_mixin.py:104} INFO - [2021-03-22 02:54:57,482] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:54:57,506] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:54:57,523] {logging_mixin.py:104} INFO - [2021-03-22 02:54:57,523] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:54:57,535] {logging_mixin.py:104} INFO - [2021-03-22 02:54:57,535] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 02:54:57,546] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.071 seconds
+[2021-03-22 02:55:29,650] {scheduler_job.py:182} INFO - Started process (PID=26895) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:55:29,651] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 02:55:29,653] {logging_mixin.py:104} INFO - [2021-03-22 02:55:29,652] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:55:29,670] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:55:29,687] {logging_mixin.py:104} INFO - [2021-03-22 02:55:29,686] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:55:29,697] {logging_mixin.py:104} INFO - [2021-03-22 02:55:29,697] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 02:55:29,706] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.060 seconds
+[2021-03-22 02:56:01,098] {scheduler_job.py:182} INFO - Started process (PID=26999) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:56:01,100] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 02:56:01,101] {logging_mixin.py:104} INFO - [2021-03-22 02:56:01,101] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:56:01,125] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:56:01,146] {logging_mixin.py:104} INFO - [2021-03-22 02:56:01,145] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:56:01,160] {logging_mixin.py:104} INFO - [2021-03-22 02:56:01,160] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 02:56:01,172] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.079 seconds
+[2021-03-22 02:56:34,602] {scheduler_job.py:182} INFO - Started process (PID=27076) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:56:34,605] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 02:56:34,607] {logging_mixin.py:104} INFO - [2021-03-22 02:56:34,607] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:56:34,644] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:56:34,674] {logging_mixin.py:104} INFO - [2021-03-22 02:56:34,673] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:56:34,699] {logging_mixin.py:104} INFO - [2021-03-22 02:56:34,698] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 02:56:34,716] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.120 seconds
+[2021-03-22 02:57:06,411] {scheduler_job.py:182} INFO - Started process (PID=27139) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:57:06,415] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 02:57:06,418] {logging_mixin.py:104} INFO - [2021-03-22 02:57:06,417] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:57:06,457] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:57:06,491] {logging_mixin.py:104} INFO - [2021-03-22 02:57:06,490] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:57:06,513] {logging_mixin.py:104} INFO - [2021-03-22 02:57:06,512] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 02:57:06,533] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.130 seconds
+[2021-03-22 02:57:37,960] {scheduler_job.py:182} INFO - Started process (PID=27212) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:57:37,963] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 02:57:37,965] {logging_mixin.py:104} INFO - [2021-03-22 02:57:37,964] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:57:37,991] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:57:38,017] {logging_mixin.py:104} INFO - [2021-03-22 02:57:38,017] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:57:38,033] {logging_mixin.py:104} INFO - [2021-03-22 02:57:38,032] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 02:57:38,047] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.093 seconds
+[2021-03-22 02:58:32,639] {scheduler_job.py:182} INFO - Started process (PID=27311) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:58:32,641] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 02:58:32,643] {logging_mixin.py:104} INFO - [2021-03-22 02:58:32,642] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:58:32,659] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:58:32,674] {logging_mixin.py:104} INFO - [2021-03-22 02:58:32,674] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:58:32,685] {logging_mixin.py:104} INFO - [2021-03-22 02:58:32,684] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 02:58:32,695] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.060 seconds
+[2021-03-22 02:59:04,105] {scheduler_job.py:182} INFO - Started process (PID=27379) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:59:04,106] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 02:59:04,107] {logging_mixin.py:104} INFO - [2021-03-22 02:59:04,107] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:59:04,121] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:59:04,134] {logging_mixin.py:104} INFO - [2021-03-22 02:59:04,134] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:59:04,143] {logging_mixin.py:104} INFO - [2021-03-22 02:59:04,143] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 02:59:04,151] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.050 seconds
+[2021-03-22 02:59:36,234] {scheduler_job.py:182} INFO - Started process (PID=27442) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:59:36,235] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 02:59:36,237] {logging_mixin.py:104} INFO - [2021-03-22 02:59:36,236] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:59:36,251] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 02:59:36,265] {logging_mixin.py:104} INFO - [2021-03-22 02:59:36,265] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:59:36,274] {logging_mixin.py:104} INFO - [2021-03-22 02:59:36,274] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 02:59:36,282] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.052 seconds
+[2021-03-22 03:00:08,408] {scheduler_job.py:182} INFO - Started process (PID=27495) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:00:08,409] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:00:08,410] {logging_mixin.py:104} INFO - [2021-03-22 03:00:08,410] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:00:08,426] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:00:08,441] {logging_mixin.py:104} INFO - [2021-03-22 03:00:08,441] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:00:08,451] {logging_mixin.py:104} INFO - [2021-03-22 03:00:08,450] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:00:08,459] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.055 seconds
+[2021-03-22 03:00:40,609] {scheduler_job.py:182} INFO - Started process (PID=27559) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:00:40,611] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:00:40,612] {logging_mixin.py:104} INFO - [2021-03-22 03:00:40,612] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:00:40,626] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:00:40,640] {logging_mixin.py:104} INFO - [2021-03-22 03:00:40,640] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:00:40,650] {logging_mixin.py:104} INFO - [2021-03-22 03:00:40,649] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:00:40,659] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.053 seconds
+[2021-03-22 03:01:12,710] {scheduler_job.py:182} INFO - Started process (PID=27599) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:01:12,712] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:01:12,713] {logging_mixin.py:104} INFO - [2021-03-22 03:01:12,712] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:01:12,725] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:01:12,737] {logging_mixin.py:104} INFO - [2021-03-22 03:01:12,736] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:01:12,745] {logging_mixin.py:104} INFO - [2021-03-22 03:01:12,745] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:01:12,753] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.045 seconds
+[2021-03-22 03:01:44,820] {scheduler_job.py:182} INFO - Started process (PID=27633) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:01:44,822] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:01:44,823] {logging_mixin.py:104} INFO - [2021-03-22 03:01:44,823] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:01:44,839] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:01:44,853] {logging_mixin.py:104} INFO - [2021-03-22 03:01:44,853] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:01:44,862] {logging_mixin.py:104} INFO - [2021-03-22 03:01:44,862] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:01:44,870] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.053 seconds
+[2021-03-22 03:02:16,837] {scheduler_job.py:182} INFO - Started process (PID=27664) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:02:16,838] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:02:16,840] {logging_mixin.py:104} INFO - [2021-03-22 03:02:16,839] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:02:16,855] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:02:16,870] {logging_mixin.py:104} INFO - [2021-03-22 03:02:16,869] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:02:16,879] {logging_mixin.py:104} INFO - [2021-03-22 03:02:16,878] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:02:16,886] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.053 seconds
+[2021-03-22 03:02:48,982] {scheduler_job.py:182} INFO - Started process (PID=27695) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:02:48,983] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:02:48,984] {logging_mixin.py:104} INFO - [2021-03-22 03:02:48,984] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:02:48,999] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:02:49,013] {logging_mixin.py:104} INFO - [2021-03-22 03:02:49,013] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:02:49,021] {logging_mixin.py:104} INFO - [2021-03-22 03:02:49,020] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:02:49,029] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.051 seconds
+[2021-03-22 03:03:21,126] {scheduler_job.py:182} INFO - Started process (PID=27735) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:03:21,127] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:03:21,129] {logging_mixin.py:104} INFO - [2021-03-22 03:03:21,128] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:03:21,144] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:03:21,158] {logging_mixin.py:104} INFO - [2021-03-22 03:03:21,158] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:03:21,167] {logging_mixin.py:104} INFO - [2021-03-22 03:03:21,166] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:03:21,175] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.053 seconds
+[2021-03-22 03:03:53,222] {scheduler_job.py:182} INFO - Started process (PID=27779) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:03:53,225] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:03:53,227] {logging_mixin.py:104} INFO - [2021-03-22 03:03:53,226] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:03:53,243] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:03:53,259] {logging_mixin.py:104} INFO - [2021-03-22 03:03:53,258] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:03:53,268] {logging_mixin.py:104} INFO - [2021-03-22 03:03:53,268] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:03:53,276] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.058 seconds
+[2021-03-22 03:04:25,327] {scheduler_job.py:182} INFO - Started process (PID=27821) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:04:25,328] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:04:25,330] {logging_mixin.py:104} INFO - [2021-03-22 03:04:25,329] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:04:25,345] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:04:25,360] {logging_mixin.py:104} INFO - [2021-03-22 03:04:25,360] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:04:25,369] {logging_mixin.py:104} INFO - [2021-03-22 03:04:25,369] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:04:25,378] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.055 seconds
+[2021-03-22 03:04:57,444] {scheduler_job.py:182} INFO - Started process (PID=27862) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:04:57,445] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:04:57,446] {logging_mixin.py:104} INFO - [2021-03-22 03:04:57,446] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:04:57,462] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:04:57,478] {logging_mixin.py:104} INFO - [2021-03-22 03:04:57,477] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:04:57,486] {logging_mixin.py:104} INFO - [2021-03-22 03:04:57,486] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:04:57,495] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.054 seconds
+[2021-03-22 03:05:29,568] {scheduler_job.py:182} INFO - Started process (PID=27896) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:05:29,569] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:05:29,570] {logging_mixin.py:104} INFO - [2021-03-22 03:05:29,570] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:05:29,588] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:05:29,603] {logging_mixin.py:104} INFO - [2021-03-22 03:05:29,602] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:05:29,612] {logging_mixin.py:104} INFO - [2021-03-22 03:05:29,612] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:05:29,620] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.056 seconds
+[2021-03-22 03:06:01,685] {scheduler_job.py:182} INFO - Started process (PID=27934) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:06:01,688] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:06:01,689] {logging_mixin.py:104} INFO - [2021-03-22 03:06:01,689] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:06:01,704] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:06:01,719] {logging_mixin.py:104} INFO - [2021-03-22 03:06:01,718] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:06:01,727] {logging_mixin.py:104} INFO - [2021-03-22 03:06:01,727] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:06:01,735] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.053 seconds
+[2021-03-22 03:06:33,908] {scheduler_job.py:182} INFO - Started process (PID=27964) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:06:33,910] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:06:33,911] {logging_mixin.py:104} INFO - [2021-03-22 03:06:33,911] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:06:33,926] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:06:33,940] {logging_mixin.py:104} INFO - [2021-03-22 03:06:33,939] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:06:33,948] {logging_mixin.py:104} INFO - [2021-03-22 03:06:33,948] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:06:33,956] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.053 seconds
+[2021-03-22 03:07:06,149] {scheduler_job.py:182} INFO - Started process (PID=27999) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:07:06,151] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:07:06,153] {logging_mixin.py:104} INFO - [2021-03-22 03:07:06,152] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:07:06,169] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:07:06,184] {logging_mixin.py:104} INFO - [2021-03-22 03:07:06,184] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:07:06,194] {logging_mixin.py:104} INFO - [2021-03-22 03:07:06,193] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:07:06,201] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.056 seconds
+[2021-03-22 03:07:38,386] {scheduler_job.py:182} INFO - Started process (PID=28035) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:07:38,388] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:07:38,389] {logging_mixin.py:104} INFO - [2021-03-22 03:07:38,388] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:07:38,406] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:07:38,422] {logging_mixin.py:104} INFO - [2021-03-22 03:07:38,421] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:07:38,432] {logging_mixin.py:104} INFO - [2021-03-22 03:07:38,431] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:07:38,440] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.058 seconds
+[2021-03-22 03:08:10,604] {scheduler_job.py:182} INFO - Started process (PID=28066) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:08:10,607] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:08:10,608] {logging_mixin.py:104} INFO - [2021-03-22 03:08:10,608] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:08:10,626] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:08:10,641] {logging_mixin.py:104} INFO - [2021-03-22 03:08:10,641] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:08:10,651] {logging_mixin.py:104} INFO - [2021-03-22 03:08:10,650] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:08:10,659] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.058 seconds
+[2021-03-22 03:08:42,869] {scheduler_job.py:182} INFO - Started process (PID=28106) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:08:42,872] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:08:42,873] {logging_mixin.py:104} INFO - [2021-03-22 03:08:42,873] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:08:42,893] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:08:42,908] {logging_mixin.py:104} INFO - [2021-03-22 03:08:42,908] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:08:42,917] {logging_mixin.py:104} INFO - [2021-03-22 03:08:42,917] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:08:42,925] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.059 seconds
+[2021-03-22 03:11:33,349] {scheduler_job.py:182} INFO - Started process (PID=28186) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:11:33,351] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:11:33,352] {logging_mixin.py:104} INFO - [2021-03-22 03:11:33,351] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:11:33,370] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:11:33,383] {logging_mixin.py:104} INFO - [2021-03-22 03:11:33,383] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:11:33,394] {logging_mixin.py:104} INFO - [2021-03-22 03:11:33,393] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:11:33,402] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.057 seconds
+[2021-03-22 03:12:11,533] {scheduler_job.py:182} INFO - Started process (PID=28266) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:12:11,539] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:12:11,544] {logging_mixin.py:104} INFO - [2021-03-22 03:12:11,543] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:12:11,602] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:12:11,655] {logging_mixin.py:104} INFO - [2021-03-22 03:12:11,653] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:12:11,690] {logging_mixin.py:104} INFO - [2021-03-22 03:12:11,688] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:12:11,720] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.200 seconds
+[2021-03-22 03:12:48,213] {scheduler_job.py:182} INFO - Started process (PID=28298) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:12:48,218] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:12:48,223] {logging_mixin.py:104} INFO - [2021-03-22 03:12:48,222] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:12:48,279] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:12:48,332] {logging_mixin.py:104} INFO - [2021-03-22 03:12:48,330] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:12:48,366] {logging_mixin.py:104} INFO - [2021-03-22 03:12:48,365] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:12:48,396] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.196 seconds
+[2021-03-22 03:13:55,359] {scheduler_job.py:182} INFO - Started process (PID=28361) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:13:55,361] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:13:55,362] {logging_mixin.py:104} INFO - [2021-03-22 03:13:55,362] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:13:55,380] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:13:55,396] {logging_mixin.py:104} INFO - [2021-03-22 03:13:55,396] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:13:55,406] {logging_mixin.py:104} INFO - [2021-03-22 03:13:55,406] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:13:55,414] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.059 seconds
+[2021-03-22 03:14:26,326] {scheduler_job.py:182} INFO - Started process (PID=28410) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:14:26,328] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:14:26,329] {logging_mixin.py:104} INFO - [2021-03-22 03:14:26,328] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:14:26,347] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:14:26,360] {logging_mixin.py:104} INFO - [2021-03-22 03:14:26,359] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:14:26,369] {logging_mixin.py:104} INFO - [2021-03-22 03:14:26,369] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:14:26,374] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.052 seconds
+[2021-03-22 03:14:57,741] {scheduler_job.py:182} INFO - Started process (PID=28454) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:14:57,743] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:14:57,745] {logging_mixin.py:104} INFO - [2021-03-22 03:14:57,744] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:14:57,762] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:14:57,778] {logging_mixin.py:104} INFO - [2021-03-22 03:14:57,778] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:14:57,787] {logging_mixin.py:104} INFO - [2021-03-22 03:14:57,787] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:14:57,795] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.058 seconds
+[2021-03-22 03:15:30,319] {scheduler_job.py:182} INFO - Started process (PID=28490) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:15:30,324] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:15:30,326] {logging_mixin.py:104} INFO - [2021-03-22 03:15:30,326] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:15:30,344] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:15:30,359] {logging_mixin.py:104} INFO - [2021-03-22 03:15:30,359] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:15:30,368] {logging_mixin.py:104} INFO - [2021-03-22 03:15:30,367] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:15:30,375] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.060 seconds
+[2021-03-22 03:16:03,101] {scheduler_job.py:182} INFO - Started process (PID=28527) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:16:03,104] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:16:03,105] {logging_mixin.py:104} INFO - [2021-03-22 03:16:03,105] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:16:03,123] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:16:03,138] {logging_mixin.py:104} INFO - [2021-03-22 03:16:03,138] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:16:03,148] {logging_mixin.py:104} INFO - [2021-03-22 03:16:03,147] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:16:03,155] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.058 seconds
+[2021-03-22 03:16:34,216] {scheduler_job.py:182} INFO - Started process (PID=28573) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:16:34,217] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:16:34,219] {logging_mixin.py:104} INFO - [2021-03-22 03:16:34,218] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:16:34,234] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:16:34,247] {logging_mixin.py:104} INFO - [2021-03-22 03:16:34,246] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:16:34,255] {logging_mixin.py:104} INFO - [2021-03-22 03:16:34,254] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:16:34,262] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.050 seconds
+[2021-03-22 03:17:06,283] {scheduler_job.py:182} INFO - Started process (PID=28612) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:17:06,285] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:17:06,286] {logging_mixin.py:104} INFO - [2021-03-22 03:17:06,286] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:17:06,303] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:17:06,318] {logging_mixin.py:104} INFO - [2021-03-22 03:17:06,317] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:17:06,327] {logging_mixin.py:104} INFO - [2021-03-22 03:17:06,327] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:17:06,335] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.055 seconds
+[2021-03-22 03:17:38,285] {scheduler_job.py:182} INFO - Started process (PID=28647) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:17:38,286] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:17:38,287] {logging_mixin.py:104} INFO - [2021-03-22 03:17:38,287] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:17:38,298] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:17:38,309] {logging_mixin.py:104} INFO - [2021-03-22 03:17:38,309] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:17:38,317] {logging_mixin.py:104} INFO - [2021-03-22 03:17:38,316] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:17:38,324] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.041 seconds
+[2021-03-22 03:18:10,282] {scheduler_job.py:182} INFO - Started process (PID=28677) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:18:10,283] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:18:10,284] {logging_mixin.py:104} INFO - [2021-03-22 03:18:10,284] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:18:10,297] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:18:10,310] {logging_mixin.py:104} INFO - [2021-03-22 03:18:10,309] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:18:10,318] {logging_mixin.py:104} INFO - [2021-03-22 03:18:10,318] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:18:10,326] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.048 seconds
+[2021-03-22 03:18:42,394] {scheduler_job.py:182} INFO - Started process (PID=28712) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:18:42,396] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:18:42,397] {logging_mixin.py:104} INFO - [2021-03-22 03:18:42,397] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:18:42,416] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:18:42,435] {logging_mixin.py:104} INFO - [2021-03-22 03:18:42,434] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:18:42,444] {logging_mixin.py:104} INFO - [2021-03-22 03:18:42,444] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:18:42,453] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.062 seconds
+[2021-03-22 03:19:12,696] {scheduler_job.py:182} INFO - Started process (PID=28745) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:19:12,697] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:19:12,698] {logging_mixin.py:104} INFO - [2021-03-22 03:19:12,697] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:19:12,710] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:19:12,721] {logging_mixin.py:104} INFO - [2021-03-22 03:19:12,721] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:19:12,727] {logging_mixin.py:104} INFO - [2021-03-22 03:19:12,727] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:19:12,734] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.042 seconds
+[2021-03-22 03:19:44,517] {scheduler_job.py:182} INFO - Started process (PID=28788) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:19:44,520] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:19:44,521] {logging_mixin.py:104} INFO - [2021-03-22 03:19:44,521] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:19:44,538] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:19:44,553] {logging_mixin.py:104} INFO - [2021-03-22 03:19:44,552] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:19:44,562] {logging_mixin.py:104} INFO - [2021-03-22 03:19:44,562] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:19:44,570] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.057 seconds
+[2021-03-22 03:20:15,389] {scheduler_job.py:182} INFO - Started process (PID=28826) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:20:15,391] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:20:15,392] {logging_mixin.py:104} INFO - [2021-03-22 03:20:15,392] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:20:15,407] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:20:15,421] {logging_mixin.py:104} INFO - [2021-03-22 03:20:15,421] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:20:15,430] {logging_mixin.py:104} INFO - [2021-03-22 03:20:15,430] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:20:15,440] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.055 seconds
+[2021-03-22 03:20:47,702] {scheduler_job.py:182} INFO - Started process (PID=28871) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:20:47,703] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:20:47,705] {logging_mixin.py:104} INFO - [2021-03-22 03:20:47,704] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:20:47,722] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:20:47,737] {logging_mixin.py:104} INFO - [2021-03-22 03:20:47,736] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:20:47,746] {logging_mixin.py:104} INFO - [2021-03-22 03:20:47,746] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:20:47,753] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.055 seconds
+[2021-03-22 03:21:19,804] {scheduler_job.py:182} INFO - Started process (PID=28916) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:21:19,806] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:21:19,807] {logging_mixin.py:104} INFO - [2021-03-22 03:21:19,807] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:21:19,825] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:21:19,839] {logging_mixin.py:104} INFO - [2021-03-22 03:21:19,838] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:21:19,848] {logging_mixin.py:104} INFO - [2021-03-22 03:21:19,847] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:21:19,855] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.054 seconds
+[2021-03-22 03:22:59,019] {scheduler_job.py:182} INFO - Started process (PID=29026) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:22:59,021] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:22:59,022] {logging_mixin.py:104} INFO - [2021-03-22 03:22:59,022] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:22:59,040] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:22:59,054] {logging_mixin.py:104} INFO - [2021-03-22 03:22:59,054] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:22:59,063] {logging_mixin.py:104} INFO - [2021-03-22 03:22:59,062] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:22:59,071] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.055 seconds
+[2021-03-22 03:23:44,553] {scheduler_job.py:182} INFO - Started process (PID=29084) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:23:44,559] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:23:44,559] {logging_mixin.py:104} INFO - [2021-03-22 03:23:44,559] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:23:44,571] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:23:44,586] {logging_mixin.py:104} INFO - [2021-03-22 03:23:44,585] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:23:44,596] {logging_mixin.py:104} INFO - [2021-03-22 03:23:44,596] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:23:44,605] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.056 seconds
+[2021-03-22 03:24:25,919] {scheduler_job.py:182} INFO - Started process (PID=29136) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:24:25,920] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:24:25,921] {logging_mixin.py:104} INFO - [2021-03-22 03:24:25,921] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:24:25,937] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:24:25,951] {logging_mixin.py:104} INFO - [2021-03-22 03:24:25,951] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:24:25,959] {logging_mixin.py:104} INFO - [2021-03-22 03:24:25,959] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:24:25,968] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.052 seconds
+[2021-03-22 03:27:52,336] {scheduler_job.py:182} INFO - Started process (PID=29223) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:27:52,339] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:27:52,340] {logging_mixin.py:104} INFO - [2021-03-22 03:27:52,340] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:27:52,353] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:27:52,368] {logging_mixin.py:104} INFO - [2021-03-22 03:27:52,368] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:27:52,378] {logging_mixin.py:104} INFO - [2021-03-22 03:27:52,377] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:27:52,388] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.056 seconds
+[2021-03-22 03:28:23,746] {scheduler_job.py:182} INFO - Started process (PID=29268) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:28:23,748] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:28:23,749] {logging_mixin.py:104} INFO - [2021-03-22 03:28:23,748] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:28:23,761] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:28:23,774] {logging_mixin.py:104} INFO - [2021-03-22 03:28:23,774] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:28:23,781] {logging_mixin.py:104} INFO - [2021-03-22 03:28:23,781] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:28:23,789] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.045 seconds
+[2021-03-22 03:28:57,660] {scheduler_job.py:182} INFO - Started process (PID=29317) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:28:57,661] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:28:57,663] {logging_mixin.py:104} INFO - [2021-03-22 03:28:57,662] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:28:57,674] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:28:57,686] {logging_mixin.py:104} INFO - [2021-03-22 03:28:57,686] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:28:57,695] {logging_mixin.py:104} INFO - [2021-03-22 03:28:57,694] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:28:57,701] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.044 seconds
+[2021-03-22 03:29:31,996] {scheduler_job.py:182} INFO - Started process (PID=29355) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:29:31,999] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:29:32,001] {logging_mixin.py:104} INFO - [2021-03-22 03:29:32,000] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:29:32,012] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:29:32,026] {logging_mixin.py:104} INFO - [2021-03-22 03:29:32,026] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:29:32,034] {logging_mixin.py:104} INFO - [2021-03-22 03:29:32,034] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:29:32,042] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.049 seconds
+[2021-03-22 03:30:06,949] {scheduler_job.py:182} INFO - Started process (PID=29398) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:30:06,951] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:30:06,953] {logging_mixin.py:104} INFO - [2021-03-22 03:30:06,952] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:30:06,966] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:30:06,997] {logging_mixin.py:104} INFO - [2021-03-22 03:30:06,996] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:30:07,005] {logging_mixin.py:104} INFO - [2021-03-22 03:30:07,005] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:30:07,013] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.068 seconds
+[2021-03-22 03:30:39,626] {scheduler_job.py:182} INFO - Started process (PID=29440) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:30:39,629] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:30:39,630] {logging_mixin.py:104} INFO - [2021-03-22 03:30:39,629] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:30:39,640] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:30:39,653] {logging_mixin.py:104} INFO - [2021-03-22 03:30:39,652] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:30:39,661] {logging_mixin.py:104} INFO - [2021-03-22 03:30:39,660] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:30:39,669] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.046 seconds
+[2021-03-22 03:31:12,327] {scheduler_job.py:182} INFO - Started process (PID=29475) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:31:12,329] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:31:12,331] {logging_mixin.py:104} INFO - [2021-03-22 03:31:12,330] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:31:12,341] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:31:12,356] {logging_mixin.py:104} INFO - [2021-03-22 03:31:12,356] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:31:12,364] {logging_mixin.py:104} INFO - [2021-03-22 03:31:12,364] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:31:12,374] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.050 seconds
+[2021-03-22 03:31:44,320] {scheduler_job.py:182} INFO - Started process (PID=29506) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:31:44,322] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:31:44,323] {logging_mixin.py:104} INFO - [2021-03-22 03:31:44,323] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:31:44,336] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:31:44,354] {logging_mixin.py:104} INFO - [2021-03-22 03:31:44,353] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:31:44,363] {logging_mixin.py:104} INFO - [2021-03-22 03:31:44,363] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:31:44,373] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.056 seconds
+[2021-03-22 03:32:16,532] {scheduler_job.py:182} INFO - Started process (PID=29540) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:32:16,534] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:32:16,536] {logging_mixin.py:104} INFO - [2021-03-22 03:32:16,535] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:32:16,548] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:32:16,563] {logging_mixin.py:104} INFO - [2021-03-22 03:32:16,562] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:32:16,571] {logging_mixin.py:104} INFO - [2021-03-22 03:32:16,571] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:32:16,579] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.051 seconds
+[2021-03-22 03:32:48,625] {scheduler_job.py:182} INFO - Started process (PID=29570) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:32:48,628] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:32:48,629] {logging_mixin.py:104} INFO - [2021-03-22 03:32:48,629] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:32:48,640] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:32:48,653] {logging_mixin.py:104} INFO - [2021-03-22 03:32:48,653] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:32:48,662] {logging_mixin.py:104} INFO - [2021-03-22 03:32:48,661] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:32:48,672] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.050 seconds
+[2021-03-22 03:35:44,552] {scheduler_job.py:182} INFO - Started process (PID=29728) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:35:44,554] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:35:44,555] {logging_mixin.py:104} INFO - [2021-03-22 03:35:44,555] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:35:44,572] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:35:44,585] {logging_mixin.py:104} INFO - [2021-03-22 03:35:44,585] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:35:44,594] {logging_mixin.py:104} INFO - [2021-03-22 03:35:44,594] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:35:44,602] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.055 seconds
+[2021-03-22 03:39:35,447] {scheduler_job.py:182} INFO - Started process (PID=29857) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:39:35,450] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:39:35,450] {logging_mixin.py:104} INFO - [2021-03-22 03:39:35,450] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:39:35,463] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:39:35,475] {logging_mixin.py:104} INFO - [2021-03-22 03:39:35,475] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:39:35,483] {logging_mixin.py:104} INFO - [2021-03-22 03:39:35,483] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:39:35,493] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.050 seconds
+[2021-03-22 03:40:06,376] {scheduler_job.py:182} INFO - Started process (PID=29894) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:40:06,378] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:40:06,379] {logging_mixin.py:104} INFO - [2021-03-22 03:40:06,378] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:40:06,386] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:40:06,397] {logging_mixin.py:104} INFO - [2021-03-22 03:40:06,397] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:40:06,404] {logging_mixin.py:104} INFO - [2021-03-22 03:40:06,404] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:40:06,413] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.039 seconds
+[2021-03-22 03:40:37,121] {scheduler_job.py:182} INFO - Started process (PID=29932) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:40:37,122] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:40:37,123] {logging_mixin.py:104} INFO - [2021-03-22 03:40:37,123] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:40:37,132] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:40:37,144] {logging_mixin.py:104} INFO - [2021-03-22 03:40:37,144] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:40:37,152] {logging_mixin.py:104} INFO - [2021-03-22 03:40:37,151] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:40:37,160] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.042 seconds
+[2021-03-22 03:41:07,351] {scheduler_job.py:182} INFO - Started process (PID=29964) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:41:07,353] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:41:07,354] {logging_mixin.py:104} INFO - [2021-03-22 03:41:07,353] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:41:07,361] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:41:07,372] {logging_mixin.py:104} INFO - [2021-03-22 03:41:07,371] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:41:07,379] {logging_mixin.py:104} INFO - [2021-03-22 03:41:07,378] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:41:07,385] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.036 seconds
+[2021-03-22 03:41:37,569] {scheduler_job.py:182} INFO - Started process (PID=30005) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:41:37,571] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:41:37,572] {logging_mixin.py:104} INFO - [2021-03-22 03:41:37,571] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:41:37,583] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:41:37,598] {logging_mixin.py:104} INFO - [2021-03-22 03:41:37,598] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:41:37,606] {logging_mixin.py:104} INFO - [2021-03-22 03:41:37,606] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:41:37,614] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.049 seconds
+[2021-03-22 03:42:10,108] {scheduler_job.py:182} INFO - Started process (PID=30043) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:42:10,109] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:42:10,110] {logging_mixin.py:104} INFO - [2021-03-22 03:42:10,110] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:42:10,119] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:42:10,131] {logging_mixin.py:104} INFO - [2021-03-22 03:42:10,131] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:42:10,140] {logging_mixin.py:104} INFO - [2021-03-22 03:42:10,139] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:42:10,149] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.044 seconds
+[2021-03-22 03:42:42,767] {scheduler_job.py:182} INFO - Started process (PID=30089) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:42:42,769] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:42:42,770] {logging_mixin.py:104} INFO - [2021-03-22 03:42:42,770] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:42:42,788] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:42:42,827] {logging_mixin.py:104} INFO - [2021-03-22 03:42:42,827] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:42:42,835] {logging_mixin.py:104} INFO - [2021-03-22 03:42:42,835] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:42:42,843] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.079 seconds
+[2021-03-22 03:43:14,649] {scheduler_job.py:182} INFO - Started process (PID=30123) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:43:14,651] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:43:14,652] {logging_mixin.py:104} INFO - [2021-03-22 03:43:14,651] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:43:14,663] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:43:14,676] {logging_mixin.py:104} INFO - [2021-03-22 03:43:14,676] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:43:14,684] {logging_mixin.py:104} INFO - [2021-03-22 03:43:14,684] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:43:14,692] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.046 seconds
+[2021-03-22 03:44:12,010] {scheduler_job.py:182} INFO - Started process (PID=30171) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:44:12,011] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:44:12,012] {logging_mixin.py:104} INFO - [2021-03-22 03:44:12,012] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:44:12,021] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:44:12,032] {logging_mixin.py:104} INFO - [2021-03-22 03:44:12,032] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:44:12,040] {logging_mixin.py:104} INFO - [2021-03-22 03:44:12,040] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:44:12,048] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.040 seconds
+[2021-03-22 03:45:12,256] {scheduler_job.py:182} INFO - Started process (PID=30215) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:45:12,258] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2021-03-22 03:45:12,259] {logging_mixin.py:104} INFO - [2021-03-22 03:45:12,259] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:45:12,271] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py
+[2021-03-22 03:45:12,286] {logging_mixin.py:104} INFO - [2021-03-22 03:45:12,285] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:45:12,294] {logging_mixin.py:104} INFO - [2021-03-22 03:45:12,294] {dag.py:2273} INFO - Setting next_dagrun for example_dag_decorator to None
+[2021-03-22 03:45:12,302] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py took 0.050 seconds

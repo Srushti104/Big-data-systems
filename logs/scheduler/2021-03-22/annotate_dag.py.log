@@ -1,0 +1,725 @@
+[2021-03-22 02:54:42,669] {scheduler_job.py:182} INFO - Started process (PID=26799) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:54:42,671] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 02:54:42,673] {logging_mixin.py:104} INFO - [2021-03-22 02:54:42,672] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:54:43,382] {logging_mixin.py:104} INFO - [2021-03-22 02:54:43,381] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 02:54:44,838] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 02:54:44,844] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:54:44,855] {logging_mixin.py:104} INFO - [2021-03-22 02:54:44,855] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:54:44,904] {logging_mixin.py:104} INFO - [2021-03-22 02:54:44,904] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 02:54:44,910] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.244 seconds
+[2021-03-22 02:55:15,068] {scheduler_job.py:182} INFO - Started process (PID=26858) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:55:15,070] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 02:55:15,076] {logging_mixin.py:104} INFO - [2021-03-22 02:55:15,075] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:55:15,638] {logging_mixin.py:104} INFO - [2021-03-22 02:55:15,637] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 02:55:17,085] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 02:55:17,090] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:55:17,133] {logging_mixin.py:104} INFO - [2021-03-22 02:55:17,132] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:55:17,142] {logging_mixin.py:104} INFO - [2021-03-22 02:55:17,141] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 02:55:17,147] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.082 seconds
+[2021-03-22 02:55:47,264] {scheduler_job.py:182} INFO - Started process (PID=26957) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:55:47,266] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 02:55:47,268] {logging_mixin.py:104} INFO - [2021-03-22 02:55:47,267] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:55:47,874] {logging_mixin.py:104} INFO - [2021-03-22 02:55:47,873] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 02:55:50,712] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 02:55:50,717] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:55:50,763] {logging_mixin.py:104} INFO - [2021-03-22 02:55:50,762] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:55:50,772] {logging_mixin.py:104} INFO - [2021-03-22 02:55:50,772] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 02:55:50,777] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 3.520 seconds
+[2021-03-22 02:56:20,922] {scheduler_job.py:182} INFO - Started process (PID=27044) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:56:20,924] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 02:56:20,926] {logging_mixin.py:104} INFO - [2021-03-22 02:56:20,925] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:56:21,665] {logging_mixin.py:104} INFO - [2021-03-22 02:56:21,664] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 02:56:23,120] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 02:56:23,166] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:56:23,177] {logging_mixin.py:104} INFO - [2021-03-22 02:56:23,177] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:56:23,191] {logging_mixin.py:104} INFO - [2021-03-22 02:56:23,191] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 02:56:23,197] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.281 seconds
+[2021-03-22 02:56:53,561] {scheduler_job.py:182} INFO - Started process (PID=27117) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:56:53,564] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 02:56:53,566] {logging_mixin.py:104} INFO - [2021-03-22 02:56:53,566] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:56:54,508] {logging_mixin.py:104} INFO - [2021-03-22 02:56:54,507] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 02:56:56,041] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 02:56:56,096] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:56:56,110] {logging_mixin.py:104} INFO - [2021-03-22 02:56:56,109] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:56:56,123] {logging_mixin.py:104} INFO - [2021-03-22 02:56:56,123] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 02:56:56,131] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.577 seconds
+[2021-03-22 02:57:26,502] {scheduler_job.py:182} INFO - Started process (PID=27198) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:57:26,506] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 02:57:26,508] {logging_mixin.py:104} INFO - [2021-03-22 02:57:26,508] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:57:27,478] {logging_mixin.py:104} INFO - [2021-03-22 02:57:27,477] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 02:57:29,071] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 02:57:29,126] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:57:29,139] {logging_mixin.py:104} INFO - [2021-03-22 02:57:29,138] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:57:29,152] {logging_mixin.py:104} INFO - [2021-03-22 02:57:29,152] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 02:57:29,160] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.664 seconds
+[2021-03-22 02:58:20,222] {scheduler_job.py:182} INFO - Started process (PID=27293) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:58:20,224] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 02:58:20,226] {logging_mixin.py:104} INFO - [2021-03-22 02:58:20,225] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:58:20,827] {logging_mixin.py:104} INFO - [2021-03-22 02:58:20,827] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 02:58:22,332] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 02:58:22,337] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:58:22,348] {logging_mixin.py:104} INFO - [2021-03-22 02:58:22,347] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:58:22,359] {logging_mixin.py:104} INFO - [2021-03-22 02:58:22,358] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 02:58:22,364] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.147 seconds
+[2021-03-22 02:58:52,509] {scheduler_job.py:182} INFO - Started process (PID=27349) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:58:52,511] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 02:58:52,512] {logging_mixin.py:104} INFO - [2021-03-22 02:58:52,511] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:58:52,936] {logging_mixin.py:104} INFO - [2021-03-22 02:58:52,935] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 02:58:54,411] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 02:58:54,415] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:58:54,423] {logging_mixin.py:104} INFO - [2021-03-22 02:58:54,423] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:58:54,431] {logging_mixin.py:104} INFO - [2021-03-22 02:58:54,430] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 02:58:54,435] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.930 seconds
+[2021-03-22 02:59:24,706] {scheduler_job.py:182} INFO - Started process (PID=27423) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:59:24,707] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 02:59:24,708] {logging_mixin.py:104} INFO - [2021-03-22 02:59:24,708] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:59:25,106] {logging_mixin.py:104} INFO - [2021-03-22 02:59:25,105] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 02:59:26,530] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 02:59:26,534] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:59:26,542] {logging_mixin.py:104} INFO - [2021-03-22 02:59:26,541] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:59:26,549] {logging_mixin.py:104} INFO - [2021-03-22 02:59:26,549] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 02:59:26,553] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.851 seconds
+[2021-03-22 02:59:56,804] {scheduler_job.py:182} INFO - Started process (PID=27478) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:59:56,805] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 02:59:56,807] {logging_mixin.py:104} INFO - [2021-03-22 02:59:56,806] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:59:57,230] {logging_mixin.py:104} INFO - [2021-03-22 02:59:57,230] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 02:59:58,692] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 02:59:58,696] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 02:59:58,704] {logging_mixin.py:104} INFO - [2021-03-22 02:59:58,704] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:59:58,712] {logging_mixin.py:104} INFO - [2021-03-22 02:59:58,712] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 02:59:58,717] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.916 seconds
+[2021-03-22 03:00:29,000] {scheduler_job.py:182} INFO - Started process (PID=27542) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:00:29,003] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:00:29,004] {logging_mixin.py:104} INFO - [2021-03-22 03:00:29,004] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:00:29,428] {logging_mixin.py:104} INFO - [2021-03-22 03:00:29,427] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:00:30,895] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:00:30,899] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:00:30,908] {logging_mixin.py:104} INFO - [2021-03-22 03:00:30,907] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:00:30,916] {logging_mixin.py:104} INFO - [2021-03-22 03:00:30,915] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:00:30,920] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.923 seconds
+[2021-03-22 03:01:01,205] {scheduler_job.py:182} INFO - Started process (PID=27579) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:01:01,207] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:01:01,208] {logging_mixin.py:104} INFO - [2021-03-22 03:01:01,207] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:01:01,569] {logging_mixin.py:104} INFO - [2021-03-22 03:01:01,568] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:01:02,994] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:01:03,000] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:01:03,008] {logging_mixin.py:104} INFO - [2021-03-22 03:01:03,007] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:01:03,016] {logging_mixin.py:104} INFO - [2021-03-22 03:01:03,015] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:01:03,020] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.818 seconds
+[2021-03-22 03:01:33,311] {scheduler_job.py:182} INFO - Started process (PID=27622) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:01:33,313] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:01:33,314] {logging_mixin.py:104} INFO - [2021-03-22 03:01:33,314] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:01:33,649] {logging_mixin.py:104} INFO - [2021-03-22 03:01:33,648] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:01:35,120] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:01:35,125] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:01:35,134] {logging_mixin.py:104} INFO - [2021-03-22 03:01:35,133] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:01:35,142] {logging_mixin.py:104} INFO - [2021-03-22 03:01:35,141] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:01:35,146] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.838 seconds
+[2021-03-22 03:02:05,427] {scheduler_job.py:182} INFO - Started process (PID=27652) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:02:05,429] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:02:05,430] {logging_mixin.py:104} INFO - [2021-03-22 03:02:05,430] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:02:05,763] {logging_mixin.py:104} INFO - [2021-03-22 03:02:05,762] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:02:07,179] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:02:07,184] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:02:07,192] {logging_mixin.py:104} INFO - [2021-03-22 03:02:07,192] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:02:07,201] {logging_mixin.py:104} INFO - [2021-03-22 03:02:07,200] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:02:07,205] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.781 seconds
+[2021-03-22 03:02:37,443] {scheduler_job.py:182} INFO - Started process (PID=27685) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:02:37,444] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:02:37,446] {logging_mixin.py:104} INFO - [2021-03-22 03:02:37,445] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:02:37,806] {logging_mixin.py:104} INFO - [2021-03-22 03:02:37,806] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:02:39,241] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:02:39,246] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:02:39,254] {logging_mixin.py:104} INFO - [2021-03-22 03:02:39,254] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:02:39,262] {logging_mixin.py:104} INFO - [2021-03-22 03:02:39,262] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:02:39,266] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.828 seconds
+[2021-03-22 03:03:09,552] {scheduler_job.py:182} INFO - Started process (PID=27717) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:03:09,554] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:03:09,555] {logging_mixin.py:104} INFO - [2021-03-22 03:03:09,555] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:03:09,916] {logging_mixin.py:104} INFO - [2021-03-22 03:03:09,916] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:03:11,343] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:03:11,348] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:03:11,357] {logging_mixin.py:104} INFO - [2021-03-22 03:03:11,356] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:03:11,365] {logging_mixin.py:104} INFO - [2021-03-22 03:03:11,365] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:03:11,370] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.821 seconds
+[2021-03-22 03:03:41,673] {scheduler_job.py:182} INFO - Started process (PID=27765) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:03:41,676] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:03:41,677] {logging_mixin.py:104} INFO - [2021-03-22 03:03:41,676] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:03:42,081] {logging_mixin.py:104} INFO - [2021-03-22 03:03:42,080] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:03:43,494] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:03:43,498] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:03:43,505] {logging_mixin.py:104} INFO - [2021-03-22 03:03:43,504] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:03:43,511] {logging_mixin.py:104} INFO - [2021-03-22 03:03:43,511] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:03:43,514] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.845 seconds
+[2021-03-22 03:04:13,782] {scheduler_job.py:182} INFO - Started process (PID=27806) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:04:13,783] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:04:13,784] {logging_mixin.py:104} INFO - [2021-03-22 03:04:13,784] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:04:14,153] {logging_mixin.py:104} INFO - [2021-03-22 03:04:14,153] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:04:15,633] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:04:15,636] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:04:15,642] {logging_mixin.py:104} INFO - [2021-03-22 03:04:15,642] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:04:15,649] {logging_mixin.py:104} INFO - [2021-03-22 03:04:15,649] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:04:15,653] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.875 seconds
+[2021-03-22 03:04:45,895] {scheduler_job.py:182} INFO - Started process (PID=27844) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:04:45,896] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:04:45,897] {logging_mixin.py:104} INFO - [2021-03-22 03:04:45,897] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:04:46,257] {logging_mixin.py:104} INFO - [2021-03-22 03:04:46,257] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:04:47,696] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:04:47,700] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:04:47,707] {logging_mixin.py:104} INFO - [2021-03-22 03:04:47,707] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:04:47,714] {logging_mixin.py:104} INFO - [2021-03-22 03:04:47,713] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:04:47,717] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.825 seconds
+[2021-03-22 03:05:18,013] {scheduler_job.py:182} INFO - Started process (PID=27882) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:05:18,015] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:05:18,016] {logging_mixin.py:104} INFO - [2021-03-22 03:05:18,015] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:05:18,363] {logging_mixin.py:104} INFO - [2021-03-22 03:05:18,363] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:05:19,823] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:05:19,828] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:05:19,838] {logging_mixin.py:104} INFO - [2021-03-22 03:05:19,837] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:05:19,846] {logging_mixin.py:104} INFO - [2021-03-22 03:05:19,846] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:05:19,850] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.840 seconds
+[2021-03-22 03:05:50,132] {scheduler_job.py:182} INFO - Started process (PID=27920) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:05:50,133] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:05:50,134] {logging_mixin.py:104} INFO - [2021-03-22 03:05:50,134] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:05:50,533] {logging_mixin.py:104} INFO - [2021-03-22 03:05:50,533] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:05:51,952] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:05:51,957] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:05:51,966] {logging_mixin.py:104} INFO - [2021-03-22 03:05:51,965] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:05:51,974] {logging_mixin.py:104} INFO - [2021-03-22 03:05:51,973] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:05:51,978] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.849 seconds
+[2021-03-22 03:06:22,256] {scheduler_job.py:182} INFO - Started process (PID=27954) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:06:22,258] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:06:22,259] {logging_mixin.py:104} INFO - [2021-03-22 03:06:22,259] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:06:22,693] {logging_mixin.py:104} INFO - [2021-03-22 03:06:22,693] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:06:24,174] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:06:24,179] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:06:24,187] {logging_mixin.py:104} INFO - [2021-03-22 03:06:24,187] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:06:24,195] {logging_mixin.py:104} INFO - [2021-03-22 03:06:24,195] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:06:24,200] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.947 seconds
+[2021-03-22 03:06:54,486] {scheduler_job.py:182} INFO - Started process (PID=27990) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:06:54,487] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:06:54,489] {logging_mixin.py:104} INFO - [2021-03-22 03:06:54,488] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:06:54,961] {logging_mixin.py:104} INFO - [2021-03-22 03:06:54,961] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:06:56,400] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:06:56,405] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:06:56,414] {logging_mixin.py:104} INFO - [2021-03-22 03:06:56,413] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:06:56,422] {logging_mixin.py:104} INFO - [2021-03-22 03:06:56,421] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:06:56,426] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.944 seconds
+[2021-03-22 03:07:26,717] {scheduler_job.py:182} INFO - Started process (PID=28025) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:07:26,719] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:07:26,720] {logging_mixin.py:104} INFO - [2021-03-22 03:07:26,720] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:07:27,168] {logging_mixin.py:104} INFO - [2021-03-22 03:07:27,167] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:07:28,606] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:07:28,611] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:07:28,620] {logging_mixin.py:104} INFO - [2021-03-22 03:07:28,619] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:07:28,628] {logging_mixin.py:104} INFO - [2021-03-22 03:07:28,628] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:07:28,632] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.919 seconds
+[2021-03-22 03:07:58,938] {scheduler_job.py:182} INFO - Started process (PID=28056) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:07:58,940] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:07:58,942] {logging_mixin.py:104} INFO - [2021-03-22 03:07:58,941] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:07:59,425] {logging_mixin.py:104} INFO - [2021-03-22 03:07:59,424] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:08:00,895] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:08:00,901] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:08:00,909] {logging_mixin.py:104} INFO - [2021-03-22 03:08:00,909] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:08:00,917] {logging_mixin.py:104} INFO - [2021-03-22 03:08:00,917] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:08:00,921] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.987 seconds
+[2021-03-22 03:08:31,174] {scheduler_job.py:182} INFO - Started process (PID=28095) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:08:31,177] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:08:31,178] {logging_mixin.py:104} INFO - [2021-03-22 03:08:31,178] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:08:31,690] {logging_mixin.py:104} INFO - [2021-03-22 03:08:31,690] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:08:33,162] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:08:33,167] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:08:33,175] {logging_mixin.py:104} INFO - [2021-03-22 03:08:33,175] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:08:33,183] {logging_mixin.py:104} INFO - [2021-03-22 03:08:33,183] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:08:33,188] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.013 seconds
+[2021-03-22 03:09:03,453] {scheduler_job.py:182} INFO - Started process (PID=28134) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:09:03,455] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:09:03,457] {logging_mixin.py:104} INFO - [2021-03-22 03:09:03,457] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:09:03,976] {logging_mixin.py:104} INFO - [2021-03-22 03:09:03,975] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:09:05,431] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:09:05,436] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:09:05,444] {logging_mixin.py:104} INFO - [2021-03-22 03:09:05,444] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:09:05,451] {logging_mixin.py:104} INFO - [2021-03-22 03:09:05,451] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:09:05,455] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.005 seconds
+[2021-03-22 03:11:47,321] {scheduler_job.py:182} INFO - Started process (PID=28232) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:11:47,326] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:11:47,331] {logging_mixin.py:104} INFO - [2021-03-22 03:11:47,330] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:11:49,136] {logging_mixin.py:104} INFO - [2021-03-22 03:11:49,134] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:11:51,491] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:11:51,508] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:11:51,538] {logging_mixin.py:104} INFO - [2021-03-22 03:11:51,536] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:11:51,567] {logging_mixin.py:104} INFO - [2021-03-22 03:11:51,565] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:11:51,582] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 4.278 seconds
+[2021-03-22 03:12:27,497] {scheduler_job.py:182} INFO - Started process (PID=28282) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:12:27,504] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:12:27,509] {logging_mixin.py:104} INFO - [2021-03-22 03:12:27,507] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:12:29,300] {logging_mixin.py:104} INFO - [2021-03-22 03:12:29,298] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:12:31,013] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:12:31,029] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:12:31,061] {logging_mixin.py:104} INFO - [2021-03-22 03:12:31,059] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:12:31,089] {logging_mixin.py:104} INFO - [2021-03-22 03:12:31,088] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:12:31,105] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 3.620 seconds
+[2021-03-22 03:13:42,063] {scheduler_job.py:182} INFO - Started process (PID=28345) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:13:42,065] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:13:42,066] {logging_mixin.py:104} INFO - [2021-03-22 03:13:42,065] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:13:42,586] {logging_mixin.py:104} INFO - [2021-03-22 03:13:42,586] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:13:43,928] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:13:43,933] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:13:43,942] {logging_mixin.py:104} INFO - [2021-03-22 03:13:43,941] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:13:43,950] {logging_mixin.py:104} INFO - [2021-03-22 03:13:43,950] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:13:43,954] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.891 seconds
+[2021-03-22 03:14:14,229] {scheduler_job.py:182} INFO - Started process (PID=28393) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:14:14,232] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:14:14,233] {logging_mixin.py:104} INFO - [2021-03-22 03:14:14,233] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:14:14,722] {logging_mixin.py:104} INFO - [2021-03-22 03:14:14,722] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:14:16,097] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:14:16,102] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:14:16,109] {logging_mixin.py:104} INFO - [2021-03-22 03:14:16,109] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:14:16,116] {logging_mixin.py:104} INFO - [2021-03-22 03:14:16,116] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:14:16,121] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.895 seconds
+[2021-03-22 03:14:46,228] {scheduler_job.py:182} INFO - Started process (PID=28440) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:14:46,230] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:14:46,231] {logging_mixin.py:104} INFO - [2021-03-22 03:14:46,231] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:14:46,713] {logging_mixin.py:104} INFO - [2021-03-22 03:14:46,713] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:14:48,052] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:14:48,057] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:14:48,065] {logging_mixin.py:104} INFO - [2021-03-22 03:14:48,065] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:14:48,073] {logging_mixin.py:104} INFO - [2021-03-22 03:14:48,073] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:14:48,077] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.854 seconds
+[2021-03-22 03:15:18,806] {scheduler_job.py:182} INFO - Started process (PID=28478) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:15:18,808] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:15:18,810] {logging_mixin.py:104} INFO - [2021-03-22 03:15:18,809] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:15:19,286] {logging_mixin.py:104} INFO - [2021-03-22 03:15:19,285] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:15:20,643] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:15:20,648] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:15:20,656] {logging_mixin.py:104} INFO - [2021-03-22 03:15:20,656] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:15:20,664] {logging_mixin.py:104} INFO - [2021-03-22 03:15:20,664] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:15:20,668] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.866 seconds
+[2021-03-22 03:15:51,481] {scheduler_job.py:182} INFO - Started process (PID=28517) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:15:51,483] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:15:51,485] {logging_mixin.py:104} INFO - [2021-03-22 03:15:51,484] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:15:51,979] {logging_mixin.py:104} INFO - [2021-03-22 03:15:51,979] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:15:53,356] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:15:53,362] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:15:53,374] {logging_mixin.py:104} INFO - [2021-03-22 03:15:53,373] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:15:53,385] {logging_mixin.py:104} INFO - [2021-03-22 03:15:53,384] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:15:53,390] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.913 seconds
+[2021-03-22 03:16:23,688] {scheduler_job.py:182} INFO - Started process (PID=28565) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:16:23,690] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:16:23,692] {logging_mixin.py:104} INFO - [2021-03-22 03:16:23,691] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:16:24,219] {logging_mixin.py:104} INFO - [2021-03-22 03:16:24,219] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:16:25,599] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:16:25,604] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:16:25,613] {logging_mixin.py:104} INFO - [2021-03-22 03:16:25,613] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:16:25,621] {logging_mixin.py:104} INFO - [2021-03-22 03:16:25,621] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:16:25,625] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.942 seconds
+[2021-03-22 03:16:55,896] {scheduler_job.py:182} INFO - Started process (PID=28604) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:16:55,898] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:16:55,900] {logging_mixin.py:104} INFO - [2021-03-22 03:16:55,899] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:16:56,407] {logging_mixin.py:104} INFO - [2021-03-22 03:16:56,406] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:16:57,753] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:16:57,759] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:16:57,768] {logging_mixin.py:104} INFO - [2021-03-22 03:16:57,767] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:16:57,776] {logging_mixin.py:104} INFO - [2021-03-22 03:16:57,776] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:16:57,780] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.888 seconds
+[2021-03-22 03:17:28,002] {scheduler_job.py:182} INFO - Started process (PID=28637) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:17:28,003] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:17:28,005] {logging_mixin.py:104} INFO - [2021-03-22 03:17:28,004] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:17:28,357] {logging_mixin.py:104} INFO - [2021-03-22 03:17:28,356] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:17:29,705] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:17:29,711] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:17:29,719] {logging_mixin.py:104} INFO - [2021-03-22 03:17:29,719] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:17:29,728] {logging_mixin.py:104} INFO - [2021-03-22 03:17:29,727] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:17:29,732] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.734 seconds
+[2021-03-22 03:18:00,004] {scheduler_job.py:182} INFO - Started process (PID=28667) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:18:00,005] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:18:00,007] {logging_mixin.py:104} INFO - [2021-03-22 03:18:00,006] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:18:00,358] {logging_mixin.py:104} INFO - [2021-03-22 03:18:00,357] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:18:01,702] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:18:01,707] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['CNN-Training-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:18:01,715] {logging_mixin.py:104} INFO - [2021-03-22 03:18:01,715] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:18:01,723] {logging_mixin.py:104} INFO - [2021-03-22 03:18:01,723] {dag.py:2273} INFO - Setting next_dagrun for CNN-Training-Pipeline to None
+[2021-03-22 03:18:01,727] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.727 seconds
+[2021-03-22 03:18:32,014] {scheduler_job.py:182} INFO - Started process (PID=28698) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:18:32,015] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:18:32,016] {logging_mixin.py:104} INFO - [2021-03-22 03:18:32,016] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:18:32,446] {logging_mixin.py:104} INFO - [2021-03-22 03:18:32,445] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:18:33,811] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:18:33,816] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:18:33,825] {logging_mixin.py:104} INFO - [2021-03-22 03:18:33,825] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:18:33,830] {logging_mixin.py:104} INFO - [2021-03-22 03:18:33,830] {dag.py:1837} INFO - Creating ORM DAG for Annotation-Pipeline
+[2021-03-22 03:18:33,833] {logging_mixin.py:104} INFO - [2021-03-22 03:18:33,833] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 03:18:33,841] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.831 seconds
+[2021-03-22 03:19:04,122] {scheduler_job.py:182} INFO - Started process (PID=28738) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:19:04,124] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:19:04,125] {logging_mixin.py:104} INFO - [2021-03-22 03:19:04,125] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:19:04,590] {logging_mixin.py:104} INFO - [2021-03-22 03:19:04,590] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:19:07,563] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:19:07,569] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:19:07,577] {logging_mixin.py:104} INFO - [2021-03-22 03:19:07,576] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:19:07,585] {logging_mixin.py:104} INFO - [2021-03-22 03:19:07,584] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 03:19:07,589] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 3.470 seconds
+[2021-03-22 03:19:37,843] {scheduler_job.py:182} INFO - Started process (PID=28783) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:19:37,844] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:19:37,845] {logging_mixin.py:104} INFO - [2021-03-22 03:19:37,845] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:19:38,229] {logging_mixin.py:104} INFO - [2021-03-22 03:19:38,228] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:19:40,020] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:19:40,026] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:19:40,034] {logging_mixin.py:104} INFO - [2021-03-22 03:19:40,033] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:19:40,042] {logging_mixin.py:104} INFO - [2021-03-22 03:19:40,042] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 03:19:40,046] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.207 seconds
+[2021-03-22 03:20:10,251] {scheduler_job.py:182} INFO - Started process (PID=28821) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:20:10,253] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:20:10,254] {logging_mixin.py:104} INFO - [2021-03-22 03:20:10,253] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:20:10,612] {logging_mixin.py:104} INFO - [2021-03-22 03:20:10,611] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:20:11,957] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:20:11,963] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:20:11,975] {logging_mixin.py:104} INFO - [2021-03-22 03:20:11,974] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:20:11,986] {logging_mixin.py:104} INFO - [2021-03-22 03:20:11,985] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 03:20:11,992] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.744 seconds
+[2021-03-22 03:20:42,260] {scheduler_job.py:182} INFO - Started process (PID=28866) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:20:42,270] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:20:42,272] {logging_mixin.py:104} INFO - [2021-03-22 03:20:42,271] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:20:42,801] {logging_mixin.py:104} INFO - [2021-03-22 03:20:42,800] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:20:44,261] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:20:44,264] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:20:44,270] {logging_mixin.py:104} INFO - [2021-03-22 03:20:44,270] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:20:44,276] {logging_mixin.py:104} INFO - [2021-03-22 03:20:44,276] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 03:20:44,279] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.023 seconds
+[2021-03-22 03:21:14,563] {scheduler_job.py:182} INFO - Started process (PID=28913) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:21:14,568] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:21:14,570] {logging_mixin.py:104} INFO - [2021-03-22 03:21:14,569] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:21:15,061] {logging_mixin.py:104} INFO - [2021-03-22 03:21:15,060] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:21:16,406] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:21:16,410] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:21:16,417] {logging_mixin.py:104} INFO - [2021-03-22 03:21:16,417] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:21:16,423] {logging_mixin.py:104} INFO - [2021-03-22 03:21:16,422] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 03:21:16,427] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.867 seconds
+[2021-03-22 03:21:46,659] {scheduler_job.py:182} INFO - Started process (PID=28954) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:21:46,660] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:21:46,661] {logging_mixin.py:104} INFO - [2021-03-22 03:21:46,661] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:21:47,112] {logging_mixin.py:104} INFO - [2021-03-22 03:21:47,112] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:21:48,458] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:21:48,464] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:21:48,472] {logging_mixin.py:104} INFO - [2021-03-22 03:21:48,472] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:21:48,480] {logging_mixin.py:104} INFO - [2021-03-22 03:21:48,479] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to 2021-03-22 00:00:00+00:00
+[2021-03-22 03:21:48,483] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.827 seconds
+[2021-03-22 03:23:29,097] {scheduler_job.py:182} INFO - Started process (PID=29060) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:23:29,099] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:23:29,105] {logging_mixin.py:104} INFO - [2021-03-22 03:23:29,100] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:23:29,509] {logging_mixin.py:104} INFO - [2021-03-22 03:23:29,509] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:23:30,816] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:23:30,822] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:23:30,865] {logging_mixin.py:104} INFO - [2021-03-22 03:23:30,864] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:23:30,874] {logging_mixin.py:104} INFO - [2021-03-22 03:23:30,873] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:23:30,879] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.785 seconds
+[2021-03-22 03:24:18,102] {scheduler_job.py:182} INFO - Started process (PID=29127) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:24:18,103] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:24:18,104] {logging_mixin.py:104} INFO - [2021-03-22 03:24:18,104] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:24:18,595] {logging_mixin.py:104} INFO - [2021-03-22 03:24:18,595] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:24:19,983] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:24:19,989] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:24:19,997] {logging_mixin.py:104} INFO - [2021-03-22 03:24:19,997] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:24:20,040] {logging_mixin.py:104} INFO - [2021-03-22 03:24:20,039] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:24:20,045] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.946 seconds
+[2021-03-22 03:27:44,533] {scheduler_job.py:182} INFO - Started process (PID=29212) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:27:44,535] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:27:44,537] {logging_mixin.py:104} INFO - [2021-03-22 03:27:44,536] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:27:45,041] {logging_mixin.py:104} INFO - [2021-03-22 03:27:45,041] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:27:46,469] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:27:46,471] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:27:46,480] {logging_mixin.py:104} INFO - [2021-03-22 03:27:46,480] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:27:46,488] {logging_mixin.py:104} INFO - [2021-03-22 03:27:46,487] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:27:46,492] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.961 seconds
+[2021-03-22 03:28:17,285] {scheduler_job.py:182} INFO - Started process (PID=29257) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:28:17,288] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:28:17,289] {logging_mixin.py:104} INFO - [2021-03-22 03:28:17,289] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:28:17,805] {logging_mixin.py:104} INFO - [2021-03-22 03:28:17,804] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:28:19,249] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:28:19,250] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:28:19,257] {logging_mixin.py:104} INFO - [2021-03-22 03:28:19,256] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:28:19,263] {logging_mixin.py:104} INFO - [2021-03-22 03:28:19,262] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:28:19,266] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.983 seconds
+[2021-03-22 03:28:49,981] {scheduler_job.py:182} INFO - Started process (PID=29301) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:28:49,983] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:28:49,984] {logging_mixin.py:104} INFO - [2021-03-22 03:28:49,984] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:28:50,539] {logging_mixin.py:104} INFO - [2021-03-22 03:28:50,538] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:28:51,944] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:28:51,946] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:28:51,953] {logging_mixin.py:104} INFO - [2021-03-22 03:28:51,953] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:28:51,961] {logging_mixin.py:104} INFO - [2021-03-22 03:28:51,960] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:28:51,980] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.002 seconds
+[2021-03-22 03:29:22,767] {scheduler_job.py:182} INFO - Started process (PID=29345) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:29:22,771] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:29:22,772] {logging_mixin.py:104} INFO - [2021-03-22 03:29:22,772] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:29:23,258] {logging_mixin.py:104} INFO - [2021-03-22 03:29:23,258] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:29:24,621] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:29:24,623] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:29:24,631] {logging_mixin.py:104} INFO - [2021-03-22 03:29:24,631] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:29:24,640] {logging_mixin.py:104} INFO - [2021-03-22 03:29:24,640] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:29:24,644] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.881 seconds
+[2021-03-22 03:29:55,441] {scheduler_job.py:182} INFO - Started process (PID=29378) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:29:55,443] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:29:55,444] {logging_mixin.py:104} INFO - [2021-03-22 03:29:55,443] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:29:55,938] {logging_mixin.py:104} INFO - [2021-03-22 03:29:55,938] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:29:57,320] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:29:57,322] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:29:57,329] {logging_mixin.py:104} INFO - [2021-03-22 03:29:57,328] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:29:57,336] {logging_mixin.py:104} INFO - [2021-03-22 03:29:57,335] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:29:57,340] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.902 seconds
+[2021-03-22 03:30:28,122] {scheduler_job.py:182} INFO - Started process (PID=29422) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:30:28,124] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:30:28,125] {logging_mixin.py:104} INFO - [2021-03-22 03:30:28,125] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:30:28,614] {logging_mixin.py:104} INFO - [2021-03-22 03:30:28,613] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:30:29,972] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:30:29,973] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:30:29,981] {logging_mixin.py:104} INFO - [2021-03-22 03:30:29,980] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:30:29,988] {logging_mixin.py:104} INFO - [2021-03-22 03:30:29,987] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:30:29,992] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.874 seconds
+[2021-03-22 03:31:00,223] {scheduler_job.py:182} INFO - Started process (PID=29463) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:31:00,226] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:31:00,227] {logging_mixin.py:104} INFO - [2021-03-22 03:31:00,226] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:31:00,704] {logging_mixin.py:104} INFO - [2021-03-22 03:31:00,703] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:31:02,072] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:31:02,074] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:31:02,081] {logging_mixin.py:104} INFO - [2021-03-22 03:31:02,080] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:31:02,088] {logging_mixin.py:104} INFO - [2021-03-22 03:31:02,088] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:31:02,092] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.872 seconds
+[2021-03-22 03:31:32,322] {scheduler_job.py:182} INFO - Started process (PID=29494) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:31:32,324] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:31:32,325] {logging_mixin.py:104} INFO - [2021-03-22 03:31:32,324] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:31:32,713] {logging_mixin.py:104} INFO - [2021-03-22 03:31:32,712] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:31:34,073] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:31:34,074] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:31:34,082] {logging_mixin.py:104} INFO - [2021-03-22 03:31:34,081] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:31:34,090] {logging_mixin.py:104} INFO - [2021-03-22 03:31:34,089] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:31:34,095] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.776 seconds
+[2021-03-22 03:32:04,317] {scheduler_job.py:182} INFO - Started process (PID=29527) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:32:04,319] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:32:04,320] {logging_mixin.py:104} INFO - [2021-03-22 03:32:04,320] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:32:04,778] {logging_mixin.py:104} INFO - [2021-03-22 03:32:04,778] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:32:06,204] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:32:06,206] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:32:06,214] {logging_mixin.py:104} INFO - [2021-03-22 03:32:06,213] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:32:06,221] {logging_mixin.py:104} INFO - [2021-03-22 03:32:06,221] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:32:06,225] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.911 seconds
+[2021-03-22 03:32:36,520] {scheduler_job.py:182} INFO - Started process (PID=29560) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:32:36,523] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:32:36,524] {logging_mixin.py:104} INFO - [2021-03-22 03:32:36,524] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:32:36,994] {logging_mixin.py:104} INFO - [2021-03-22 03:32:36,994] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:32:38,382] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:32:38,384] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:32:38,392] {logging_mixin.py:104} INFO - [2021-03-22 03:32:38,392] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:32:38,399] {logging_mixin.py:104} INFO - [2021-03-22 03:32:38,399] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:32:38,403] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.886 seconds
+[2021-03-22 03:33:08,614] {scheduler_job.py:182} INFO - Started process (PID=29602) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:33:08,616] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:33:08,617] {logging_mixin.py:104} INFO - [2021-03-22 03:33:08,616] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:33:09,143] {logging_mixin.py:104} INFO - [2021-03-22 03:33:09,143] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:33:10,543] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:33:10,545] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:33:10,552] {logging_mixin.py:104} INFO - [2021-03-22 03:33:10,551] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:33:10,559] {logging_mixin.py:104} INFO - [2021-03-22 03:33:10,558] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:33:10,563] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.953 seconds
+[2021-03-22 03:35:48,551] {scheduler_job.py:182} INFO - Started process (PID=29734) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:35:48,552] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:35:48,553] {logging_mixin.py:104} INFO - [2021-03-22 03:35:48,553] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:35:48,996] {logging_mixin.py:104} INFO - [2021-03-22 03:35:48,995] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:35:50,338] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:35:50,343] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:35:50,350] {logging_mixin.py:104} INFO - [2021-03-22 03:35:50,349] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:35:50,391] {logging_mixin.py:104} INFO - [2021-03-22 03:35:50,391] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:35:50,396] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.848 seconds
+[2021-03-22 03:39:39,456] {scheduler_job.py:182} INFO - Started process (PID=29865) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:39:39,459] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:39:39,460] {logging_mixin.py:104} INFO - [2021-03-22 03:39:39,460] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:39:39,950] {logging_mixin.py:104} INFO - [2021-03-22 03:39:39,950] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:39:41,338] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:39:41,340] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:39:41,348] {logging_mixin.py:104} INFO - [2021-03-22 03:39:41,348] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:39:41,356] {logging_mixin.py:104} INFO - [2021-03-22 03:39:41,356] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:39:41,361] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.908 seconds
+[2021-03-22 03:40:11,499] {scheduler_job.py:182} INFO - Started process (PID=29901) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:40:11,500] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:40:11,501] {logging_mixin.py:104} INFO - [2021-03-22 03:40:11,501] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:40:11,852] {logging_mixin.py:104} INFO - [2021-03-22 03:40:11,852] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:40:13,249] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:40:13,251] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:40:13,261] {logging_mixin.py:104} INFO - [2021-03-22 03:40:13,260] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:40:13,269] {logging_mixin.py:104} INFO - [2021-03-22 03:40:13,269] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:40:13,274] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.778 seconds
+[2021-03-22 03:40:44,002] {scheduler_job.py:182} INFO - Started process (PID=29937) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:40:44,003] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:40:44,005] {logging_mixin.py:104} INFO - [2021-03-22 03:40:44,004] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:40:44,367] {logging_mixin.py:104} INFO - [2021-03-22 03:40:44,366] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:40:45,892] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:40:45,894] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:40:45,902] {logging_mixin.py:104} INFO - [2021-03-22 03:40:45,902] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:40:45,910] {logging_mixin.py:104} INFO - [2021-03-22 03:40:45,910] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:40:45,914] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.916 seconds
+[2021-03-22 03:41:16,798] {scheduler_job.py:182} INFO - Started process (PID=29974) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:41:16,801] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:41:16,802] {logging_mixin.py:104} INFO - [2021-03-22 03:41:16,802] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:41:17,308] {logging_mixin.py:104} INFO - [2021-03-22 03:41:17,307] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:41:18,741] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:41:18,742] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:41:18,750] {logging_mixin.py:104} INFO - [2021-03-22 03:41:18,750] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:41:18,758] {logging_mixin.py:104} INFO - [2021-03-22 03:41:18,757] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:41:18,762] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.967 seconds
+[2021-03-22 03:41:49,596] {scheduler_job.py:182} INFO - Started process (PID=30018) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:41:49,598] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:41:49,599] {logging_mixin.py:104} INFO - [2021-03-22 03:41:49,598] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:41:49,947] {logging_mixin.py:104} INFO - [2021-03-22 03:41:49,947] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:41:51,343] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:41:51,345] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:41:51,354] {logging_mixin.py:104} INFO - [2021-03-22 03:41:51,353] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:41:51,362] {logging_mixin.py:104} INFO - [2021-03-22 03:41:51,362] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:41:51,366] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.773 seconds
+[2021-03-22 03:42:22,192] {scheduler_job.py:182} INFO - Started process (PID=30056) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:42:22,194] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:42:22,196] {logging_mixin.py:104} INFO - [2021-03-22 03:42:22,195] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:42:22,571] {logging_mixin.py:104} INFO - [2021-03-22 03:42:22,570] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:42:23,943] {logging_mixin.py:104} INFO - CSV file uploaded in S3 bucket!
+[2021-03-22 03:42:23,945] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Annotation-Pipeline']) retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:42:23,953] {logging_mixin.py:104} INFO - [2021-03-22 03:42:23,953] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:42:23,961] {logging_mixin.py:104} INFO - [2021-03-22 03:42:23,961] {dag.py:2273} INFO - Setting next_dagrun for Annotation-Pipeline to None
+[2021-03-22 03:42:23,965] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 1.777 seconds
+[2021-03-22 03:42:54,200] {scheduler_job.py:182} INFO - Started process (PID=30102) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:42:54,202] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:42:54,204] {logging_mixin.py:104} INFO - [2021-03-22 03:42:54,203] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:42:54,561] {logging_mixin.py:104} INFO - [2021-03-22 03:42:54,561] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:42:56,947] {logging_mixin.py:104} INFO - [2021-03-22 03:42:56,945] {dagbag.py:305} ERROR - Failed to import: /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+Traceback (most recent call last):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py", line 7, in <module>
+    import edgar_sentiment_analysis
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/edgar_sentiment_analysis.py", line 49, in <module>
+    cleaning_files()
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/edgar_sentiment_analysis.py", line 40, in cleaning_files
+    Score.append(res["Sentiment"])
+KeyError: 'Sentiment'
+[2021-03-22 03:42:56,950] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:42:56,955] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 2.759 seconds
+[2021-03-22 03:43:27,212] {scheduler_job.py:182} INFO - Started process (PID=30135) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:43:27,213] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:43:27,215] {logging_mixin.py:104} INFO - [2021-03-22 03:43:27,214] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:43:27,626] {logging_mixin.py:104} INFO - [2021-03-22 03:43:27,625] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:43:57,204] {logging_mixin.py:104} INFO - [2021-03-22 03:43:57,203] {timeout.py:36} ERROR - Process timed out, PID: 30135
+[2021-03-22 03:43:57,222] {logging_mixin.py:104} INFO - [2021-03-22 03:43:57,207] {dagbag.py:305} ERROR - Failed to import: /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+Traceback (most recent call last):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/httpsession.py", line 320, in send
+    chunked=self._chunked(request.headers),
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 429, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 472, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py after 30.0s, PID: 30135
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py", line 7, in <module>
+    import edgar_sentiment_analysis
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/edgar_sentiment_analysis.py", line 49, in <module>
+    cleaning_files()
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/edgar_sentiment_analysis.py", line 36, in cleaning_files
+    res = scaling.get_sentiment(s)
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/scaling.py", line 8, in get_sentiment
+    response = comprehend.detect_sentiment(Text=text, LanguageCode='en')
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/client.py", line 663, in _make_api_call
+    operation_model, request_dict, request_context)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/client.py", line 682, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/endpoint.py", line 102, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/endpoint.py", line 137, in _send_request
+    success_response, exception):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/endpoint.py", line 256, in _needs_retry
+    caught_exception=caught_exception, request_dict=request_dict)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/hooks.py", line 356, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/hooks.py", line 228, in emit
+    return self._emit(event_name, kwargs)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/hooks.py", line 211, in _emit
+    response = handler(**kwargs)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 183, in __call__
+    if self._checker(attempts, response, caught_exception):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 251, in __call__
+    caught_exception)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 269, in _should_retry
+    return self._checker(attempt_number, response, caught_exception)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 317, in __call__
+    caught_exception)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 223, in __call__
+    attempt_number, caught_exception)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 359, in _check_caught_exception
+    raise caught_exception
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/endpoint.py", line 200, in _do_get_response
+    http_response = self._send(request)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/endpoint.py", line 269, in _send
+    return self.http_session.send(request)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/httpsession.py", line 356, in send
+    raise HTTPClientError(error=e)
+botocore.exceptions.HTTPClientError: An HTTP Client raised an unhandled exception: DagBag import timeout for /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py after 30.0s, PID: 30135
+[2021-03-22 03:43:57,223] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:43:57,231] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 30.037 seconds
+[2021-03-22 03:44:27,436] {scheduler_job.py:182} INFO - Started process (PID=30194) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:44:27,438] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:44:27,439] {logging_mixin.py:104} INFO - [2021-03-22 03:44:27,439] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:44:27,957] {logging_mixin.py:104} INFO - [2021-03-22 03:44:27,956] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2021-03-22 03:44:57,441] {logging_mixin.py:104} INFO - [2021-03-22 03:44:57,440] {timeout.py:36} ERROR - Process timed out, PID: 30194
+[2021-03-22 03:44:57,456] {logging_mixin.py:104} INFO - [2021-03-22 03:44:57,443] {dagbag.py:305} ERROR - Failed to import: /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+Traceback (most recent call last):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py", line 7, in <module>
+    import edgar_sentiment_analysis
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/edgar_sentiment_analysis.py", line 49, in <module>
+    cleaning_files()
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/edgar_sentiment_analysis.py", line 41, in cleaning_files
+    data = pd.DataFrame(list(zip(Sentence, Score1,Score)), columns=['Sentence', 'Score','Sentiment'])
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/pandas/core/frame.py", line 571, in __init__
+    columns = ensure_index(columns)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 5896, in ensure_index
+    converted, all_arrays = lib.clean_index_list(index_like)
+  File "pandas/_libs/lib.pyx", line 708, in pandas._libs.lib.clean_index_list
+  File "pandas/_libs/lib.pyx", line 1371, in pandas._libs.lib.infer_dtype
+  File "pandas/_libs/lib.pyx", line 1229, in pandas._libs.lib._try_infer_map
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/numpy/core/_dtype.py", line 321, in _name_get
+    def _name_get(dtype):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py after 30.0s, PID: 30194
+[2021-03-22 03:44:57,459] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:44:57,466] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py took 30.034 seconds
+[2021-03-22 03:45:27,688] {scheduler_job.py:182} INFO - Started process (PID=30231) to work on /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:45:27,690] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py for tasks to queue
+[2021-03-22 03:45:27,691] {logging_mixin.py:104} INFO - [2021-03-22 03:45:27,690] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py
+[2021-03-22 03:45:28,175] {logging_mixin.py:104} INFO - [2021-03-22 03:45:28,174] {credentials.py:1217} INFO - Found credentials in shared credentials file: ~/.aws/credentials

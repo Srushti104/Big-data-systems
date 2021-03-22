@@ -1,0 +1,476 @@
+[2021-03-22 02:54:52,317] {scheduler_job.py:182} INFO - Started process (PID=26819) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:54:52,319] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 02:54:52,320] {logging_mixin.py:104} INFO - [2021-03-22 02:54:52,320] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:54:52,340] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:54:52,355] {logging_mixin.py:104} INFO - [2021-03-22 02:54:52,354] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:54:52,368] {logging_mixin.py:104} INFO - [2021-03-22 02:54:52,367] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:54:52,377] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds
+[2021-03-22 02:55:24,499] {scheduler_job.py:182} INFO - Started process (PID=26876) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:55:24,505] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 02:55:24,507] {logging_mixin.py:104} INFO - [2021-03-22 02:55:24,506] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:55:24,518] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:55:24,530] {logging_mixin.py:104} INFO - [2021-03-22 02:55:24,530] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:55:24,540] {logging_mixin.py:104} INFO - [2021-03-22 02:55:24,540] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:55:24,547] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.051 seconds
+[2021-03-22 02:55:55,946] {scheduler_job.py:182} INFO - Started process (PID=26986) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:55:55,948] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 02:55:55,950] {logging_mixin.py:104} INFO - [2021-03-22 02:55:55,949] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:55:55,965] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:55:55,981] {logging_mixin.py:104} INFO - [2021-03-22 02:55:55,981] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:55:55,994] {logging_mixin.py:104} INFO - [2021-03-22 02:55:55,994] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:55:56,003] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.061 seconds
+[2021-03-22 02:56:26,699] {scheduler_job.py:182} INFO - Started process (PID=27059) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:56:26,702] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 02:56:26,704] {logging_mixin.py:104} INFO - [2021-03-22 02:56:26,703] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:56:26,720] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:56:26,743] {logging_mixin.py:104} INFO - [2021-03-22 02:56:26,742] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:56:26,758] {logging_mixin.py:104} INFO - [2021-03-22 02:56:26,757] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:56:26,767] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.074 seconds
+[2021-03-22 02:56:58,504] {scheduler_job.py:182} INFO - Started process (PID=27121) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:56:58,507] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 02:56:58,509] {logging_mixin.py:104} INFO - [2021-03-22 02:56:58,508] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:56:58,530] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:56:58,556] {logging_mixin.py:104} INFO - [2021-03-22 02:56:58,555] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:56:58,574] {logging_mixin.py:104} INFO - [2021-03-22 02:56:58,573] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:56:58,586] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2021-03-22 02:57:31,551] {scheduler_job.py:182} INFO - Started process (PID=27200) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:57:31,554] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 02:57:31,556] {logging_mixin.py:104} INFO - [2021-03-22 02:57:31,556] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:57:31,577] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:57:31,601] {logging_mixin.py:104} INFO - [2021-03-22 02:57:31,600] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:57:31,619] {logging_mixin.py:104} INFO - [2021-03-22 02:57:31,619] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:57:31,633] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2021-03-22 02:58:28,636] {scheduler_job.py:182} INFO - Started process (PID=27306) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:58:28,639] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 02:58:28,640] {logging_mixin.py:104} INFO - [2021-03-22 02:58:28,640] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:58:28,652] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:58:28,666] {logging_mixin.py:104} INFO - [2021-03-22 02:58:28,666] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:58:28,678] {logging_mixin.py:104} INFO - [2021-03-22 02:58:28,677] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:58:28,686] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.054 seconds
+[2021-03-22 02:59:00,705] {scheduler_job.py:182} INFO - Started process (PID=27372) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:59:00,706] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 02:59:00,707] {logging_mixin.py:104} INFO - [2021-03-22 02:59:00,707] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:59:00,718] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:59:00,730] {logging_mixin.py:104} INFO - [2021-03-22 02:59:00,729] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:59:00,739] {logging_mixin.py:104} INFO - [2021-03-22 02:59:00,739] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:59:00,745] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-03-22 02:59:32,806] {scheduler_job.py:182} INFO - Started process (PID=27435) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:59:32,808] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 02:59:32,809] {logging_mixin.py:104} INFO - [2021-03-22 02:59:32,809] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:59:32,820] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 02:59:32,833] {logging_mixin.py:104} INFO - [2021-03-22 02:59:32,832] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:59:32,843] {logging_mixin.py:104} INFO - [2021-03-22 02:59:32,842] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:59:32,849] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2021-03-22 03:00:05,007] {scheduler_job.py:182} INFO - Started process (PID=27490) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:00:05,008] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:00:05,010] {logging_mixin.py:104} INFO - [2021-03-22 03:00:05,009] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:00:05,020] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:00:05,033] {logging_mixin.py:104} INFO - [2021-03-22 03:00:05,032] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:00:05,042] {logging_mixin.py:104} INFO - [2021-03-22 03:00:05,042] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:00:05,049] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-03-22 03:00:37,210] {scheduler_job.py:182} INFO - Started process (PID=27554) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:00:37,213] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:00:37,214] {logging_mixin.py:104} INFO - [2021-03-22 03:00:37,214] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:00:37,225] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:00:37,237] {logging_mixin.py:104} INFO - [2021-03-22 03:00:37,237] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:00:37,247] {logging_mixin.py:104} INFO - [2021-03-22 03:00:37,247] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:00:37,254] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2021-03-22 03:01:09,313] {scheduler_job.py:182} INFO - Started process (PID=27587) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:01:09,314] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:01:09,315] {logging_mixin.py:104} INFO - [2021-03-22 03:01:09,315] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:01:09,323] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:01:09,332] {logging_mixin.py:104} INFO - [2021-03-22 03:01:09,332] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:01:09,340] {logging_mixin.py:104} INFO - [2021-03-22 03:01:09,340] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:01:09,345] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2021-03-22 03:01:41,412] {scheduler_job.py:182} INFO - Started process (PID=27630) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:01:41,413] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:01:41,414] {logging_mixin.py:104} INFO - [2021-03-22 03:01:41,414] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:01:41,423] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:01:41,434] {logging_mixin.py:104} INFO - [2021-03-22 03:01:41,434] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:01:41,442] {logging_mixin.py:104} INFO - [2021-03-22 03:01:41,442] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:01:41,447] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.038 seconds
+[2021-03-22 03:02:13,430] {scheduler_job.py:182} INFO - Started process (PID=27661) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:02:13,431] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:02:13,433] {logging_mixin.py:104} INFO - [2021-03-22 03:02:13,432] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:02:13,444] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:02:13,456] {logging_mixin.py:104} INFO - [2021-03-22 03:02:13,456] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:02:13,466] {logging_mixin.py:104} INFO - [2021-03-22 03:02:13,466] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:02:13,473] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2021-03-22 03:02:45,564] {scheduler_job.py:182} INFO - Started process (PID=27692) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:02:45,565] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:02:45,567] {logging_mixin.py:104} INFO - [2021-03-22 03:02:45,566] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:02:45,578] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:02:45,590] {logging_mixin.py:104} INFO - [2021-03-22 03:02:45,590] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:02:45,600] {logging_mixin.py:104} INFO - [2021-03-22 03:02:45,600] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:02:45,606] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2021-03-22 03:03:17,687] {scheduler_job.py:182} INFO - Started process (PID=27732) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:03:17,688] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:03:17,690] {logging_mixin.py:104} INFO - [2021-03-22 03:03:17,689] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:03:17,701] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:03:17,714] {logging_mixin.py:104} INFO - [2021-03-22 03:03:17,714] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:03:17,724] {logging_mixin.py:104} INFO - [2021-03-22 03:03:17,723] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:03:17,729] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2021-03-22 03:03:49,796] {scheduler_job.py:182} INFO - Started process (PID=27775) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:03:49,799] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:03:49,800] {logging_mixin.py:104} INFO - [2021-03-22 03:03:49,800] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:03:49,812] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:03:49,825] {logging_mixin.py:104} INFO - [2021-03-22 03:03:49,825] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:03:49,834] {logging_mixin.py:104} INFO - [2021-03-22 03:03:49,833] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:03:49,840] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2021-03-22 03:04:21,900] {scheduler_job.py:182} INFO - Started process (PID=27813) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:04:21,902] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:04:21,903] {logging_mixin.py:104} INFO - [2021-03-22 03:04:21,903] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:04:21,915] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:04:21,929] {logging_mixin.py:104} INFO - [2021-03-22 03:04:21,928] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:04:21,938] {logging_mixin.py:104} INFO - [2021-03-22 03:04:21,938] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:04:21,944] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2021-03-22 03:04:54,017] {scheduler_job.py:182} INFO - Started process (PID=27855) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:04:54,018] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:04:54,020] {logging_mixin.py:104} INFO - [2021-03-22 03:04:54,019] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:04:54,032] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:04:54,045] {logging_mixin.py:104} INFO - [2021-03-22 03:04:54,045] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:04:54,054] {logging_mixin.py:104} INFO - [2021-03-22 03:04:54,054] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:04:54,060] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2021-03-22 03:05:26,144] {scheduler_job.py:182} INFO - Started process (PID=27893) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:05:26,146] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:05:26,147] {logging_mixin.py:104} INFO - [2021-03-22 03:05:26,147] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:05:26,157] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:05:26,168] {logging_mixin.py:104} INFO - [2021-03-22 03:05:26,168] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:05:26,177] {logging_mixin.py:104} INFO - [2021-03-22 03:05:26,176] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:05:26,182] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.043 seconds
+[2021-03-22 03:05:58,258] {scheduler_job.py:182} INFO - Started process (PID=27931) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:05:58,261] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:05:58,262] {logging_mixin.py:104} INFO - [2021-03-22 03:05:58,261] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:05:58,272] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:05:58,286] {logging_mixin.py:104} INFO - [2021-03-22 03:05:58,285] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:05:58,296] {logging_mixin.py:104} INFO - [2021-03-22 03:05:58,296] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:05:58,302] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2021-03-22 03:06:30,488] {scheduler_job.py:182} INFO - Started process (PID=27961) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:06:30,490] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:06:30,492] {logging_mixin.py:104} INFO - [2021-03-22 03:06:30,491] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:06:30,504] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:06:30,516] {logging_mixin.py:104} INFO - [2021-03-22 03:06:30,516] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:06:30,527] {logging_mixin.py:104} INFO - [2021-03-22 03:06:30,526] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:06:30,533] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2021-03-22 03:07:02,723] {scheduler_job.py:182} INFO - Started process (PID=27996) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:07:02,725] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:07:02,726] {logging_mixin.py:104} INFO - [2021-03-22 03:07:02,726] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:07:02,737] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:07:02,750] {logging_mixin.py:104} INFO - [2021-03-22 03:07:02,750] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:07:02,759] {logging_mixin.py:104} INFO - [2021-03-22 03:07:02,759] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:07:02,765] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2021-03-22 03:07:34,956] {scheduler_job.py:182} INFO - Started process (PID=28031) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:07:34,958] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:07:34,959] {logging_mixin.py:104} INFO - [2021-03-22 03:07:34,959] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:07:34,971] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:07:34,983] {logging_mixin.py:104} INFO - [2021-03-22 03:07:34,983] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:07:34,992] {logging_mixin.py:104} INFO - [2021-03-22 03:07:34,992] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:07:34,998] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2021-03-22 03:08:07,180] {scheduler_job.py:182} INFO - Started process (PID=28062) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:08:07,183] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:08:07,184] {logging_mixin.py:104} INFO - [2021-03-22 03:08:07,184] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:08:07,197] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:08:07,210] {logging_mixin.py:104} INFO - [2021-03-22 03:08:07,210] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:08:07,220] {logging_mixin.py:104} INFO - [2021-03-22 03:08:07,220] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:08:07,226] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2021-03-22 03:08:39,448] {scheduler_job.py:182} INFO - Started process (PID=28103) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:08:39,450] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:08:39,452] {logging_mixin.py:104} INFO - [2021-03-22 03:08:39,451] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:08:39,465] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:08:39,478] {logging_mixin.py:104} INFO - [2021-03-22 03:08:39,477] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:08:39,488] {logging_mixin.py:104} INFO - [2021-03-22 03:08:39,488] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:08:39,494] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2021-03-22 03:09:11,730] {scheduler_job.py:182} INFO - Started process (PID=28142) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:09:11,738] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:09:11,740] {logging_mixin.py:104} INFO - [2021-03-22 03:09:11,740] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:09:11,779] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:09:11,808] {logging_mixin.py:104} INFO - [2021-03-22 03:09:11,808] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:09:11,846] {logging_mixin.py:104} INFO - [2021-03-22 03:09:11,845] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:09:11,868] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.153 seconds
+[2021-03-22 03:11:58,219] {scheduler_job.py:182} INFO - Started process (PID=28247) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:11:58,226] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:11:58,230] {logging_mixin.py:104} INFO - [2021-03-22 03:11:58,229] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:11:58,278] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:11:58,329] {logging_mixin.py:104} INFO - [2021-03-22 03:11:58,328] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:11:58,369] {logging_mixin.py:104} INFO - [2021-03-22 03:11:58,366] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:11:58,419] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.221 seconds
+[2021-03-22 03:12:36,166] {scheduler_job.py:182} INFO - Started process (PID=28286) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:12:36,172] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:12:36,177] {logging_mixin.py:104} INFO - [2021-03-22 03:12:36,176] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:12:36,219] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:12:36,263] {logging_mixin.py:104} INFO - [2021-03-22 03:12:36,262] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:12:36,301] {logging_mixin.py:104} INFO - [2021-03-22 03:12:36,299] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:12:36,326] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.172 seconds
+[2021-03-22 03:13:50,203] {scheduler_job.py:182} INFO - Started process (PID=28353) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:13:50,205] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:13:50,205] {logging_mixin.py:104} INFO - [2021-03-22 03:13:50,205] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:13:50,235] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:13:50,268] {logging_mixin.py:104} INFO - [2021-03-22 03:13:50,268] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:13:50,277] {logging_mixin.py:104} INFO - [2021-03-22 03:13:50,277] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:13:50,284] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2021-03-22 03:14:21,182] {scheduler_job.py:182} INFO - Started process (PID=28403) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:14:21,184] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:14:21,185] {logging_mixin.py:104} INFO - [2021-03-22 03:14:21,184] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:14:21,198] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:14:21,210] {logging_mixin.py:104} INFO - [2021-03-22 03:14:21,210] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:14:21,219] {logging_mixin.py:104} INFO - [2021-03-22 03:14:21,219] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:14:21,227] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2021-03-22 03:14:51,509] {scheduler_job.py:182} INFO - Started process (PID=28445) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:14:51,511] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:14:51,512] {logging_mixin.py:104} INFO - [2021-03-22 03:14:51,512] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:14:51,526] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:14:51,540] {logging_mixin.py:104} INFO - [2021-03-22 03:14:51,539] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:14:51,550] {logging_mixin.py:104} INFO - [2021-03-22 03:14:51,550] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:14:51,556] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.051 seconds
+[2021-03-22 03:15:22,067] {scheduler_job.py:182} INFO - Started process (PID=28481) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:15:22,070] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:15:22,071] {logging_mixin.py:104} INFO - [2021-03-22 03:15:22,071] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:15:22,083] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:15:22,095] {logging_mixin.py:104} INFO - [2021-03-22 03:15:22,095] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:15:22,104] {logging_mixin.py:104} INFO - [2021-03-22 03:15:22,104] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:15:22,109] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2021-03-22 03:15:54,551] {scheduler_job.py:182} INFO - Started process (PID=28519) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:15:54,554] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:15:54,555] {logging_mixin.py:104} INFO - [2021-03-22 03:15:54,555] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:15:54,568] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:15:54,581] {logging_mixin.py:104} INFO - [2021-03-22 03:15:54,581] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:15:54,591] {logging_mixin.py:104} INFO - [2021-03-22 03:15:54,591] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:15:54,598] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2021-03-22 03:16:26,769] {scheduler_job.py:182} INFO - Started process (PID=28566) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:16:26,770] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:16:26,772] {logging_mixin.py:104} INFO - [2021-03-22 03:16:26,771] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:16:26,784] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:16:26,797] {logging_mixin.py:104} INFO - [2021-03-22 03:16:26,796] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:16:26,806] {logging_mixin.py:104} INFO - [2021-03-22 03:16:26,806] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:16:26,812] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2021-03-22 03:16:58,866] {scheduler_job.py:182} INFO - Started process (PID=28605) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:16:58,868] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:16:58,869] {logging_mixin.py:104} INFO - [2021-03-22 03:16:58,869] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:16:58,881] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:16:58,893] {logging_mixin.py:104} INFO - [2021-03-22 03:16:58,893] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:16:58,903] {logging_mixin.py:104} INFO - [2021-03-22 03:16:58,903] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:16:58,910] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2021-03-22 03:17:30,878] {scheduler_job.py:182} INFO - Started process (PID=28638) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:17:30,879] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:17:30,880] {logging_mixin.py:104} INFO - [2021-03-22 03:17:30,880] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:17:30,891] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:17:30,904] {logging_mixin.py:104} INFO - [2021-03-22 03:17:30,903] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:17:30,913] {logging_mixin.py:104} INFO - [2021-03-22 03:17:30,913] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:17:30,918] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-03-22 03:18:02,875] {scheduler_job.py:182} INFO - Started process (PID=28668) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:18:02,876] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:18:02,878] {logging_mixin.py:104} INFO - [2021-03-22 03:18:02,877] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:18:02,889] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:18:02,902] {logging_mixin.py:104} INFO - [2021-03-22 03:18:02,902] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:18:02,912] {logging_mixin.py:104} INFO - [2021-03-22 03:18:02,912] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:18:02,919] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2021-03-22 03:18:34,991] {scheduler_job.py:182} INFO - Started process (PID=28699) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:18:34,994] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:18:34,996] {logging_mixin.py:104} INFO - [2021-03-22 03:18:34,996] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:18:35,010] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:18:35,024] {logging_mixin.py:104} INFO - [2021-03-22 03:18:35,024] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:18:35,034] {logging_mixin.py:104} INFO - [2021-03-22 03:18:35,034] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:18:35,041] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.053 seconds
+[2021-03-22 03:19:09,842] {scheduler_job.py:182} INFO - Started process (PID=28741) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:19:09,843] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:19:09,844] {logging_mixin.py:104} INFO - [2021-03-22 03:19:09,844] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:19:09,856] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:19:09,870] {logging_mixin.py:104} INFO - [2021-03-22 03:19:09,870] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:19:09,881] {logging_mixin.py:104} INFO - [2021-03-22 03:19:09,880] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:19:09,888] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2021-03-22 03:19:42,248] {scheduler_job.py:182} INFO - Started process (PID=28786) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:19:42,251] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:19:42,252] {logging_mixin.py:104} INFO - [2021-03-22 03:19:42,251] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:19:42,262] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:19:42,274] {logging_mixin.py:104} INFO - [2021-03-22 03:19:42,273] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:19:42,282] {logging_mixin.py:104} INFO - [2021-03-22 03:19:42,282] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:19:42,288] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.043 seconds
+[2021-03-22 03:20:14,246] {scheduler_job.py:182} INFO - Started process (PID=28824) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:20:14,247] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:20:14,248] {logging_mixin.py:104} INFO - [2021-03-22 03:20:14,248] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:20:14,256] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:20:14,265] {logging_mixin.py:104} INFO - [2021-03-22 03:20:14,264] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:20:14,272] {logging_mixin.py:104} INFO - [2021-03-22 03:20:14,271] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:20:14,276] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.033 seconds
+[2021-03-22 03:20:46,563] {scheduler_job.py:182} INFO - Started process (PID=28870) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:20:46,565] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:20:46,566] {logging_mixin.py:104} INFO - [2021-03-22 03:20:46,565] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:20:46,575] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:20:46,586] {logging_mixin.py:104} INFO - [2021-03-22 03:20:46,585] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:20:46,595] {logging_mixin.py:104} INFO - [2021-03-22 03:20:46,594] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:20:46,600] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.039 seconds
+[2021-03-22 03:21:18,663] {scheduler_job.py:182} INFO - Started process (PID=28915) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:21:18,664] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:21:18,666] {logging_mixin.py:104} INFO - [2021-03-22 03:21:18,665] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:21:18,680] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:21:18,693] {logging_mixin.py:104} INFO - [2021-03-22 03:21:18,692] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:21:18,702] {logging_mixin.py:104} INFO - [2021-03-22 03:21:18,702] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:21:18,708] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2021-03-22 03:21:50,771] {scheduler_job.py:182} INFO - Started process (PID=28957) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:21:50,774] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:21:50,775] {logging_mixin.py:104} INFO - [2021-03-22 03:21:50,775] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:21:50,787] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:21:50,800] {logging_mixin.py:104} INFO - [2021-03-22 03:21:50,799] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:21:50,810] {logging_mixin.py:104} INFO - [2021-03-22 03:21:50,809] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:21:50,816] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2021-03-22 03:23:19,537] {scheduler_job.py:182} INFO - Started process (PID=29048) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:23:19,539] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:23:19,541] {logging_mixin.py:104} INFO - [2021-03-22 03:23:19,540] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:23:19,555] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:23:19,565] {logging_mixin.py:104} INFO - [2021-03-22 03:23:19,565] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:23:19,574] {logging_mixin.py:104} INFO - [2021-03-22 03:23:19,573] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:23:19,580] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2021-03-22 03:24:25,317] {scheduler_job.py:182} INFO - Started process (PID=29135) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:24:25,319] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:24:25,320] {logging_mixin.py:104} INFO - [2021-03-22 03:24:25,319] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:24:25,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:24:25,345] {logging_mixin.py:104} INFO - [2021-03-22 03:24:25,345] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:24:25,354] {logging_mixin.py:104} INFO - [2021-03-22 03:24:25,354] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:24:25,362] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2021-03-22 03:27:51,728] {scheduler_job.py:182} INFO - Started process (PID=29222) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:27:51,730] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:27:51,732] {logging_mixin.py:104} INFO - [2021-03-22 03:27:51,731] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:27:51,738] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:27:51,750] {logging_mixin.py:104} INFO - [2021-03-22 03:27:51,750] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:27:51,759] {logging_mixin.py:104} INFO - [2021-03-22 03:27:51,759] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:27:51,765] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.040 seconds
+[2021-03-22 03:28:26,652] {scheduler_job.py:182} INFO - Started process (PID=29271) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:28:26,654] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:28:26,656] {logging_mixin.py:104} INFO - [2021-03-22 03:28:26,655] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:28:26,664] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:28:26,677] {logging_mixin.py:104} INFO - [2021-03-22 03:28:26,677] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:28:26,687] {logging_mixin.py:104} INFO - [2021-03-22 03:28:26,686] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:28:26,694] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-03-22 03:29:01,075] {scheduler_job.py:182} INFO - Started process (PID=29320) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:29:01,077] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:29:01,079] {logging_mixin.py:104} INFO - [2021-03-22 03:29:01,079] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:29:01,087] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:29:01,101] {logging_mixin.py:104} INFO - [2021-03-22 03:29:01,101] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:29:01,110] {logging_mixin.py:104} INFO - [2021-03-22 03:29:01,110] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:29:01,116] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-03-22 03:29:34,866] {scheduler_job.py:182} INFO - Started process (PID=29358) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:29:34,870] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:29:34,872] {logging_mixin.py:104} INFO - [2021-03-22 03:29:34,871] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:29:34,878] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:29:34,891] {logging_mixin.py:104} INFO - [2021-03-22 03:29:34,891] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:29:34,900] {logging_mixin.py:104} INFO - [2021-03-22 03:29:34,900] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:29:34,906] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-03-22 03:30:09,834] {scheduler_job.py:182} INFO - Started process (PID=29405) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:30:09,836] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:30:09,837] {logging_mixin.py:104} INFO - [2021-03-22 03:30:09,837] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:30:09,844] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:30:09,857] {logging_mixin.py:104} INFO - [2021-03-22 03:30:09,856] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:30:09,866] {logging_mixin.py:104} INFO - [2021-03-22 03:30:09,865] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:30:09,873] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.043 seconds
+[2021-03-22 03:30:42,500] {scheduler_job.py:182} INFO - Started process (PID=29444) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:30:42,503] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:30:42,504] {logging_mixin.py:104} INFO - [2021-03-22 03:30:42,504] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:30:42,511] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:30:42,525] {logging_mixin.py:104} INFO - [2021-03-22 03:30:42,525] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:30:42,535] {logging_mixin.py:104} INFO - [2021-03-22 03:30:42,535] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:30:42,542] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2021-03-22 03:31:14,610] {scheduler_job.py:182} INFO - Started process (PID=29477) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:31:14,612] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:31:14,613] {logging_mixin.py:104} INFO - [2021-03-22 03:31:14,613] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:31:14,619] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:31:14,634] {logging_mixin.py:104} INFO - [2021-03-22 03:31:14,634] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:31:14,644] {logging_mixin.py:104} INFO - [2021-03-22 03:31:14,643] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:31:14,651] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-03-22 03:31:46,609] {scheduler_job.py:182} INFO - Started process (PID=29508) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:31:46,610] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:31:46,612] {logging_mixin.py:104} INFO - [2021-03-22 03:31:46,611] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:31:46,619] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:31:46,633] {logging_mixin.py:104} INFO - [2021-03-22 03:31:46,632] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:31:46,643] {logging_mixin.py:104} INFO - [2021-03-22 03:31:46,643] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:31:46,650] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-03-22 03:32:18,828] {scheduler_job.py:182} INFO - Started process (PID=29542) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:32:18,831] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:32:18,833] {logging_mixin.py:104} INFO - [2021-03-22 03:32:18,832] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:32:18,839] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:32:18,852] {logging_mixin.py:104} INFO - [2021-03-22 03:32:18,852] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:32:18,863] {logging_mixin.py:104} INFO - [2021-03-22 03:32:18,862] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:32:18,870] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-03-22 03:32:50,914] {scheduler_job.py:182} INFO - Started process (PID=29574) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:32:50,916] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:32:50,917] {logging_mixin.py:104} INFO - [2021-03-22 03:32:50,917] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:32:50,923] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:32:50,938] {logging_mixin.py:104} INFO - [2021-03-22 03:32:50,938] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:32:50,950] {logging_mixin.py:104} INFO - [2021-03-22 03:32:50,950] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:32:50,959] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds
+[2021-03-22 03:35:41,131] {scheduler_job.py:182} INFO - Started process (PID=29725) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:35:41,133] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:35:41,134] {logging_mixin.py:104} INFO - [2021-03-22 03:35:41,134] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:35:41,146] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:35:41,157] {logging_mixin.py:104} INFO - [2021-03-22 03:35:41,156] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:35:41,165] {logging_mixin.py:104} INFO - [2021-03-22 03:35:41,165] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:35:41,170] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.042 seconds
+[2021-03-22 03:39:32,037] {scheduler_job.py:182} INFO - Started process (PID=29853) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:39:32,041] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:39:32,043] {logging_mixin.py:104} INFO - [2021-03-22 03:39:32,042] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:39:32,048] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:39:32,061] {logging_mixin.py:104} INFO - [2021-03-22 03:39:32,061] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:39:32,072] {logging_mixin.py:104} INFO - [2021-03-22 03:39:32,072] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:39:32,079] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.045 seconds
+[2021-03-22 03:40:02,935] {scheduler_job.py:182} INFO - Started process (PID=29889) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:40:02,937] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:40:02,938] {logging_mixin.py:104} INFO - [2021-03-22 03:40:02,938] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:40:02,944] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:40:02,957] {logging_mixin.py:104} INFO - [2021-03-22 03:40:02,956] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:40:02,967] {logging_mixin.py:104} INFO - [2021-03-22 03:40:02,966] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:40:02,973] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.041 seconds
+[2021-03-22 03:40:33,704] {scheduler_job.py:182} INFO - Started process (PID=29927) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:40:33,705] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:40:33,706] {logging_mixin.py:104} INFO - [2021-03-22 03:40:33,706] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:40:33,712] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:40:33,723] {logging_mixin.py:104} INFO - [2021-03-22 03:40:33,722] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:40:33,731] {logging_mixin.py:104} INFO - [2021-03-22 03:40:33,730] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:40:33,736] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.035 seconds
+[2021-03-22 03:41:05,910] {scheduler_job.py:182} INFO - Started process (PID=29961) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:41:05,912] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:41:05,913] {logging_mixin.py:104} INFO - [2021-03-22 03:41:05,913] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:41:05,917] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:41:05,927] {logging_mixin.py:104} INFO - [2021-03-22 03:41:05,926] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:41:05,934] {logging_mixin.py:104} INFO - [2021-03-22 03:41:05,933] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:41:05,939] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.031 seconds
+[2021-03-22 03:41:38,699] {scheduler_job.py:182} INFO - Started process (PID=30007) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:41:38,701] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:41:38,701] {logging_mixin.py:104} INFO - [2021-03-22 03:41:38,701] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:41:38,706] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:41:38,719] {logging_mixin.py:104} INFO - [2021-03-22 03:41:38,718] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:41:38,727] {logging_mixin.py:104} INFO - [2021-03-22 03:41:38,727] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:41:38,733] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.036 seconds
+[2021-03-22 03:42:11,249] {scheduler_job.py:182} INFO - Started process (PID=30044) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:42:11,251] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:42:11,252] {logging_mixin.py:104} INFO - [2021-03-22 03:42:11,252] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:42:11,258] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:42:11,270] {logging_mixin.py:104} INFO - [2021-03-22 03:42:11,269] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:42:11,279] {logging_mixin.py:104} INFO - [2021-03-22 03:42:11,279] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:42:11,285] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.039 seconds
+[2021-03-22 03:42:43,901] {scheduler_job.py:182} INFO - Started process (PID=30090) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:42:43,903] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:42:43,904] {logging_mixin.py:104} INFO - [2021-03-22 03:42:43,904] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:42:43,913] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:42:43,927] {logging_mixin.py:104} INFO - [2021-03-22 03:42:43,927] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:42:43,937] {logging_mixin.py:104} INFO - [2021-03-22 03:42:43,937] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:42:43,943] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2021-03-22 03:43:17,517] {scheduler_job.py:182} INFO - Started process (PID=30126) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:43:17,518] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:43:17,519] {logging_mixin.py:104} INFO - [2021-03-22 03:43:17,519] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:43:17,525] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:43:17,536] {logging_mixin.py:104} INFO - [2021-03-22 03:43:17,536] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:43:17,546] {logging_mixin.py:104} INFO - [2021-03-22 03:43:17,545] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:43:17,552] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.039 seconds
+[2021-03-22 03:44:08,613] {scheduler_job.py:182} INFO - Started process (PID=30166) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:44:08,616] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:44:08,617] {logging_mixin.py:104} INFO - [2021-03-22 03:44:08,616] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:44:08,625] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:44:08,638] {logging_mixin.py:104} INFO - [2021-03-22 03:44:08,637] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:44:08,647] {logging_mixin.py:104} INFO - [2021-03-22 03:44:08,647] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:44:08,654] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.044 seconds
+[2021-03-22 03:45:08,849] {scheduler_job.py:182} INFO - Started process (PID=30212) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:45:08,851] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-03-22 03:45:08,852] {logging_mixin.py:104} INFO - [2021-03-22 03:45:08,852] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:45:08,858] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-03-22 03:45:08,872] {logging_mixin.py:104} INFO - [2021-03-22 03:45:08,872] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:45:08,881] {logging_mixin.py:104} INFO - [2021-03-22 03:45:08,881] {dag.py:2273} INFO - Setting next_dagrun for latest_only to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:45:08,889] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.043 seconds

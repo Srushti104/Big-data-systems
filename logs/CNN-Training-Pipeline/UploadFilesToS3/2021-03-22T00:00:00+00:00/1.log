@@ -1,0 +1,23 @@
+[2021-03-22 02:57:48,727] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CNN-Training-Pipeline.UploadFilesToS3 2021-03-22T00:00:00+00:00 [queued]>
+[2021-03-22 02:57:48,737] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CNN-Training-Pipeline.UploadFilesToS3 2021-03-22T00:00:00+00:00 [queued]>
+[2021-03-22 02:57:48,737] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-22 02:57:48,737] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-22 02:57:48,737] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-22 02:57:48,745] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): UploadFilesToS3> on 2021-03-22T00:00:00+00:00
+[2021-03-22 02:57:48,750] {standard_task_runner.py:52} INFO - Started process 27230 to run task
+[2021-03-22 02:57:48,761] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'CNN-Training-Pipeline', 'UploadFilesToS3', '2021-03-22T00:00:00+00:00', '--job-id', '2', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/annotate_dag.py', '--cfg-path', '/var/folders/72/wg5j0dn16kg6cvrgzdsd9q380000gn/T/tmpxaqckfbe', '--error-file', '/var/folders/72/wg5j0dn16kg6cvrgzdsd9q380000gn/T/tmp0ge0vle1']
+[2021-03-22 02:57:48,762] {standard_task_runner.py:77} INFO - Job 2: Subtask UploadFilesToS3
+[2021-03-22 02:57:48,807] {logging_mixin.py:104} INFO - Running <TaskInstance: CNN-Training-Pipeline.UploadFilesToS3 2021-03-22T00:00:00+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2021-03-22 02:57:48,839] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=CNN-Training-Pipeline
+AIRFLOW_CTX_TASK_ID=UploadFilesToS3
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-22T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-03-22T00:00:00+00:00
+[2021-03-22 02:57:51,759] {logging_mixin.py:104} INFO - Files uploaded in S3 bucket!
+[2021-03-22 02:57:51,763] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-22 02:57:51,770] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=CNN-Training-Pipeline, task_id=UploadFilesToS3, execution_date=20210322T000000, start_date=20210322T065748, end_date=20210322T065751
+[2021-03-22 02:57:51,794] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-22 02:57:51,833] {local_task_job.py:146} INFO - Task exited with return code 0

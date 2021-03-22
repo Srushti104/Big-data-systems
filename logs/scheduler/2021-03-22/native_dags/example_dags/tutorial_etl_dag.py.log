@@ -1,0 +1,476 @@
+[2021-03-22 02:54:50,032] {scheduler_job.py:182} INFO - Started process (PID=26814) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:54:50,034] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 02:54:50,035] {logging_mixin.py:104} INFO - [2021-03-22 02:54:50,035] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:54:50,055] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:54:50,070] {logging_mixin.py:104} INFO - [2021-03-22 02:54:50,070] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:54:50,083] {logging_mixin.py:104} INFO - [2021-03-22 02:54:50,082] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 02:54:50,091] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.063 seconds
+[2021-03-22 02:55:23,368] {scheduler_job.py:182} INFO - Started process (PID=26871) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:55:23,374] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 02:55:23,375] {logging_mixin.py:104} INFO - [2021-03-22 02:55:23,375] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:55:23,388] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:55:23,401] {logging_mixin.py:104} INFO - [2021-03-22 02:55:23,400] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:55:23,411] {logging_mixin.py:104} INFO - [2021-03-22 02:55:23,410] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 02:55:23,417] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.053 seconds
+[2021-03-22 02:55:59,431] {scheduler_job.py:182} INFO - Started process (PID=26995) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:55:59,433] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 02:55:59,435] {logging_mixin.py:104} INFO - [2021-03-22 02:55:59,434] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:55:59,452] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:55:59,470] {logging_mixin.py:104} INFO - [2021-03-22 02:55:59,469] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:55:59,484] {logging_mixin.py:104} INFO - [2021-03-22 02:55:59,483] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 02:55:59,493] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.068 seconds
+[2021-03-22 02:56:32,062] {scheduler_job.py:182} INFO - Started process (PID=27071) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:56:32,065] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 02:56:32,067] {logging_mixin.py:104} INFO - [2021-03-22 02:56:32,066] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:56:32,093] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:56:32,116] {logging_mixin.py:104} INFO - [2021-03-22 02:56:32,115] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:56:32,137] {logging_mixin.py:104} INFO - [2021-03-22 02:56:32,136] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 02:56:32,152] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.096 seconds
+[2021-03-22 02:57:06,068] {scheduler_job.py:182} INFO - Started process (PID=27136) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:57:06,071] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 02:57:06,073] {logging_mixin.py:104} INFO - [2021-03-22 02:57:06,072] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:57:06,099] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:57:06,123] {logging_mixin.py:104} INFO - [2021-03-22 02:57:06,122] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:57:06,143] {logging_mixin.py:104} INFO - [2021-03-22 02:57:06,142] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 02:57:06,155] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.095 seconds
+[2021-03-22 02:57:39,456] {scheduler_job.py:182} INFO - Started process (PID=27217) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:57:39,458] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 02:57:39,461] {logging_mixin.py:104} INFO - [2021-03-22 02:57:39,460] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:57:39,487] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:57:39,509] {logging_mixin.py:104} INFO - [2021-03-22 02:57:39,509] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:57:39,528] {logging_mixin.py:104} INFO - [2021-03-22 02:57:39,527] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 02:57:39,545] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.097 seconds
+[2021-03-22 02:58:26,920] {scheduler_job.py:182} INFO - Started process (PID=27301) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:58:26,923] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 02:58:26,924] {logging_mixin.py:104} INFO - [2021-03-22 02:58:26,924] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:58:26,937] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:58:26,952] {logging_mixin.py:104} INFO - [2021-03-22 02:58:26,952] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:58:26,964] {logging_mixin.py:104} INFO - [2021-03-22 02:58:26,964] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 02:58:26,972] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.057 seconds
+[2021-03-22 02:58:59,565] {scheduler_job.py:182} INFO - Started process (PID=27357) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:58:59,566] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 02:58:59,567] {logging_mixin.py:104} INFO - [2021-03-22 02:58:59,567] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:58:59,579] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:58:59,592] {logging_mixin.py:104} INFO - [2021-03-22 02:58:59,591] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:58:59,601] {logging_mixin.py:104} INFO - [2021-03-22 02:58:59,601] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 02:58:59,608] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.047 seconds
+[2021-03-22 02:59:31,665] {scheduler_job.py:182} INFO - Started process (PID=27434) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:59:31,667] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 02:59:31,668] {logging_mixin.py:104} INFO - [2021-03-22 02:59:31,668] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:59:31,681] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 02:59:31,694] {logging_mixin.py:104} INFO - [2021-03-22 02:59:31,694] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:59:31,704] {logging_mixin.py:104} INFO - [2021-03-22 02:59:31,703] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 02:59:31,710] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.049 seconds
+[2021-03-22 03:00:03,864] {scheduler_job.py:182} INFO - Started process (PID=27486) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:00:03,866] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:00:03,867] {logging_mixin.py:104} INFO - [2021-03-22 03:00:03,867] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:00:03,879] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:00:03,891] {logging_mixin.py:104} INFO - [2021-03-22 03:00:03,890] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:00:03,900] {logging_mixin.py:104} INFO - [2021-03-22 03:00:03,900] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:00:03,907] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2021-03-22 03:00:36,065] {scheduler_job.py:182} INFO - Started process (PID=27553) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:00:36,068] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:00:36,069] {logging_mixin.py:104} INFO - [2021-03-22 03:00:36,069] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:00:36,081] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:00:36,093] {logging_mixin.py:104} INFO - [2021-03-22 03:00:36,092] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:00:36,102] {logging_mixin.py:104} INFO - [2021-03-22 03:00:36,102] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:00:36,108] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2021-03-22 03:01:08,173] {scheduler_job.py:182} INFO - Started process (PID=27585) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:01:08,175] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:01:08,176] {logging_mixin.py:104} INFO - [2021-03-22 03:01:08,176] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:01:08,189] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:01:08,201] {logging_mixin.py:104} INFO - [2021-03-22 03:01:08,201] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:01:08,211] {logging_mixin.py:104} INFO - [2021-03-22 03:01:08,210] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:01:08,216] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2021-03-22 03:01:40,276] {scheduler_job.py:182} INFO - Started process (PID=27629) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:01:40,277] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:01:40,278] {logging_mixin.py:104} INFO - [2021-03-22 03:01:40,278] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:01:40,290] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:01:40,302] {logging_mixin.py:104} INFO - [2021-03-22 03:01:40,301] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:01:40,310] {logging_mixin.py:104} INFO - [2021-03-22 03:01:40,310] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:01:40,316] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.043 seconds
+[2021-03-22 03:02:12,290] {scheduler_job.py:182} INFO - Started process (PID=27660) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:02:12,292] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:02:12,293] {logging_mixin.py:104} INFO - [2021-03-22 03:02:12,292] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:02:12,302] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:02:12,311] {logging_mixin.py:104} INFO - [2021-03-22 03:02:12,311] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:02:12,318] {logging_mixin.py:104} INFO - [2021-03-22 03:02:12,318] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:02:12,324] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.036 seconds
+[2021-03-22 03:02:44,411] {scheduler_job.py:182} INFO - Started process (PID=27691) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:02:44,413] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:02:44,414] {logging_mixin.py:104} INFO - [2021-03-22 03:02:44,413] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:02:44,426] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:02:44,439] {logging_mixin.py:104} INFO - [2021-03-22 03:02:44,439] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:02:44,448] {logging_mixin.py:104} INFO - [2021-03-22 03:02:44,448] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:02:44,454] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.047 seconds
+[2021-03-22 03:03:16,526] {scheduler_job.py:182} INFO - Started process (PID=27731) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:03:16,527] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:03:16,529] {logging_mixin.py:104} INFO - [2021-03-22 03:03:16,528] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:03:16,541] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:03:16,554] {logging_mixin.py:104} INFO - [2021-03-22 03:03:16,553] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:03:16,563] {logging_mixin.py:104} INFO - [2021-03-22 03:03:16,563] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:03:16,568] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2021-03-22 03:03:48,647] {scheduler_job.py:182} INFO - Started process (PID=27774) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:03:48,650] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:03:48,652] {logging_mixin.py:104} INFO - [2021-03-22 03:03:48,651] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:03:48,665] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:03:48,678] {logging_mixin.py:104} INFO - [2021-03-22 03:03:48,677] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:03:48,687] {logging_mixin.py:104} INFO - [2021-03-22 03:03:48,687] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:03:48,694] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.051 seconds
+[2021-03-22 03:04:20,746] {scheduler_job.py:182} INFO - Started process (PID=27812) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:04:20,748] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:04:20,749] {logging_mixin.py:104} INFO - [2021-03-22 03:04:20,749] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:04:20,760] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:04:20,772] {logging_mixin.py:104} INFO - [2021-03-22 03:04:20,772] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:04:20,781] {logging_mixin.py:104} INFO - [2021-03-22 03:04:20,781] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:04:20,786] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.043 seconds
+[2021-03-22 03:04:52,867] {scheduler_job.py:182} INFO - Started process (PID=27850) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:04:52,868] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:04:52,870] {logging_mixin.py:104} INFO - [2021-03-22 03:04:52,869] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:04:52,882] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:04:52,894] {logging_mixin.py:104} INFO - [2021-03-22 03:04:52,894] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:04:52,903] {logging_mixin.py:104} INFO - [2021-03-22 03:04:52,903] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:04:52,909] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2021-03-22 03:05:24,996] {scheduler_job.py:182} INFO - Started process (PID=27892) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:05:24,998] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:05:24,999] {logging_mixin.py:104} INFO - [2021-03-22 03:05:24,999] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:05:25,012] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:05:25,026] {logging_mixin.py:104} INFO - [2021-03-22 03:05:25,025] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:05:25,035] {logging_mixin.py:104} INFO - [2021-03-22 03:05:25,035] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:05:25,041] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.049 seconds
+[2021-03-22 03:05:57,106] {scheduler_job.py:182} INFO - Started process (PID=27930) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:05:57,109] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:05:57,110] {logging_mixin.py:104} INFO - [2021-03-22 03:05:57,110] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:05:57,121] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:05:57,133] {logging_mixin.py:104} INFO - [2021-03-22 03:05:57,133] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:05:57,142] {logging_mixin.py:104} INFO - [2021-03-22 03:05:57,141] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:05:57,148] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2021-03-22 03:06:29,335] {scheduler_job.py:182} INFO - Started process (PID=27960) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:06:29,337] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:06:29,338] {logging_mixin.py:104} INFO - [2021-03-22 03:06:29,338] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:06:29,351] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:06:29,363] {logging_mixin.py:104} INFO - [2021-03-22 03:06:29,363] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:06:29,372] {logging_mixin.py:104} INFO - [2021-03-22 03:06:29,372] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:06:29,378] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.047 seconds
+[2021-03-22 03:07:01,572] {scheduler_job.py:182} INFO - Started process (PID=27995) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:07:01,575] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:07:01,576] {logging_mixin.py:104} INFO - [2021-03-22 03:07:01,576] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:07:01,589] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:07:01,603] {logging_mixin.py:104} INFO - [2021-03-22 03:07:01,602] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:07:01,613] {logging_mixin.py:104} INFO - [2021-03-22 03:07:01,612] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:07:01,619] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.050 seconds
+[2021-03-22 03:07:33,802] {scheduler_job.py:182} INFO - Started process (PID=28030) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:07:33,803] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:07:33,805] {logging_mixin.py:104} INFO - [2021-03-22 03:07:33,804] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:07:33,818] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:07:33,830] {logging_mixin.py:104} INFO - [2021-03-22 03:07:33,830] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:07:33,840] {logging_mixin.py:104} INFO - [2021-03-22 03:07:33,839] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:07:33,846] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.048 seconds
+[2021-03-22 03:08:06,028] {scheduler_job.py:182} INFO - Started process (PID=28061) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:08:06,030] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:08:06,031] {logging_mixin.py:104} INFO - [2021-03-22 03:08:06,031] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:08:06,045] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:08:06,059] {logging_mixin.py:104} INFO - [2021-03-22 03:08:06,059] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:08:06,069] {logging_mixin.py:104} INFO - [2021-03-22 03:08:06,069] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:08:06,075] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.051 seconds
+[2021-03-22 03:08:38,288] {scheduler_job.py:182} INFO - Started process (PID=28101) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:08:38,291] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:08:38,292] {logging_mixin.py:104} INFO - [2021-03-22 03:08:38,292] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:08:38,306] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:08:38,318] {logging_mixin.py:104} INFO - [2021-03-22 03:08:38,318] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:08:38,327] {logging_mixin.py:104} INFO - [2021-03-22 03:08:38,327] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:08:38,332] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.047 seconds
+[2021-03-22 03:09:10,546] {scheduler_job.py:182} INFO - Started process (PID=28141) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:09:10,551] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:09:10,552] {logging_mixin.py:104} INFO - [2021-03-22 03:09:10,552] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:09:10,566] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:09:10,578] {logging_mixin.py:104} INFO - [2021-03-22 03:09:10,578] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:09:10,587] {logging_mixin.py:104} INFO - [2021-03-22 03:09:10,587] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:09:10,592] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.050 seconds
+[2021-03-22 03:11:56,221] {scheduler_job.py:182} INFO - Started process (PID=28244) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:11:56,227] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:11:56,232] {logging_mixin.py:104} INFO - [2021-03-22 03:11:56,230] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:11:56,285] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:11:56,334] {logging_mixin.py:104} INFO - [2021-03-22 03:11:56,333] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:11:56,385] {logging_mixin.py:104} INFO - [2021-03-22 03:11:56,384] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:11:56,412] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.206 seconds
+[2021-03-22 03:12:34,850] {scheduler_job.py:182} INFO - Started process (PID=28285) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:12:34,856] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:12:34,861] {logging_mixin.py:104} INFO - [2021-03-22 03:12:34,860] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:12:34,906] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:12:34,953] {logging_mixin.py:104} INFO - [2021-03-22 03:12:34,951] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:12:34,989] {logging_mixin.py:104} INFO - [2021-03-22 03:12:34,988] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:12:35,013] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.174 seconds
+[2021-03-22 03:13:48,469] {scheduler_job.py:182} INFO - Started process (PID=28349) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:13:48,471] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:13:48,472] {logging_mixin.py:104} INFO - [2021-03-22 03:13:48,472] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:13:48,484] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:13:48,496] {logging_mixin.py:104} INFO - [2021-03-22 03:13:48,496] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:13:48,505] {logging_mixin.py:104} INFO - [2021-03-22 03:13:48,505] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:13:48,511] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-03-22 03:14:20,588] {scheduler_job.py:182} INFO - Started process (PID=28402) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:14:20,589] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:14:20,591] {logging_mixin.py:104} INFO - [2021-03-22 03:14:20,590] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:14:20,605] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:14:20,618] {logging_mixin.py:104} INFO - [2021-03-22 03:14:20,617] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:14:20,628] {logging_mixin.py:104} INFO - [2021-03-22 03:14:20,627] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:14:20,634] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.049 seconds
+[2021-03-22 03:14:52,926] {scheduler_job.py:182} INFO - Started process (PID=28447) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:14:52,929] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:14:52,930] {logging_mixin.py:104} INFO - [2021-03-22 03:14:52,930] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:14:52,944] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:14:52,957] {logging_mixin.py:104} INFO - [2021-03-22 03:14:52,957] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:14:52,967] {logging_mixin.py:104} INFO - [2021-03-22 03:14:52,967] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:14:52,974] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.051 seconds
+[2021-03-22 03:15:25,762] {scheduler_job.py:182} INFO - Started process (PID=28485) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:15:25,764] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:15:25,766] {logging_mixin.py:104} INFO - [2021-03-22 03:15:25,765] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:15:25,777] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:15:25,789] {logging_mixin.py:104} INFO - [2021-03-22 03:15:25,789] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:15:25,799] {logging_mixin.py:104} INFO - [2021-03-22 03:15:25,798] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:15:25,804] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2021-03-22 03:16:01,960] {scheduler_job.py:182} INFO - Started process (PID=28526) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:16:01,963] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:16:01,964] {logging_mixin.py:104} INFO - [2021-03-22 03:16:01,964] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:16:01,979] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:16:01,992] {logging_mixin.py:104} INFO - [2021-03-22 03:16:01,991] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:16:02,002] {logging_mixin.py:104} INFO - [2021-03-22 03:16:02,001] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:16:02,008] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.051 seconds
+[2021-03-22 03:16:35,353] {scheduler_job.py:182} INFO - Started process (PID=28574) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:16:35,355] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:16:35,357] {logging_mixin.py:104} INFO - [2021-03-22 03:16:35,356] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:16:35,369] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:16:35,382] {logging_mixin.py:104} INFO - [2021-03-22 03:16:35,381] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:16:35,391] {logging_mixin.py:104} INFO - [2021-03-22 03:16:35,391] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:16:35,397] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.047 seconds
+[2021-03-22 03:17:07,419] {scheduler_job.py:182} INFO - Started process (PID=28615) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:17:07,420] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:17:07,421] {logging_mixin.py:104} INFO - [2021-03-22 03:17:07,421] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:17:07,431] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:17:07,441] {logging_mixin.py:104} INFO - [2021-03-22 03:17:07,441] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:17:07,450] {logging_mixin.py:104} INFO - [2021-03-22 03:17:07,450] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:17:07,455] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.039 seconds
+[2021-03-22 03:17:39,418] {scheduler_job.py:182} INFO - Started process (PID=28648) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:17:39,419] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:17:39,420] {logging_mixin.py:104} INFO - [2021-03-22 03:17:39,420] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:17:39,429] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:17:39,440] {logging_mixin.py:104} INFO - [2021-03-22 03:17:39,439] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:17:39,447] {logging_mixin.py:104} INFO - [2021-03-22 03:17:39,447] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:17:39,452] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.036 seconds
+[2021-03-22 03:18:11,413] {scheduler_job.py:182} INFO - Started process (PID=28678) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:18:11,415] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:18:11,416] {logging_mixin.py:104} INFO - [2021-03-22 03:18:11,415] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:18:11,429] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:18:11,441] {logging_mixin.py:104} INFO - [2021-03-22 03:18:11,440] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:18:11,450] {logging_mixin.py:104} INFO - [2021-03-22 03:18:11,450] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:18:11,455] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.047 seconds
+[2021-03-22 03:18:43,536] {scheduler_job.py:182} INFO - Started process (PID=28716) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:18:43,539] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:18:43,540] {logging_mixin.py:104} INFO - [2021-03-22 03:18:43,539] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:18:43,552] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:18:43,563] {logging_mixin.py:104} INFO - [2021-03-22 03:18:43,562] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:18:43,571] {logging_mixin.py:104} INFO - [2021-03-22 03:18:43,570] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:18:43,578] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2021-03-22 03:19:18,986] {scheduler_job.py:182} INFO - Started process (PID=28765) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:19:18,987] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:19:18,988] {logging_mixin.py:104} INFO - [2021-03-22 03:19:18,988] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:19:19,001] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:19:19,013] {logging_mixin.py:104} INFO - [2021-03-22 03:19:19,012] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:19:19,021] {logging_mixin.py:104} INFO - [2021-03-22 03:19:19,021] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:19:19,027] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2021-03-22 03:19:51,416] {scheduler_job.py:182} INFO - Started process (PID=28796) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:19:51,419] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:19:51,420] {logging_mixin.py:104} INFO - [2021-03-22 03:19:51,420] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:19:51,432] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:19:51,443] {logging_mixin.py:104} INFO - [2021-03-22 03:19:51,442] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:19:51,451] {logging_mixin.py:104} INFO - [2021-03-22 03:19:51,451] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:19:51,457] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-03-22 03:20:23,424] {scheduler_job.py:182} INFO - Started process (PID=28835) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:20:23,426] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:20:23,427] {logging_mixin.py:104} INFO - [2021-03-22 03:20:23,427] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:20:23,439] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:20:23,451] {logging_mixin.py:104} INFO - [2021-03-22 03:20:23,450] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:20:23,460] {logging_mixin.py:104} INFO - [2021-03-22 03:20:23,459] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:20:23,465] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-03-22 03:20:55,731] {scheduler_job.py:182} INFO - Started process (PID=28881) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:20:55,732] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:20:55,734] {logging_mixin.py:104} INFO - [2021-03-22 03:20:55,733] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:20:55,747] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:20:55,759] {logging_mixin.py:104} INFO - [2021-03-22 03:20:55,759] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:20:55,769] {logging_mixin.py:104} INFO - [2021-03-22 03:20:55,769] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:20:55,775] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.048 seconds
+[2021-03-22 03:21:27,822] {scheduler_job.py:182} INFO - Started process (PID=28932) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:21:27,823] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:21:27,824] {logging_mixin.py:104} INFO - [2021-03-22 03:21:27,824] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:21:27,839] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:21:27,851] {logging_mixin.py:104} INFO - [2021-03-22 03:21:27,851] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:21:27,861] {logging_mixin.py:104} INFO - [2021-03-22 03:21:27,861] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:21:27,868] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.051 seconds
+[2021-03-22 03:22:56,349] {scheduler_job.py:182} INFO - Started process (PID=29020) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:22:56,351] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:22:56,353] {logging_mixin.py:104} INFO - [2021-03-22 03:22:56,353] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:22:56,369] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:22:56,381] {logging_mixin.py:104} INFO - [2021-03-22 03:22:56,381] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:22:56,390] {logging_mixin.py:104} INFO - [2021-03-22 03:22:56,389] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:22:56,395] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.049 seconds
+[2021-03-22 03:23:41,139] {scheduler_job.py:182} INFO - Started process (PID=29073) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:23:41,146] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:23:41,148] {logging_mixin.py:104} INFO - [2021-03-22 03:23:41,147] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:23:41,159] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:23:41,171] {logging_mixin.py:104} INFO - [2021-03-22 03:23:41,170] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:23:41,181] {logging_mixin.py:104} INFO - [2021-03-22 03:23:41,180] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:23:41,187] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.051 seconds
+[2021-03-22 03:24:34,476] {scheduler_job.py:182} INFO - Started process (PID=29145) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:24:34,477] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:24:34,478] {logging_mixin.py:104} INFO - [2021-03-22 03:24:34,478] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:24:34,492] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:24:34,503] {logging_mixin.py:104} INFO - [2021-03-22 03:24:34,502] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:24:34,511] {logging_mixin.py:104} INFO - [2021-03-22 03:24:34,511] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:24:34,517] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-03-22 03:28:00,903] {scheduler_job.py:182} INFO - Started process (PID=29239) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:28:00,905] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:28:00,907] {logging_mixin.py:104} INFO - [2021-03-22 03:28:00,906] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:28:00,914] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:28:00,926] {logging_mixin.py:104} INFO - [2021-03-22 03:28:00,926] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:28:00,934] {logging_mixin.py:104} INFO - [2021-03-22 03:28:00,934] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:28:00,940] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-03-22 03:28:32,933] {scheduler_job.py:182} INFO - Started process (PID=29278) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:28:32,935] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:28:32,937] {logging_mixin.py:104} INFO - [2021-03-22 03:28:32,936] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:28:32,947] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:28:32,960] {logging_mixin.py:104} INFO - [2021-03-22 03:28:32,960] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:28:32,969] {logging_mixin.py:104} INFO - [2021-03-22 03:28:32,969] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:28:32,976] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2021-03-22 03:29:05,623] {scheduler_job.py:182} INFO - Started process (PID=29326) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:29:05,625] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:29:05,627] {logging_mixin.py:104} INFO - [2021-03-22 03:29:05,626] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:29:05,636] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:29:05,650] {logging_mixin.py:104} INFO - [2021-03-22 03:29:05,650] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:29:05,659] {logging_mixin.py:104} INFO - [2021-03-22 03:29:05,659] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:29:05,665] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds
+[2021-03-22 03:29:36,006] {scheduler_job.py:182} INFO - Started process (PID=29359) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:29:36,008] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:29:36,009] {logging_mixin.py:104} INFO - [2021-03-22 03:29:36,009] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:29:36,019] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:29:36,034] {logging_mixin.py:104} INFO - [2021-03-22 03:29:36,034] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:29:36,043] {logging_mixin.py:104} INFO - [2021-03-22 03:29:36,043] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:29:36,049] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2021-03-22 03:30:07,546] {scheduler_job.py:182} INFO - Started process (PID=29399) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:30:07,548] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:30:07,549] {logging_mixin.py:104} INFO - [2021-03-22 03:30:07,549] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:30:07,556] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:30:07,569] {logging_mixin.py:104} INFO - [2021-03-22 03:30:07,569] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:30:07,579] {logging_mixin.py:104} INFO - [2021-03-22 03:30:07,579] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:30:07,586] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-03-22 03:30:40,221] {scheduler_job.py:182} INFO - Started process (PID=29441) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:30:40,223] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:30:40,225] {logging_mixin.py:104} INFO - [2021-03-22 03:30:40,224] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:30:40,234] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:30:40,248] {logging_mixin.py:104} INFO - [2021-03-22 03:30:40,247] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:30:40,258] {logging_mixin.py:104} INFO - [2021-03-22 03:30:40,257] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:30:40,264] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.046 seconds
+[2021-03-22 03:31:10,600] {scheduler_job.py:182} INFO - Started process (PID=29473) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:31:10,603] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:31:10,604] {logging_mixin.py:104} INFO - [2021-03-22 03:31:10,604] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:31:10,615] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:31:10,627] {logging_mixin.py:104} INFO - [2021-03-22 03:31:10,627] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:31:10,636] {logging_mixin.py:104} INFO - [2021-03-22 03:31:10,636] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:31:10,643] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.048 seconds
+[2021-03-22 03:31:42,592] {scheduler_job.py:182} INFO - Started process (PID=29504) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:31:42,593] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:31:42,594] {logging_mixin.py:104} INFO - [2021-03-22 03:31:42,594] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:31:42,603] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:31:42,617] {logging_mixin.py:104} INFO - [2021-03-22 03:31:42,616] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:31:42,627] {logging_mixin.py:104} INFO - [2021-03-22 03:31:42,627] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:31:42,635] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.047 seconds
+[2021-03-22 03:32:14,799] {scheduler_job.py:182} INFO - Started process (PID=29538) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:32:14,801] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:32:14,802] {logging_mixin.py:104} INFO - [2021-03-22 03:32:14,802] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:32:14,811] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:32:14,823] {logging_mixin.py:104} INFO - [2021-03-22 03:32:14,822] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:32:14,831] {logging_mixin.py:104} INFO - [2021-03-22 03:32:14,831] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:32:14,836] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.041 seconds
+[2021-03-22 03:32:46,896] {scheduler_job.py:182} INFO - Started process (PID=29568) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:32:46,898] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:32:46,899] {logging_mixin.py:104} INFO - [2021-03-22 03:32:46,899] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:32:46,906] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:32:46,920] {logging_mixin.py:104} INFO - [2021-03-22 03:32:46,919] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:32:46,928] {logging_mixin.py:104} INFO - [2021-03-22 03:32:46,928] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:32:46,935] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.042 seconds
+[2021-03-22 03:35:42,280] {scheduler_job.py:182} INFO - Started process (PID=29726) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:35:42,283] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:35:42,284] {logging_mixin.py:104} INFO - [2021-03-22 03:35:42,284] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:35:42,299] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:35:42,313] {logging_mixin.py:104} INFO - [2021-03-22 03:35:42,312] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:35:42,323] {logging_mixin.py:104} INFO - [2021-03-22 03:35:42,322] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:35:42,330] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.053 seconds
+[2021-03-22 03:39:33,181] {scheduler_job.py:182} INFO - Started process (PID=29855) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:39:33,184] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:39:33,185] {logging_mixin.py:104} INFO - [2021-03-22 03:39:33,185] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:39:33,192] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:39:33,202] {logging_mixin.py:104} INFO - [2021-03-22 03:39:33,202] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:39:33,210] {logging_mixin.py:104} INFO - [2021-03-22 03:39:33,210] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:39:33,216] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds
+[2021-03-22 03:40:04,080] {scheduler_job.py:182} INFO - Started process (PID=29891) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:40:04,082] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:40:04,083] {logging_mixin.py:104} INFO - [2021-03-22 03:40:04,082] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:40:04,091] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:40:04,103] {logging_mixin.py:104} INFO - [2021-03-22 03:40:04,102] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:40:04,111] {logging_mixin.py:104} INFO - [2021-03-22 03:40:04,111] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:40:04,117] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.039 seconds
+[2021-03-22 03:40:34,853] {scheduler_job.py:182} INFO - Started process (PID=29929) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:40:34,854] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:40:34,855] {logging_mixin.py:104} INFO - [2021-03-22 03:40:34,855] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:40:34,861] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:40:34,870] {logging_mixin.py:104} INFO - [2021-03-22 03:40:34,870] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:40:34,876] {logging_mixin.py:104} INFO - [2021-03-22 03:40:34,876] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:40:34,881] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.030 seconds
+[2021-03-22 03:41:06,504] {scheduler_job.py:182} INFO - Started process (PID=29963) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:41:06,506] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:41:06,507] {logging_mixin.py:104} INFO - [2021-03-22 03:41:06,507] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:41:06,512] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:41:06,522] {logging_mixin.py:104} INFO - [2021-03-22 03:41:06,521] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:41:06,529] {logging_mixin.py:104} INFO - [2021-03-22 03:41:06,529] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:41:06,534] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.032 seconds
+[2021-03-22 03:41:39,303] {scheduler_job.py:182} INFO - Started process (PID=30008) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:41:39,305] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:41:39,306] {logging_mixin.py:104} INFO - [2021-03-22 03:41:39,306] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:41:39,315] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:41:39,328] {logging_mixin.py:104} INFO - [2021-03-22 03:41:39,327] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:41:39,337] {logging_mixin.py:104} INFO - [2021-03-22 03:41:39,337] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:41:39,344] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.044 seconds
+[2021-03-22 03:42:11,897] {scheduler_job.py:182} INFO - Started process (PID=30045) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:42:11,898] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:42:11,899] {logging_mixin.py:104} INFO - [2021-03-22 03:42:11,899] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:42:11,907] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:42:11,917] {logging_mixin.py:104} INFO - [2021-03-22 03:42:11,917] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:42:11,925] {logging_mixin.py:104} INFO - [2021-03-22 03:42:11,925] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:42:11,931] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds
+[2021-03-22 03:42:44,506] {scheduler_job.py:182} INFO - Started process (PID=30091) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:42:44,508] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:42:44,509] {logging_mixin.py:104} INFO - [2021-03-22 03:42:44,509] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:42:44,517] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:42:44,530] {logging_mixin.py:104} INFO - [2021-03-22 03:42:44,529] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:42:44,539] {logging_mixin.py:104} INFO - [2021-03-22 03:42:44,539] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:42:44,545] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.043 seconds
+[2021-03-22 03:43:18,666] {scheduler_job.py:182} INFO - Started process (PID=30127) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:43:18,668] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:43:18,669] {logging_mixin.py:104} INFO - [2021-03-22 03:43:18,668] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:43:18,676] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:43:18,686] {logging_mixin.py:104} INFO - [2021-03-22 03:43:18,686] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:43:18,694] {logging_mixin.py:104} INFO - [2021-03-22 03:43:18,694] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:43:18,700] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds
+[2021-03-22 03:44:09,752] {scheduler_job.py:182} INFO - Started process (PID=30167) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:44:09,754] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:44:09,756] {logging_mixin.py:104} INFO - [2021-03-22 03:44:09,755] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:44:09,765] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:44:09,779] {logging_mixin.py:104} INFO - [2021-03-22 03:44:09,778] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:44:09,788] {logging_mixin.py:104} INFO - [2021-03-22 03:44:09,788] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:44:09,795] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.047 seconds
+[2021-03-22 03:45:09,984] {scheduler_job.py:182} INFO - Started process (PID=30213) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:45:09,986] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2021-03-22 03:45:09,988] {logging_mixin.py:104} INFO - [2021-03-22 03:45:09,987] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:45:09,997] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2021-03-22 03:45:10,009] {logging_mixin.py:104} INFO - [2021-03-22 03:45:10,009] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:45:10,019] {logging_mixin.py:104} INFO - [2021-03-22 03:45:10,019] {dag.py:2273} INFO - Setting next_dagrun for tutorial_etl_dag to None
+[2021-03-22 03:45:10,026] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.045 seconds

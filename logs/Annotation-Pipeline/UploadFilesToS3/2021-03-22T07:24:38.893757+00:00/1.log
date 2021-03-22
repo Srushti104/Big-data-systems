@@ -1,0 +1,23 @@
+[2021-03-22 03:24:42,688] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: Annotation-Pipeline.UploadFilesToS3 2021-03-22T07:24:38.893757+00:00 [queued]>
+[2021-03-22 03:24:42,694] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: Annotation-Pipeline.UploadFilesToS3 2021-03-22T07:24:38.893757+00:00 [queued]>
+[2021-03-22 03:24:42,694] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-22 03:24:42,694] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-22 03:24:42,694] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-22 03:24:42,699] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): UploadFilesToS3> on 2021-03-22T07:24:38.893757+00:00
+[2021-03-22 03:24:42,701] {standard_task_runner.py:52} INFO - Started process 29157 to run task
+[2021-03-22 03:24:42,710] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'Annotation-Pipeline', 'UploadFilesToS3', '2021-03-22T07:24:38.893757+00:00', '--job-id', '12', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/annotate_dag.py', '--cfg-path', '/var/folders/72/wg5j0dn16kg6cvrgzdsd9q380000gn/T/tmp1huxb5f4', '--error-file', '/var/folders/72/wg5j0dn16kg6cvrgzdsd9q380000gn/T/tmp0qddnqim']
+[2021-03-22 03:24:42,711] {standard_task_runner.py:77} INFO - Job 12: Subtask UploadFilesToS3
+[2021-03-22 03:24:42,737] {logging_mixin.py:104} INFO - Running <TaskInstance: Annotation-Pipeline.UploadFilesToS3 2021-03-22T07:24:38.893757+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2021-03-22 03:24:42,756] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=Annotation-Pipeline
+AIRFLOW_CTX_TASK_ID=UploadFilesToS3
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-22T07:24:38.893757+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-22T07:24:38.893757+00:00
+[2021-03-22 03:24:47,831] {logging_mixin.py:104} INFO - Files uploaded in S3 bucket!
+[2021-03-22 03:24:47,834] {python.py:118} INFO - Done. Returned value was: None
+[2021-03-22 03:24:47,840] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=Annotation-Pipeline, task_id=UploadFilesToS3, execution_date=20210322T072438, start_date=20210322T072442, end_date=20210322T072447
+[2021-03-22 03:24:47,855] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-03-22 03:24:47,896] {local_task_job.py:146} INFO - Task exited with return code 0

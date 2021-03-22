@@ -1,0 +1,340 @@
+Agenus Inc. (AGEN) CEO Garo Armen on Q4 2020 Results - Earnings Call Transcript
+Mar. 15, 2021 1:37 PM ETAgenus Inc. (AGEN)5 Comments
+Q4: 2021-03-15 Earnings Summary
+EPS of -$0.20 beats by $0.02 | Revenue of $31.27M (-9.38% Y/Y) beats by $15.03M
+Agenus Inc. (NASDAQ:AGEN) Q4 2020 Earnings Conference Call March 15, 2020 8:30 AM ET
+
+Company Participants
+
+Jan Medina - Director of Investor Relations
+
+Garo Armen - Chairman & Chief Executive Officer
+
+Jennifer Buell - President & Chief Operating Officer
+
+Andy Hurley - Chief Commercial Officer
+
+Christine Klaskin - Vice President of Finance
+
+Steven O'Day - Chief Medical Officer
+
+Conference Call Participants
+
+Mayank Mamtani - B. Riley Securities
+
+Matt Phipps - William Blair
+
+Operator
+
+Good morning, ladies and gentlemen. Thank you for standing by and welcome to the Agenus Fourth Quarter 2020 Conference Call and Webcast. At this time, all participants are in a listen-only mode. [Operator Instructions] After today’s presentation, there will be an opportunity to ask questions. [Operator Instructions] Please note that this event is being recorded and may be used in future Agenus promotional material.
+
+I would now like to turn the conference over to Jan Medina, Director of Investor Relations. Jan, please go, ahead.
+
+Jan Medina
+
+Thanks, Liz, and thank you all for joining us today. Today's call is being webcast and we will be available on our website for replay. Before we start, I just want to quickly introduce myself. I know, I've spoken with a number of you already over the last month or so, but I started here at Agenus back in February. I would help lead the Investor Relations efforts. Certainly, it's a very promising time for the company. I'm looking forward to being part of the conversations we're having with the investment community.
+
+With that said, I just want to remind you that this call will include forward-looking statements, including statements regarding our clinical development, regulatory and commercial plans and time lines, as well as time lines for data release and partnership opportunities. These statements are subject to risks and uncertainties and we refer you to our SEC filings for more details on these risks. As a reminder, this call is being recorded for audio broadcast.
+
+Joining me today are Dr. Garo Armen, Chairman and Chief Executive Officer; Dr. Jennifer Buell, President and Chief Operating Officer; Andy Hurley, Chief Commercial Officer; and Christine Klaskin, Vice President of Finance.
+
+Also available during the question-and-answer session will be Dr. Steven O'Day our Chief Medical Officer. Dr. O'Day joined Agenus earlier this year as well, along with a number of other key hires and brings clinical development expertise to Agenus at this pivotal time.
+
+Now, I'll turn the call over to Garo to highlight our key accomplishments and our goals for 2021. Garo?
+
+Garo Armen
+
+Good morning. Thank you very much. In 2020, our pipeline continued to grow with an arsenal of agents designed to activate the immune system across different types of patients and cancers on one hand, while also addressing immunotherapy resistance pathways across many tumor types and the other.
+
+We expect these advances will contribute to the I-O field on multiple fronts. For instance, we are advancing AGEN1181's clinical development and generating responses in patients who are unlikely to otherwise respond to immunotherapy.
+
+We expect to advance AGEN1181 to registrational studies this year. We've also made substantial advances with our TIGIT programs, demonstrating the unique attributes of our bispecific antibody, which is IND-ready.
+
+One of our notable achievements during 2020 was the completion of patient enrollment and data analysis of our two most clinically advanced agents, balstilimab, which is our PD-1 antibody; and zalifrelimab, which is our first-generation CTLA-4 antibody. We call these bal and zal for short.
+
+We are progressing with the completion of our BLA filing for bal and will proceed with our strategy regarding the potential bal plus zal filing, once bal's BLA filing has been accepted. It is our aim to use balstilimab as the foundation for several of our pipeline agents as well as offer our bal for use with therapies from other companies, which require combination with a PD-1 blocker. Our objective is to rapidly enable synergistic combinations to advance the field.
+
+Synergistic combinations for our agents include cell therapies through our subsidiary AgenTus. While we are continuing our allogeneic intelligent iNKT cell therapy in patients with COVID-19, we will be advancing these intelligent cells into cancer trials with combinations around mid-year.
+
+Separately, at a time when the world’s need for higher quantities of vaccine production grows, we are advancing our plans for producing high quantities of QS-21 adjuvant from a renewable source.
+
+QS-21 is an antigen-sparing adjuvant. What that means is that a vaccine formulation with QS-21 may require as little as 100-fold less antigen to achieve the same immune response.
+
+If this proves to be the case for some or most COVID-19 vaccines, you can appreciate the potential implications of QS-21 to be able to significantly increase global COVID-19 manufacturing capacity -- that is vaccine manufacturing capacity without the need to add additional antigen production capabilities which is one of the major bottlenecks of today.
+
+Several of these advancements I touched upon represent important milestones. We expect some of those to result in cash accretive corporate transactions starting in the second quarter of this year.
+
+In 2020, we built on Agenus’ foundation of innovation and integration. These are -- that is innovation and integration, are the key pillars of our business model. While COVID has posed challenges for many, including Agenus, we were early to anticipate and adjust to life in the very early stages of the pandemic.
+
+We've also rapidly adjusted to address new needs such as iNKT cell therapy in patients with more severe infections of COVID-19 who are dependent on life support. We published early data from the trial and expect to share more as our trial matures. Our teams are also preparing for the scenario of a rapid or emergency use path for iNKT cell therapy should the trial data look encouraging.
+
+But with all these adjustments, our whole mission is unchanged. We will continue to innovate and advance our programs with speed. This requires integrated capabilities to reduce our dependence on outsiders on one hand, but also very importantly retaining and continuing to acquire high talent.
+
+High talent density is key to our ability to deliver innovation. Recently, we welcomed stunning talent into our leadership team, and I will start with Dr. Steven O'Day, our Chief Medical Officer; and our Chief Commercial Officer, Andy Hurley. These two professionals are among some of the most respected names in the field.
+
+Dr. O'Day is a pioneer in immuno-oncology, and as a clinical investigator he has been an important contributor to the success we've seen so far with AGEN1181. As we advance in the discovery and development of high-performing immune therapies and particularly combinations, we need to have formidable players like Dr. O'Day on our team.
+
+Dr. O'Day played a key role in the successful development of Yervoy and Opdivo CTLA-4 and PD-1 agents as well as several other cancer therapies. He has the knowledge and expertise to build on our work with 1181 cemented in place in the IO landscape and fully maximize the compound's potential as a blockbuster therapy for cancer patients.
+
+We have big plans for AGEN1181, and we'll pursue accelerated pathways to advance the molecule to the market. Andy Hurley will be a key driver of our aspirations to do this. In his role as Chief Commercial Officer, Andy joined us after three decades of building teams and commercializing product in biopharma. With the balstilimab BLA filing expected in the first half of this year, Andy will help establish Agenus as a commercial company with balstilimab as a key actor in our plans for our ambitious combination strategies.
+
+Given our mission to develop impactful combinations for patients, Agenus requires clinical scientists with extensive and established expertise. Dr. Joe Grossman joined our team as Head of Exploratory Medicine from Harvard and Beth Israel. His specialty includes colorectal and pancreatic cancers. Dr. Grossman will drive our translational medicine strategy, which is a key aspect of Agenus' clinical development strategy.
+
+Dr. Jason Paragas, another recent addition to our team is an expert in data analysis and artificial intelligence. He formerly served with DARPA, working on threat detection for the U.S. government and associated defense departments. Jason joined us as Vice President of Strategic Initiatives. Jason will also be working with our team to industrialize and broaden the applications of our VISION response prediction technology. Next, Adam Krauss joined as Chief Legal and Compliance Officer to ensure our commercial readiness, and Marc Wiles joined as Vice President of Regulatory Affairs.
+
+It is a transformative period for Agenus and the value each of these team members bring will help drive a new level of success for the company. We understand the ambitious scale of our mission as we seek to disrupt an industry that has been challenged with disruptive demands. We believe marshalling the best people and resources is paramount to achieving success.
+
+I would now like to turn the call over to our President and Chief Operating Officer, Dr. Jennifer Buell.
+
+Jennifer Buell
+
+Thank you Garo. As Garo indicated, our R&D engine has been enormously productive with numerous discoveries, IND filings, and product candidates advancing in late-stage trials. As a result, 2020 was a period of significant data flow. We presented data updates on our programs at all of the leading oncology conferences last year. At SITC, AACR and ASCO, we presented data on clinical responses with 1181, as well as the differentiation of our five lead molecules. And finally, we also presented data on our response predictive -- prediction platform VISION.
+
+With our TIGIT bispecific, AGEN1777, we presented data revealing the potential to broaden the activity beyond first generation of anti-TIGIT antibodies. We've engineered an important region of the molecule the Fc region to improve responses, expand the population of responders, and generate monotherapy activity, which is not currently seen with TIGIT monospecific antibodies available today.
+
+More recently at ESMO just a few months ago, we presented preliminary data from the balstilimab monotherapy and bal/zal combination studies, showing breakthrough activity in PD-L1 positive and PD-L1 negative cervical cancer patients. As we look into 2021 including AACR next month, we will continue our aggressive approach to data presentation, providing clinical updates on our lead compounds including AGEN1181.
+
+On our BLA filings, our rolling BLA filing for balstilimab monotherapy in second-line cervical cancer is underway. Initiated in September, we expect to complete the filing during the first half of this year. And as we disclosed in September, this timeline accommodates two additional late confirmed responders seen in our pivotal trial. We'll provide the FDA with six months of follow-up on those patients, as well as 12-month median follow-up on all trial participants. We believe balstilimab's approval would represent a meaningful new option for the cervical cancer community.
+
+We note that pembrolizumab, KEYTRUDA is approved in the PD-L1 positive population only and shows no clinical responses in PD-L1 negative tumors. And in the largest IO clinical trial in this population to date in over 160 patients treated with balstilimab alone, we reported response rates of 19% in PD-L1 positive patients and 10% in PD-L1 negative patients. This compares favorably to KEYTRUDA, which has 14% responses in PD-L1 positive tumors and no responses in PD-L1 negative tumors.
+
+In addition, the durability of response in our pivotal trial was impressive, lasting approximately 15.4 months. This is not observed with chemotherapeutic options currently available for these patients.
+
+The duration of response is a hallmark of effective IO agents and ours far exceeds the limited duration of response, observed with chemotherapy for these patients. We believe, these clinical data, reveal emerging differential features of balstilimab.
+
+We plan to publish the full clinical data set of balstilimab, in refractory cervical cancer in a high-profile journal. Additionally, we will publish pre-clinical data from our vision platform, that further elucidates, bal's superior, tumor cell killing capabilities, compared to the leading commercially available PD-1 antibodies.
+
+Regarding our plans for the balstilimab plus zalifrelimab BLA filing, we've been in ongoing discussions with the FDA. The trial has completed enrollment. The patients have concluded the median of 12 months of follow-up. And we're collecting data, on late responses, in this trial as well.
+
+The data continues to improve as it matures, with response rates and most importantly, duration of those responses. Agenus will continue to keep the agency informed of additional data advancements. And as Garo just discussed, we plan to disclose the timing and strategy regarding bal, and zal, once bal's FDA filing has been accepted.
+
+Our first approval with balstilimab would mark a strategic milestone for Agenus. Having our own approved PD-1 inhibitor would allow us the freedom and flexibility, for the development and commercial pricing of our combination regimens, with our own IO compounds, including CTLA-4, TIGIT and novel molecules targeting myeloid pathways and beyond.
+
+In addition, we see a significant opportunity with our PD-1, in combination with potential partnered programs. Regarding 1181, to the emerging clinical profile of 1181, again this is also an engineered antibody.
+
+We've engineered the Fc region of the antibody, to improve its features. We designed 1181, for superior efficacy with improved T cell priming and the capability to deplete, suppressive intra-tumoral regulatory T cells.
+
+We've also designed the molecule for better safety, avoiding complement-mediated toxicities and to broaden the patient population, who can benefit from CTLA-4. That's because of improved binding to CD16. And we're seeing activity in patients, with both the low affinity and the high-affinity CD16 allele.
+
+We believe AGEN1181 continues to show nothing less than extraordinary promise, as a differentiated anti-CTLA-4. This potential is upheld, in the new data Agenus announced early in February that describes new, confirmed responses.
+
+As of February, a total of six confirmed responses with 1181 monotherapy and 1181 plus bal have been recorded -- reported in colon, ovarian and endometrial cancers, including two complete responses.
+
+Further, we've seen responses in cold tumors. These are tumors that have low tumor mutational burden, microsatellite stable disease and PD-L1 negative tumors as well as BRCA negative tumors and tumors with a low affinity CD16 allele.
+
+This is what makes 1181 unique. These are tumors where current IO therapy is largely ineffective. In addition, no debilitating neuroendocrine toxicities or liver toxicities have been observed, unlike what we see in patients treated with Yervoy, experiencing 10% to 15% toxicities.
+
+Looking ahead with 1181, currently in Phase 2 development, our goal is a fast-to-market strategy, targeting indications that currently have few effective treatments. And in patients who have failed prior standard therapies.
+
+Trials are continuing with 1181 alone, and in combination with balstilimab, with expanded cohorts, in microsatellite stable colorectal cancer, microsatellite stable endometrial cancer, non-small cell lung cancer and melanoma.
+
+With continued positive clinical data a registrational program expected to begin by the end of this year and it's with great excitement that we brought on board Dr. Steven O'Day, an expert in delivering effective IO agents to patients with cancer.
+
+AGEN1181 alone and as the backbone of high-impact combination could be a foundational therapy, if approved, driving the next wave of IO treatments. Our initial registrational plan will focus on indications for rapid launch through the accelerated approval pathway as a monotherapy or on top of our PD-1 or any approved PD-1.
+
+Based on our preclinical and clinical data to-date, our ambitions with 1181 plus PD-1 are to be the dominant IO combination with the potential to overtake Yervoy and Opdivo or chemo and KEYTRUDA as the market leader. We're actively seeking the right partner to execute this strategy and dominate in this sector.
+
+At the upcoming AACR conference in April we'll present two abstracts featuring AGEN1181 alone and in combination with other IO mechanisms such as our anti-PD-1 therapy, balstilimab. We'll showcase how the unique design of this molecule is expanding the benefit of this important target to drive responses in all polymorphic variants and the ability to provide clinical benefit in previously unresponsive tumors.
+
+We'll also show the benefit of adding 1181 to other checkpoint inhibitors such as anti-PD-1, anti-TIGIT, iNKT-activating therapy and adoptive T-cell therapy. Novel IO combinations will drive the next wave of IO therapy and Agenus believe that 1181 alone and in combination with other mechanisms is the foundation of this next wave.
+
+Let's turn now for a moment to work on TIGIT. Not unlike CTLA-4 and PD-1, TIGIT is one of the key components in our immune system, it's found on T cells and by suppressing unnecessary activity like the activation of T cells, it helps keep the immune system properly balanced. Usually TIGIT is invaluable to good health, but in cancer patients TIGIT's suppression of the immune system allows tumors to grow.
+
+An important finding is that treatment with PD-1 actually upregulates TIGIT consequently curbing the activity of TIGIT often using antibodies has become an area of intense R&D efforts and anti-TIGIT therapy is set to be another breakthrough in IO. Agenus has two anti-TIGIT antibodies. This is AGEN1327 a monospecific antibody that's also engineered like AGEN1181 to improve performance.
+
+And AGEN1777, a bispecific antibody that includes a TIGIT arm that has also been engineered for Fc enhancement. As a potentially best-in-class agents we're prioritizing AGEN1777 for advancement into the clinic and expect to begin human studies this year. What makes AGEN1777 potential best-in-class? Similar to 1181, we've designed the front end of 1777 for strong receptor binding in this case to TIGIT.
+
+We've also engineered the Fc back-end for improved T cell and NK cell activation in order to more effectively unleash the immune system. We've gone one step further with 1777 by engineering it as a bispecific antibody, co-targeting a second tumor escape mechanism to create a double blockade against cancer escape. This dual blockade is designed to address a potential alternate escape mechanism to TIGIT therapy.
+
+Overall, we believe the combination of our Fc enhanced and co-targeting with our AGEN1777 bispecific gives it best-in-class potential. And as Garo mentioned, potentially provides strong efficacy not just in combination with other IO mechanisms, but also uniquely as a single agent. Some of this has already been demonstrated in preclinical tumor models and we eagerly anticipate clinical trials initiation this year.
+
+Our TIGIT strategy was also recently featured in our first episode of Agenus insights. This is our new R&D mini-series that provides insight into impactful areas of research and Agenus' contributions to immuno-oncology. We encourage you to watch the replay and stay tuned for more episodes in the coming months.
+
+Through our AgenTus subsidiary, we've developed a platform to produce invariant natural killer T cells or iNKTs. iNKTs are type of self-directed, intelligent immune cells, capable of producing responses from both the innate and the adaptive arms of the immune system.
+
+iNKTs can combat multiple disease threats in an autonomous manner. In inflammatory disorders, iNKTs has helped to restore the balance of the immune system, correcting conditions like the cytokine storm that we see in patients with severe cases of COVID-19.
+
+Earlier this year, we announced preliminary Phase 1 data from our COVID trial currently ongoing. Dose escalation for an initiation into a Phase 2 trial is on track for the first half of this year and data readouts are expected in the fourth quarter.
+
+Now in cancer, iNKTs homing on tissues and direct the killing of tumor cells. They have an invariant TCR receptor. It doesn't need to be engineered to them. This will counter immune suppressor cells and block tumor escape mechanisms.
+
+You can imagine the benefit of this homing feature we observe in lung tissue in the infectious disease setting to be very impactful in diseases like lung cancer. And as the cell therapy iNKTs has the potential to be used on their own, and in combination with additional anti-cancer therapies such as those already in our pipeline.
+
+AgenTus' first iNKT Phase 1 trial in cancer is anticipated to start dosing during the first half of this year, and we're targeting human studies to be initiated in solid tumors soon thereafter.
+
+And lastly, while we often discuss our IO pipeline compounds in isolation, there's clearly tremendous value in the combination potential for the cancer pathways we're targeting.
+
+PD-1, CTLA-4, TIGIT, iNKT therapy and other promising mechanisms and programs we have not yet discussed on this call. Stay tuned for more on these exciting developments in the balance of this year.
+
+I'll now turn the call over to our Chief Commercial Officer, Andy Hurley to elaborate on our excitement regarding AGEN1181.
+
+Andy Hurley
+
+Thank you, Jen. My decision to join the Agenus team was driven by the excitement we all feel and the opportunities we have here under one roof. I'm also driven by our near-term prospects, which I believe could create substantial value.
+
+I'm particularly excited by how we can take our PD-1 balstilimab, and potentially grow it into a major franchise with a superior combination potential with AGEN1181. I believe 1181 will significantly expand the commercial opportunity of our anti-PD-1 with the potential to outperform current IO combinations.
+
+The clinical results to date have been very exciting, both as a monotherapy and in combinations across a wide array of tumor types. Specifically, as Jen said, cold tumors, such as microsatellite stable tumors, represent a significant portion within colorectal and endometrial cancers.
+
+And traditional PD-1 anti-CTLA-4 inhibitor therapies have not been as effective here. These are tumors, which don't generally respond to cancer immunotherapy, and yet we are seeing responses with AGEN1181.
+
+Practically and conceptually, we're not limited to any tumor type if the current response trends we are seeing continue. It's really a function of picky patients certifications, which can get us to the finish line quickly and leverage this to expand on our broader opportunities.
+
+Having our own PD-1 to pair with our superior CTLA-4 and then having our own unique CTLA-4, which can add significant value to our PD-1, are advantages which are very exciting for us to pursue.
+
+And then, there's the rest of our pipeline, including our intelligent, cell therapy program, our vaccines and exciting pipeline of antibodies with compelling early data. I feel the privilege of working with an exceptional team of people across all disciplines.
+
+I have worked at highly successful companies, but what we have here is very unique and exciting. I hope to interact with you more frequently, and do a deeper dive on our commercial strategy to create something exceptional.
+
+I appreciate the opportunity to express my plans. And I'll now turn the call over to Christine Klaskin to review our financials.
+
+Christine Klaskin
+
+Thank you, Andy. For the year ended December 31, 2020, we recognized revenue of $88 million, which includes revenue related to the upfront license fee from our transaction with Betta, in addition to noncash royalties and milestones earned. For the year ended 2019, we recorded revenue of $150 million, which included revenue related to the upfront license fee from our transaction with Gilead and milestones earned in addition to non-cash royalties earned.
+
+Net loss for the fourth quarter was $38 million or $0.20 per share compared to a net loss for the same period in 2019 of $31 million, or $0.22 per share. Net loss for 2020 was $183 million, or $1.05 per share compared to a net loss for 2019 of $112 million or $0.80 per share. We ended 2020 with a cash balance of $100 million as compared to $62 million on December 31, 2019.
+
+I will now turn the call back to Garo for concluding remarks.
+
+Garo Armen
+
+In closing, the progress Agenus has made in the past year has set the stage for an exciting 2021. We expect to achieve value driving corporate events, clinical and preclinical pipeline events starting in the second quarter of this year, and they will include completing our BLA filing for balstilimab monotherapy in second-line cervical cancer; preparing for commercial launch in the second line cervical cancer market; defining our BLA filing strategy for bal/zal; clinical and preclinical data presentations at conferences, including or bal/zal 1181, TIGIT, iNKT cell therapy and other Agenus and partnered programs.
+
+Initiating clinical studies with our TIGIT program with the prioritization of AGEN1777; continuing with our Phase 2 development for AGEN1181 plus balstilimab with the goal of transitioning into registrational studies; continuing enrollment in the ongoing Phase 1 studies of iNKTs in COVID and in cancer; expanding Agenus' West capacity for internal and partnered manufacturing support; producing a sustainable supply of QS-21 for partnered programs; and lastly delivering cash accretive corporate transactions starting in the second quarter of this year.
+
+Thank you very much again for your interest. And now we're ready to open up for questions with myself. Dr. Buell, Andy Hurley, and Dr. Steven O'Day present. John? Maybe it's the – our –
+
+Jan Medina
+
+Liz, if you could get the Q&A going please.
+
+Question-and-Answer Session
+
+Operator
+
+[Operator Instructions] Our first question comes from the line of Biren Amin with Jefferies.
+
+Unidentified Analyst
+
+Yeah. Hey, guys. This is Jeet on for Biren. Thanks for taking my questions. Congratulations on the progress to date. I'm looking forward to updates this year. Could you just maybe walk me through the timing perhaps between the bal BLA filing, and when you actually anticipate submitting the combo and perhaps when ultimate approval is perhaps expected there? And then second, just if you could talk through perhaps some of your go-to-market efforts to this point and any goals for the remainder of this year, and if there's any color on discussions with payers or thoughts on pricing that would be great. Thank you.
+
+Garo Armen
+
+Thank you, Biren. Let me start out addressing the bal/zal question. As you know and as we sort of alluded to, as data matures, looking at our past performance with data disclosures, we're delighted to see that the data is getting better. And I think given the size of our company and given the enormous demands on us for regulatory undertakings, we’ve made a decision several months ago which we articulated to the investment community that our first priority is to file our BLA with balstilimab. And once that's done, we will provide additional guidance for our timelines associated with our bal/zal filing. And of course, that will include disclosure of more mature data which we're in the process of addressing both from a public disclosure perspective as well as disclosing it to the agency.
+
+Unidentified Analyst
+
+Got it.
+
+Garo Armen
+
+As to go-to-market strategy, I'm assuming you're talking about go-to-product market strategy. And with that, I think, Andy, are you prepared to give us some initial remarks?
+
+Andy Hurley
+
+Sure. Yes, it's a good question. I've been here in a limited amount of time, but I can tell you that the launch planning is underway. We're really evaluating how we're going to really address the unmet needs in the marketplace and position this product in a way that addresses those unmet needs both at a physician level as well as on a patient level.
+
+At the patient level, you bring up the question on pricing and access, that’s going to be one of our absolute paramount priorities is just to ensure unencumbered access to balstilimab, as we look at the landscape that that's going to follow. We look at this as a pivotal part in our relationship with payers because we don't believe this is going to be, of course, our first and only into the marketplace.
+
+We want to be able to follow on with other products, and establishing those relationships and making sure that they understand our goals, which is unencumbered patient access is going to be really key. So, we're going to be starting those discussions with payers. We've done a lot of market research to understand really what are the drivers to position our product, and we're really encouraged by what we're hearing to be able to offer that in a setting both at the physician and patient level.
+
+So, I can tell you that I'm week four into the role. And ultimately, I'm very encouraged by the level of effort that's already been put in and our planning moving forward.
+
+Unidentified Analyst
+
+Got it. And if I could just ask one more follow-up question. On 1181, it seems like the AACR presentation will be fairly preclinical in nature. Just wanted to know if we can anticipate perhaps a robust clinical update on that perhaps later this year, and if we’ll maybe get us a look at that Phase 2 data in colorectal? Thanks.
+
+Jennifer Buell
+
+Hi, Jeet. Thanks for the question. Actually AACR certainly will include some pre-clinical information, but of course, we will also provide a clinical update on where we are with the programs, so stay tuned for more on that.
+
+Operator
+
+Our next question comes from Mayank Mamtani with B. Riley Securities.
+
+Mayank Mamtani
+
+Good morning team. Appreciate the comprehensive update and thanks for taking my questions, and great to have Dr. O'Day and Andy be part of the discussion. So maybe just piggybacking on the previous question on the upcoming 1181 clinical data at AACR, would you also have more updated cutoff relative to February 9? Could you just clarify that? And maybe Dr. O'Day if you could comment on why MSS colorectal indication kind of makes the first to pursue as you think about fast [ph] to market? Can you just talk about the dynamics of that indication?
+
+Jennifer Buell
+
+So, before I turn it over to Dr. O'Day, Mayank, thanks for your question. At AACR, yes, we will have a more mature data than what we've previously disclosed, and this will include more information on duration as well as potential new responses in the program too. Now, I'll turn it over to Dr. O'Day to give you his thinking on MSS colorectal cancer.
+
+Steven O'Day
+
+Thank you Mayank. Well, as Jenny said, I'm new to the company in recent months, but I have had the unique opportunity to be involved with 1181 over the course of the last several years both in learning about its exciting clinical drug design as well as pre-clinical data and then obviously being involved as the principal investigator in the 1181 Phase 1 trial.
+
+What's exciting to me is the pre-clinical data of more activity and T-reg depletion, as well as more potential access to low affinity CD16 alleles all seems to be playing out so far in the clinic with our Phase I trial.
+
+As you can imagine, with the competitive nature and approvals across I-O indications in solid tumors, Phase I trials attract fairly cold tumors that are MS-stable and there's no surprise that our trial has attracted those patients, particularly colorectal endometrial MS stable ovarian and others.
+
+And what's exciting to me is to see objective responses, obviously in both 1181 monotherapy in combinations in these cold tumors that are predominantly PD-L1 negative MS stable low tumor burden, and interestingly, in CD16 lower heterozygous affinity polymorphisms, which is all consistent with preclinical data.
+
+So given that fact, obviously, I'm excited to be part of the development of this drug as we go forward. And colorectal MS stable cohorts are clearly a huge unmet need with a low bar in the second and third-line setting.
+
+So, we're going to follow the data and expand these cohorts in cold tumors as well as look at our warm-to-hot tumors, both lung and then cutaneous tumors, melanoma, and non-melanoma cutaneous skin tumors are real opportunities for us to look both at this agent and single agent as well as combination. So, it's going to be exciting coming year for me and my clinical team to develop this very exciting drug.
+
+Mayank Mamtani
+
+Fantastic. That's very helpful. And then on -- two quick ones for Jen, and I have one more for Garo to close. Jen, what would be the path for QS-21 just from a clinical development standpoint? And also on the TIGIT bispecific, when do you expect disclosing the other target you're working on?
+
+Jennifer Buell
+
+So Mayank, I’m here. So let me start with TIGIT disclosing. As you can imagine, this is an incredibly competitive space. We have a bispecific that is a first of its kind we believe and it's designed really to address an entirely new area. So we will not be disclosing that anytime soon, but we'll certainly keep you informed as the data continue to progress both preclinically and then clinically and that may drive our decision on disclosures.
+
+For QS-21, the development is really straightforward. So as you know, Bill & Melinda Gates Foundation had invested in our initiative to advance a sustainable supply of QS-21. We've done so we're in the process of doing so, but we've already generated early data and demonstrated the bio-comparability of this new supply compared to the previous clinic version, which is now in the approved Shingrix vaccine as you know.
+
+So the development is straightforward. It's preclinical comparability. And then the clinical program will be very abbreviated to bring this product into market with a number of vaccine products underway. And particularly, at this time when we see the criticality of effective vaccines, we know that historical vaccines no longer cut it. Flu vaccines at 30% efficacy just won't do it. So we need to improve our ability to take antigens allow for mass global production of those and this is where QS-21 is really critical at antigen sparing allowing a fewer number or lower amount of antigens to actually be quite effective. As you see with Shingrix, it's over 90%, up to 97% effective in adults and gets better with age. These are the kinds of findings that we're going to need across the board as we deal with these mutating viruses repeatedly.
+
+Mayank Mamtani
+
+Okay. Very helpful. So I think a number of different disease indications that you may consider including flu, including COVID, even Shingrix. Understood. Then, last for Garo, as you think about the cash accretive transactions, just can you just high level talk to the framework that you guys are kind of evaluating internally. When you think about prosecuting these opportunities across the board more advanced late-stage versus earlier stage programs? Kind of, how do you think about a lot of push and pull that might be associated with these transactions?
+
+Garo Armen
+
+Right. So all I can tell you right now is, stay tuned. As I said, in the second quarter, starting in the second quarter, we will see cash-accretive transactions including corporate transactions. So unfortunately, I cannot disclose anything more than that right now.
+
+Mayank Mamtani
+
+Okay. Thanks for taking my questions.
+
+Operator
+
+[Operator Instructions] Our next question comes from the line of Matt Phipps with William Blair.
+
+MattPhipps
+
+Good morning. Thanks for taking my question. So this morning Sanofi and Regeneron announced positive Phase III results of Libtayo in cervical cancer. I know you guys had previously kind of hinted at meeting to get that accelerated approval BLA in before a full approval was there. I assume, given you guys are close to finishing the bal BLA that the Phase III positive results aren't going to affect that at this point, but just wanted to confirm.
+
+Jennifer Buell
+
+Hi Matt. Thanks for the question. Yes, I agree with you. So, the accelerated approval pathway remains open until full approval is granted in the same indication. Based on where we are with our filing, we don't believe this will impact our plans.
+
+MattPhipps
+
+And similarly, obviously, since the bal/zal combo that accelerated pathway should still be there as well?
+
+Jennifer Buell
+
+For bal/zal combo? Absolutely, others actually -- we're the front-runner there.
+
+Matt Phipps
+
+All right. Great. Thanks for taking the question.
+
+Jennifer Buell
+
+Thanks, matt.
+
+Operator
+
+I'm showing no further questions in queue at this time. I'd like to turn the call back to Garo Armen for closing remarks.
+
+Garo Armen
+
+Thank you, very much everybody. I think we have covered some of the really important highlights. I know that there is considerable amount in our roster here. We do prioritize some of the most important near-term priorities for us and so bear with us. And I think, with our new star team or added star team, I'm confident that we will be taking a number of these programs to the finish line expeditiously. Thank you, very much and we'll see you next time.
+
+Operator
+
+Ladies and gentlemen, this concludes today's conference call. Thank you for participating. You may now disconnect.
+

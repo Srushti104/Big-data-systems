@@ -1,0 +1,37 @@
+[2021-03-22 02:57:56,001] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CNN-Training-Pipeline.SentimentAnalysis 2021-03-22T00:00:00+00:00 [queued]>
+[2021-03-22 02:57:56,011] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: CNN-Training-Pipeline.SentimentAnalysis 2021-03-22T00:00:00+00:00 [queued]>
+[2021-03-22 02:57:56,011] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-22 02:57:56,011] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-22 02:57:56,011] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-22 02:57:56,022] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): SentimentAnalysis> on 2021-03-22T00:00:00+00:00
+[2021-03-22 02:57:56,027] {standard_task_runner.py:52} INFO - Started process 27239 to run task
+[2021-03-22 02:57:56,039] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'CNN-Training-Pipeline', 'SentimentAnalysis', '2021-03-22T00:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/annotate_dag.py', '--cfg-path', '/var/folders/72/wg5j0dn16kg6cvrgzdsd9q380000gn/T/tmpowuz69jo', '--error-file', '/var/folders/72/wg5j0dn16kg6cvrgzdsd9q380000gn/T/tmp8u7wat33']
+[2021-03-22 02:57:56,041] {standard_task_runner.py:77} INFO - Job 3: Subtask SentimentAnalysis
+[2021-03-22 02:57:56,093] {logging_mixin.py:104} INFO - Running <TaskInstance: CNN-Training-Pipeline.SentimentAnalysis 2021-03-22T00:00:00+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2021-03-22 02:57:56,129] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=CNN-Training-Pipeline
+AIRFLOW_CTX_TASK_ID=SentimentAnalysis
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-22T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-03-22T00:00:00+00:00
+[2021-03-22 02:57:57,801] {taskinstance.py:1455} ERROR - [Errno 2] No such file or directory: 'LabeledData/Labeled.csv'
+Traceback (most recent call last):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py", line 14, in sentiment_analysis
+    edgar_sentiment_analysis.cleaning_files()
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/edgar_sentiment_analysis.py", line 25, in cleaning_files
+    with open( file, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'LabeledData/Labeled.csv'
+[2021-03-22 02:57:57,807] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=CNN-Training-Pipeline, task_id=SentimentAnalysis, execution_date=20210322T000000, start_date=20210322T065756, end_date=20210322T065757
+[2021-03-22 02:57:57,836] {local_task_job.py:146} INFO - Task exited with return code 1

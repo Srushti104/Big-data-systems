@@ -1,0 +1,469 @@
+[2021-03-22 02:54:54,591] {scheduler_job.py:182} INFO - Started process (PID=26826) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:54:54,593] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 02:54:54,594] {logging_mixin.py:104} INFO - [2021-03-22 02:54:54,594] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:54:54,613] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:54:54,632] {logging_mixin.py:104} INFO - [2021-03-22 02:54:54,631] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:54:54,643] {logging_mixin.py:104} INFO - [2021-03-22 02:54:54,643] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:54:54,653] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.066 seconds
+[2021-03-22 02:55:27,366] {scheduler_job.py:182} INFO - Started process (PID=26882) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:55:27,372] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 02:55:27,373] {logging_mixin.py:104} INFO - [2021-03-22 02:55:27,373] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:55:27,385] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:55:27,398] {logging_mixin.py:104} INFO - [2021-03-22 02:55:27,398] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:55:27,408] {logging_mixin.py:104} INFO - [2021-03-22 02:55:27,408] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:55:27,415] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2021-03-22 02:56:02,258] {scheduler_job.py:182} INFO - Started process (PID=27002) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:56:02,260] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 02:56:02,262] {logging_mixin.py:104} INFO - [2021-03-22 02:56:02,261] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:56:02,279] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:56:02,300] {logging_mixin.py:104} INFO - [2021-03-22 02:56:02,299] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:56:02,315] {logging_mixin.py:104} INFO - [2021-03-22 02:56:02,314] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:56:02,325] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.073 seconds
+[2021-03-22 02:56:35,870] {scheduler_job.py:182} INFO - Started process (PID=27080) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:56:35,873] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 02:56:35,875] {logging_mixin.py:104} INFO - [2021-03-22 02:56:35,874] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:56:35,903] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:56:35,928] {logging_mixin.py:104} INFO - [2021-03-22 02:56:35,927] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:56:35,950] {logging_mixin.py:104} INFO - [2021-03-22 02:56:35,949] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:56:35,963] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.100 seconds
+[2021-03-22 02:57:07,687] {scheduler_job.py:182} INFO - Started process (PID=27146) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:57:07,690] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 02:57:07,692] {logging_mixin.py:104} INFO - [2021-03-22 02:57:07,691] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:57:07,718] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:57:07,752] {logging_mixin.py:104} INFO - [2021-03-22 02:57:07,751] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:57:07,774] {logging_mixin.py:104} INFO - [2021-03-22 02:57:07,773] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:57:07,788] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
+[2021-03-22 02:57:41,878] {scheduler_job.py:182} INFO - Started process (PID=27221) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:57:41,881] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 02:57:41,883] {logging_mixin.py:104} INFO - [2021-03-22 02:57:41,882] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:57:41,904] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:57:41,927] {logging_mixin.py:104} INFO - [2021-03-22 02:57:41,926] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:57:41,946] {logging_mixin.py:104} INFO - [2021-03-22 02:57:41,945] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:57:41,957] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.085 seconds
+[2021-03-22 02:58:30,906] {scheduler_job.py:182} INFO - Started process (PID=27309) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:58:30,909] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 02:58:30,910] {logging_mixin.py:104} INFO - [2021-03-22 02:58:30,910] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:58:30,923] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:58:30,938] {logging_mixin.py:104} INFO - [2021-03-22 02:58:30,937] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:58:30,949] {logging_mixin.py:104} INFO - [2021-03-22 02:58:30,949] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:58:30,956] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.054 seconds
+[2021-03-22 02:59:04,705] {scheduler_job.py:182} INFO - Started process (PID=27381) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:59:04,706] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 02:59:04,707] {logging_mixin.py:104} INFO - [2021-03-22 02:59:04,707] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:59:04,719] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:59:04,732] {logging_mixin.py:104} INFO - [2021-03-22 02:59:04,732] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:59:04,742] {logging_mixin.py:104} INFO - [2021-03-22 02:59:04,742] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:59:04,749] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2021-03-22 02:59:36,806] {scheduler_job.py:182} INFO - Started process (PID=27443) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:59:36,808] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 02:59:36,809] {logging_mixin.py:104} INFO - [2021-03-22 02:59:36,809] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:59:36,821] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 02:59:36,834] {logging_mixin.py:104} INFO - [2021-03-22 02:59:36,833] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 02:59:36,844] {logging_mixin.py:104} INFO - [2021-03-22 02:59:36,843] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 02:59:36,850] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2021-03-22 03:00:09,007] {scheduler_job.py:182} INFO - Started process (PID=27496) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:00:09,008] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:00:09,009] {logging_mixin.py:104} INFO - [2021-03-22 03:00:09,009] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:00:09,021] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:00:09,034] {logging_mixin.py:104} INFO - [2021-03-22 03:00:09,034] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:00:09,045] {logging_mixin.py:104} INFO - [2021-03-22 03:00:09,044] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:00:09,052] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2021-03-22 03:00:41,208] {scheduler_job.py:182} INFO - Started process (PID=27560) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:00:41,210] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:00:41,211] {logging_mixin.py:104} INFO - [2021-03-22 03:00:41,211] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:00:41,222] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:00:41,236] {logging_mixin.py:104} INFO - [2021-03-22 03:00:41,235] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:00:41,246] {logging_mixin.py:104} INFO - [2021-03-22 03:00:41,245] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:00:41,252] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2021-03-22 03:01:13,316] {scheduler_job.py:182} INFO - Started process (PID=27601) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:01:13,318] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:01:13,319] {logging_mixin.py:104} INFO - [2021-03-22 03:01:13,319] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:01:13,331] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:01:13,345] {logging_mixin.py:104} INFO - [2021-03-22 03:01:13,344] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:01:13,355] {logging_mixin.py:104} INFO - [2021-03-22 03:01:13,354] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:01:13,361] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2021-03-22 03:01:45,417] {scheduler_job.py:182} INFO - Started process (PID=27634) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:01:45,419] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:01:45,420] {logging_mixin.py:104} INFO - [2021-03-22 03:01:45,420] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:01:45,433] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:01:45,447] {logging_mixin.py:104} INFO - [2021-03-22 03:01:45,447] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:01:45,457] {logging_mixin.py:104} INFO - [2021-03-22 03:01:45,457] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:01:45,463] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2021-03-22 03:02:17,430] {scheduler_job.py:182} INFO - Started process (PID=27665) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:02:17,431] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:02:17,432] {logging_mixin.py:104} INFO - [2021-03-22 03:02:17,432] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:02:17,445] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:02:17,458] {logging_mixin.py:104} INFO - [2021-03-22 03:02:17,458] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:02:17,468] {logging_mixin.py:104} INFO - [2021-03-22 03:02:17,467] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:02:17,473] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2021-03-22 03:02:49,563] {scheduler_job.py:182} INFO - Started process (PID=27696) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:02:49,564] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:02:49,566] {logging_mixin.py:104} INFO - [2021-03-22 03:02:49,565] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:02:49,579] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:02:49,593] {logging_mixin.py:104} INFO - [2021-03-22 03:02:49,592] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:02:49,602] {logging_mixin.py:104} INFO - [2021-03-22 03:02:49,601] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:02:49,608] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2021-03-22 03:03:21,681] {scheduler_job.py:182} INFO - Started process (PID=27736) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:03:21,683] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:03:21,684] {logging_mixin.py:104} INFO - [2021-03-22 03:03:21,683] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:03:21,697] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:03:21,711] {logging_mixin.py:104} INFO - [2021-03-22 03:03:21,711] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:03:21,721] {logging_mixin.py:104} INFO - [2021-03-22 03:03:21,721] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:03:21,727] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2021-03-22 03:03:53,792] {scheduler_job.py:182} INFO - Started process (PID=27784) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:03:53,797] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:03:53,798] {logging_mixin.py:104} INFO - [2021-03-22 03:03:53,798] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:03:53,811] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:03:53,824] {logging_mixin.py:104} INFO - [2021-03-22 03:03:53,824] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:03:53,833] {logging_mixin.py:104} INFO - [2021-03-22 03:03:53,833] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:03:53,839] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2021-03-22 03:04:25,900] {scheduler_job.py:182} INFO - Started process (PID=27822) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:04:25,902] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:04:25,903] {logging_mixin.py:104} INFO - [2021-03-22 03:04:25,903] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:04:25,916] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:04:25,930] {logging_mixin.py:104} INFO - [2021-03-22 03:04:25,930] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:04:25,940] {logging_mixin.py:104} INFO - [2021-03-22 03:04:25,940] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:04:25,946] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2021-03-22 03:04:58,017] {scheduler_job.py:182} INFO - Started process (PID=27863) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:04:58,018] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:04:58,020] {logging_mixin.py:104} INFO - [2021-03-22 03:04:58,019] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:04:58,032] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:04:58,046] {logging_mixin.py:104} INFO - [2021-03-22 03:04:58,045] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:04:58,056] {logging_mixin.py:104} INFO - [2021-03-22 03:04:58,055] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:04:58,061] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2021-03-22 03:05:30,146] {scheduler_job.py:182} INFO - Started process (PID=27897) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:05:30,148] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:05:30,149] {logging_mixin.py:104} INFO - [2021-03-22 03:05:30,149] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:05:30,161] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:05:30,174] {logging_mixin.py:104} INFO - [2021-03-22 03:05:30,174] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:05:30,183] {logging_mixin.py:104} INFO - [2021-03-22 03:05:30,183] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:05:30,189] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2021-03-22 03:06:02,258] {scheduler_job.py:182} INFO - Started process (PID=27935) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:06:02,261] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:06:02,262] {logging_mixin.py:104} INFO - [2021-03-22 03:06:02,262] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:06:02,274] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:06:02,286] {logging_mixin.py:104} INFO - [2021-03-22 03:06:02,286] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:06:02,295] {logging_mixin.py:104} INFO - [2021-03-22 03:06:02,295] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:06:02,301] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2021-03-22 03:06:34,484] {scheduler_job.py:182} INFO - Started process (PID=27967) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:06:34,485] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:06:34,487] {logging_mixin.py:104} INFO - [2021-03-22 03:06:34,487] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:06:34,499] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:06:34,512] {logging_mixin.py:104} INFO - [2021-03-22 03:06:34,511] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:06:34,520] {logging_mixin.py:104} INFO - [2021-03-22 03:06:34,520] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:06:34,526] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2021-03-22 03:07:06,725] {scheduler_job.py:182} INFO - Started process (PID=28000) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:07:06,728] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:07:06,729] {logging_mixin.py:104} INFO - [2021-03-22 03:07:06,729] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:07:06,740] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:07:06,752] {logging_mixin.py:104} INFO - [2021-03-22 03:07:06,752] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:07:06,761] {logging_mixin.py:104} INFO - [2021-03-22 03:07:06,760] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:07:06,766] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2021-03-22 03:07:38,951] {scheduler_job.py:182} INFO - Started process (PID=28036) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:07:38,953] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:07:38,954] {logging_mixin.py:104} INFO - [2021-03-22 03:07:38,953] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:07:38,967] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:07:38,981] {logging_mixin.py:104} INFO - [2021-03-22 03:07:38,980] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:07:38,990] {logging_mixin.py:104} INFO - [2021-03-22 03:07:38,990] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:07:38,996] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2021-03-22 03:08:11,181] {scheduler_job.py:182} INFO - Started process (PID=28067) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:08:11,184] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:08:11,185] {logging_mixin.py:104} INFO - [2021-03-22 03:08:11,185] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:08:11,198] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:08:11,212] {logging_mixin.py:104} INFO - [2021-03-22 03:08:11,212] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:08:11,222] {logging_mixin.py:104} INFO - [2021-03-22 03:08:11,221] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:08:11,228] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2021-03-22 03:08:43,450] {scheduler_job.py:182} INFO - Started process (PID=28107) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:08:43,452] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:08:43,454] {logging_mixin.py:104} INFO - [2021-03-22 03:08:43,453] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:08:43,467] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:08:43,480] {logging_mixin.py:104} INFO - [2021-03-22 03:08:43,480] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:08:43,489] {logging_mixin.py:104} INFO - [2021-03-22 03:08:43,489] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:08:43,495] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2021-03-22 03:11:34,477] {scheduler_job.py:182} INFO - Started process (PID=28187) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:11:34,480] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:11:34,482] {logging_mixin.py:104} INFO - [2021-03-22 03:11:34,481] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:11:34,501] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:11:34,515] {logging_mixin.py:104} INFO - [2021-03-22 03:11:34,515] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:11:34,528] {logging_mixin.py:104} INFO - [2021-03-22 03:11:34,528] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:11:34,536] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2021-03-22 03:12:18,152] {scheduler_job.py:182} INFO - Started process (PID=28273) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:12:18,159] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:12:18,164] {logging_mixin.py:104} INFO - [2021-03-22 03:12:18,163] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:12:18,210] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:12:18,258] {logging_mixin.py:104} INFO - [2021-03-22 03:12:18,256] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:12:18,296] {logging_mixin.py:104} INFO - [2021-03-22 03:12:18,294] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:12:18,321] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.182 seconds
+[2021-03-22 03:13:52,467] {scheduler_job.py:182} INFO - Started process (PID=28357) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:13:52,469] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:13:52,470] {logging_mixin.py:104} INFO - [2021-03-22 03:13:52,470] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:13:52,483] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:13:52,497] {logging_mixin.py:104} INFO - [2021-03-22 03:13:52,497] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:13:52,507] {logging_mixin.py:104} INFO - [2021-03-22 03:13:52,507] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:13:52,513] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2021-03-22 03:14:23,905] {scheduler_job.py:182} INFO - Started process (PID=28407) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:14:23,906] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:14:23,908] {logging_mixin.py:104} INFO - [2021-03-22 03:14:23,907] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:14:23,921] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:14:23,936] {logging_mixin.py:104} INFO - [2021-03-22 03:14:23,935] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:14:23,946] {logging_mixin.py:104} INFO - [2021-03-22 03:14:23,945] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:14:23,952] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2021-03-22 03:14:56,606] {scheduler_job.py:182} INFO - Started process (PID=28453) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:14:56,608] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:14:56,610] {logging_mixin.py:104} INFO - [2021-03-22 03:14:56,609] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:14:56,623] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:14:56,636] {logging_mixin.py:104} INFO - [2021-03-22 03:14:56,636] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:14:56,646] {logging_mixin.py:104} INFO - [2021-03-22 03:14:56,645] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:14:56,651] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2021-03-22 03:15:28,044] {scheduler_job.py:182} INFO - Started process (PID=28487) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:15:28,046] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:15:28,048] {logging_mixin.py:104} INFO - [2021-03-22 03:15:28,047] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:15:28,061] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:15:28,076] {logging_mixin.py:104} INFO - [2021-03-22 03:15:28,076] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:15:28,087] {logging_mixin.py:104} INFO - [2021-03-22 03:15:28,086] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:15:28,093] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2021-03-22 03:15:59,684] {scheduler_job.py:182} INFO - Started process (PID=28524) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:15:59,687] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:15:59,688] {logging_mixin.py:104} INFO - [2021-03-22 03:15:59,688] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:15:59,703] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:15:59,716] {logging_mixin.py:104} INFO - [2021-03-22 03:15:59,716] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:15:59,726] {logging_mixin.py:104} INFO - [2021-03-22 03:15:59,726] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:15:59,732] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.053 seconds
+[2021-03-22 03:16:31,911] {scheduler_job.py:182} INFO - Started process (PID=28571) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:16:31,914] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:16:31,915] {logging_mixin.py:104} INFO - [2021-03-22 03:16:31,915] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:16:31,929] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:16:31,943] {logging_mixin.py:104} INFO - [2021-03-22 03:16:31,943] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:16:31,953] {logging_mixin.py:104} INFO - [2021-03-22 03:16:31,953] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:16:31,959] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2021-03-22 03:17:04,012] {scheduler_job.py:182} INFO - Started process (PID=28610) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:17:04,014] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:17:04,015] {logging_mixin.py:104} INFO - [2021-03-22 03:17:04,014] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:17:04,027] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:17:04,042] {logging_mixin.py:104} INFO - [2021-03-22 03:17:04,041] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:17:04,051] {logging_mixin.py:104} INFO - [2021-03-22 03:17:04,051] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:17:04,057] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2021-03-22 03:17:36,017] {scheduler_job.py:182} INFO - Started process (PID=28643) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:17:36,019] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:17:36,020] {logging_mixin.py:104} INFO - [2021-03-22 03:17:36,020] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:17:36,033] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:17:36,047] {logging_mixin.py:104} INFO - [2021-03-22 03:17:36,047] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:17:36,057] {logging_mixin.py:104} INFO - [2021-03-22 03:17:36,056] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:17:36,063] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.049 seconds
+[2021-03-22 03:18:08,014] {scheduler_job.py:182} INFO - Started process (PID=28674) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:18:08,015] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:18:08,017] {logging_mixin.py:104} INFO - [2021-03-22 03:18:08,016] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:18:08,029] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:18:08,043] {logging_mixin.py:104} INFO - [2021-03-22 03:18:08,043] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:18:08,052] {logging_mixin.py:104} INFO - [2021-03-22 03:18:08,052] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:18:08,058] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2021-03-22 03:18:40,128] {scheduler_job.py:182} INFO - Started process (PID=28706) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:18:40,130] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:18:40,132] {logging_mixin.py:104} INFO - [2021-03-22 03:18:40,131] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:18:40,142] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:18:40,156] {logging_mixin.py:104} INFO - [2021-03-22 03:18:40,155] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:18:40,164] {logging_mixin.py:104} INFO - [2021-03-22 03:18:40,163] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:18:40,170] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.046 seconds
+[2021-03-22 03:19:14,977] {scheduler_job.py:182} INFO - Started process (PID=28759) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:19:14,980] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:19:14,981] {logging_mixin.py:104} INFO - [2021-03-22 03:19:14,981] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:19:14,994] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:19:15,007] {logging_mixin.py:104} INFO - [2021-03-22 03:19:15,006] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:19:15,015] {logging_mixin.py:104} INFO - [2021-03-22 03:19:15,015] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:19:15,021] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2021-03-22 03:19:47,395] {scheduler_job.py:182} INFO - Started process (PID=28791) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:19:47,398] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:19:47,400] {logging_mixin.py:104} INFO - [2021-03-22 03:19:47,399] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:19:47,412] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:19:47,426] {logging_mixin.py:104} INFO - [2021-03-22 03:19:47,426] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:19:47,436] {logging_mixin.py:104} INFO - [2021-03-22 03:19:47,436] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:19:47,442] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.051 seconds
+[2021-03-22 03:20:19,403] {scheduler_job.py:182} INFO - Started process (PID=28830) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:20:19,404] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:20:19,406] {logging_mixin.py:104} INFO - [2021-03-22 03:20:19,405] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:20:19,418] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:20:19,430] {logging_mixin.py:104} INFO - [2021-03-22 03:20:19,430] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:20:19,439] {logging_mixin.py:104} INFO - [2021-03-22 03:20:19,438] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:20:19,445] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2021-03-22 03:20:51,753] {scheduler_job.py:182} INFO - Started process (PID=28877) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:20:51,756] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:20:51,757] {logging_mixin.py:104} INFO - [2021-03-22 03:20:51,757] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:20:51,770] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:20:51,781] {logging_mixin.py:104} INFO - [2021-03-22 03:20:51,781] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:20:51,790] {logging_mixin.py:104} INFO - [2021-03-22 03:20:51,790] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:20:51,796] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.047 seconds
+[2021-03-22 03:21:23,807] {scheduler_job.py:182} INFO - Started process (PID=28922) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:21:23,809] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:21:23,810] {logging_mixin.py:104} INFO - [2021-03-22 03:21:23,810] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:21:23,824] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:21:23,838] {logging_mixin.py:104} INFO - [2021-03-22 03:21:23,837] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:21:23,847] {logging_mixin.py:104} INFO - [2021-03-22 03:21:23,847] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:21:23,853] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2021-03-22 03:23:31,954] {scheduler_job.py:182} INFO - Started process (PID=29061) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:23:31,956] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:23:31,961] {logging_mixin.py:104} INFO - [2021-03-22 03:23:31,957] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:23:31,972] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:23:31,986] {logging_mixin.py:104} INFO - [2021-03-22 03:23:31,985] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:23:31,994] {logging_mixin.py:104} INFO - [2021-03-22 03:23:31,994] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:23:32,001] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.050 seconds
+[2021-03-22 03:24:20,767] {scheduler_job.py:182} INFO - Started process (PID=29128) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:24:20,769] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:24:20,770] {logging_mixin.py:104} INFO - [2021-03-22 03:24:20,769] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:24:20,785] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:24:20,799] {logging_mixin.py:104} INFO - [2021-03-22 03:24:20,799] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:24:20,808] {logging_mixin.py:104} INFO - [2021-03-22 03:24:20,807] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:24:20,816] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.052 seconds
+[2021-03-22 03:27:47,184] {scheduler_job.py:182} INFO - Started process (PID=29214) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:27:47,186] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:27:47,187] {logging_mixin.py:104} INFO - [2021-03-22 03:27:47,187] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:27:47,195] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:27:47,207] {logging_mixin.py:104} INFO - [2021-03-22 03:27:47,206] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:27:47,215] {logging_mixin.py:104} INFO - [2021-03-22 03:27:47,214] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:27:47,221] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.039 seconds
+[2021-03-22 03:28:21,466] {scheduler_job.py:182} INFO - Started process (PID=29261) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:28:21,468] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:28:21,469] {logging_mixin.py:104} INFO - [2021-03-22 03:28:21,469] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:28:21,478] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:28:21,492] {logging_mixin.py:104} INFO - [2021-03-22 03:28:21,492] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:28:21,501] {logging_mixin.py:104} INFO - [2021-03-22 03:28:21,501] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:28:21,508] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2021-03-22 03:28:54,175] {scheduler_job.py:182} INFO - Started process (PID=29308) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:28:54,178] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:28:54,179] {logging_mixin.py:104} INFO - [2021-03-22 03:28:54,179] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:28:54,189] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:28:54,203] {logging_mixin.py:104} INFO - [2021-03-22 03:28:54,203] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:28:54,220] {logging_mixin.py:104} INFO - [2021-03-22 03:28:54,219] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:28:54,228] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.057 seconds
+[2021-03-22 03:29:26,859] {scheduler_job.py:182} INFO - Started process (PID=29349) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:29:26,861] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:29:26,862] {logging_mixin.py:104} INFO - [2021-03-22 03:29:26,862] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:29:26,870] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:29:26,882] {logging_mixin.py:104} INFO - [2021-03-22 03:29:26,882] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:29:26,894] {logging_mixin.py:104} INFO - [2021-03-22 03:29:26,893] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:29:26,900] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.044 seconds
+[2021-03-22 03:29:59,368] {scheduler_job.py:182} INFO - Started process (PID=29385) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:29:59,370] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:29:59,371] {logging_mixin.py:104} INFO - [2021-03-22 03:29:59,371] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:29:59,378] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:29:59,391] {logging_mixin.py:104} INFO - [2021-03-22 03:29:59,390] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:29:59,400] {logging_mixin.py:104} INFO - [2021-03-22 03:29:59,400] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:29:59,406] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2021-03-22 03:30:32,231] {scheduler_job.py:182} INFO - Started process (PID=29428) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:30:32,233] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:30:32,234] {logging_mixin.py:104} INFO - [2021-03-22 03:30:32,234] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:30:32,243] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:30:32,255] {logging_mixin.py:104} INFO - [2021-03-22 03:30:32,255] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:30:32,263] {logging_mixin.py:104} INFO - [2021-03-22 03:30:32,263] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:30:32,269] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.043 seconds
+[2021-03-22 03:31:04,320] {scheduler_job.py:182} INFO - Started process (PID=29465) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:31:04,322] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:31:04,324] {logging_mixin.py:104} INFO - [2021-03-22 03:31:04,323] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:31:04,332] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:31:04,345] {logging_mixin.py:104} INFO - [2021-03-22 03:31:04,345] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:31:04,355] {logging_mixin.py:104} INFO - [2021-03-22 03:31:04,355] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:31:04,361] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2021-03-22 03:31:36,315] {scheduler_job.py:182} INFO - Started process (PID=29497) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:31:36,316] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:31:36,317] {logging_mixin.py:104} INFO - [2021-03-22 03:31:36,317] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:31:36,325] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:31:36,340] {logging_mixin.py:104} INFO - [2021-03-22 03:31:36,340] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:31:36,350] {logging_mixin.py:104} INFO - [2021-03-22 03:31:36,350] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:31:36,356] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.045 seconds
+[2021-03-22 03:32:08,521] {scheduler_job.py:182} INFO - Started process (PID=29531) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:32:08,523] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:32:08,525] {logging_mixin.py:104} INFO - [2021-03-22 03:32:08,524] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:32:08,532] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:32:08,544] {logging_mixin.py:104} INFO - [2021-03-22 03:32:08,544] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:32:08,554] {logging_mixin.py:104} INFO - [2021-03-22 03:32:08,553] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:32:08,561] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.043 seconds
+[2021-03-22 03:32:40,619] {scheduler_job.py:182} INFO - Started process (PID=29562) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:32:40,621] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:32:40,622] {logging_mixin.py:104} INFO - [2021-03-22 03:32:40,622] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:32:40,628] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:32:40,641] {logging_mixin.py:104} INFO - [2021-03-22 03:32:40,641] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:32:40,649] {logging_mixin.py:104} INFO - [2021-03-22 03:32:40,649] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:32:40,655] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.039 seconds
+[2021-03-22 03:33:12,825] {scheduler_job.py:182} INFO - Started process (PID=29604) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:33:12,827] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:33:12,829] {logging_mixin.py:104} INFO - [2021-03-22 03:33:12,828] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:33:12,837] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:33:12,850] {logging_mixin.py:104} INFO - [2021-03-22 03:33:12,849] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:33:12,858] {logging_mixin.py:104} INFO - [2021-03-22 03:33:12,858] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:33:12,864] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2021-03-22 03:35:35,597] {scheduler_job.py:182} INFO - Started process (PID=29717) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:35:35,599] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:35:35,600] {logging_mixin.py:104} INFO - [2021-03-22 03:35:35,599] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:35:35,616] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:35:35,632] {logging_mixin.py:104} INFO - [2021-03-22 03:35:35,631] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:35:35,640] {logging_mixin.py:104} INFO - [2021-03-22 03:35:35,640] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:35:35,649] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.054 seconds
+[2021-03-22 03:39:26,493] {scheduler_job.py:182} INFO - Started process (PID=29847) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:39:26,496] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:39:26,497] {logging_mixin.py:104} INFO - [2021-03-22 03:39:26,497] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:39:26,504] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:39:26,516] {logging_mixin.py:104} INFO - [2021-03-22 03:39:26,515] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:39:26,526] {logging_mixin.py:104} INFO - [2021-03-22 03:39:26,525] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:39:26,533] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.043 seconds
+[2021-03-22 03:39:57,195] {scheduler_job.py:182} INFO - Started process (PID=29882) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:39:57,197] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:39:57,198] {logging_mixin.py:104} INFO - [2021-03-22 03:39:57,197] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:39:57,205] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:39:57,219] {logging_mixin.py:104} INFO - [2021-03-22 03:39:57,219] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:39:57,228] {logging_mixin.py:104} INFO - [2021-03-22 03:39:57,228] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:39:57,234] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2021-03-22 03:40:27,979] {scheduler_job.py:182} INFO - Started process (PID=29918) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:40:27,981] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:40:27,982] {logging_mixin.py:104} INFO - [2021-03-22 03:40:27,981] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:40:27,990] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:40:28,002] {logging_mixin.py:104} INFO - [2021-03-22 03:40:28,002] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:40:28,011] {logging_mixin.py:104} INFO - [2021-03-22 03:40:28,010] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:40:28,016] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.041 seconds
+[2021-03-22 03:40:59,640] {scheduler_job.py:182} INFO - Started process (PID=29953) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:40:59,642] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:40:59,644] {logging_mixin.py:104} INFO - [2021-03-22 03:40:59,643] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:40:59,650] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:40:59,664] {logging_mixin.py:104} INFO - [2021-03-22 03:40:59,664] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:40:59,674] {logging_mixin.py:104} INFO - [2021-03-22 03:40:59,673] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:40:59,680] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.043 seconds
+[2021-03-22 03:41:31,294] {scheduler_job.py:182} INFO - Started process (PID=29997) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:41:31,295] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:41:31,297] {logging_mixin.py:104} INFO - [2021-03-22 03:41:31,296] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:41:31,304] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:41:31,318] {logging_mixin.py:104} INFO - [2021-03-22 03:41:31,318] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:41:31,328] {logging_mixin.py:104} INFO - [2021-03-22 03:41:31,328] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:41:31,334] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.043 seconds
+[2021-03-22 03:42:05,034] {scheduler_job.py:182} INFO - Started process (PID=30035) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:42:05,035] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:42:05,036] {logging_mixin.py:104} INFO - [2021-03-22 03:42:05,036] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:42:05,043] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:42:05,057] {logging_mixin.py:104} INFO - [2021-03-22 03:42:05,057] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:42:05,067] {logging_mixin.py:104} INFO - [2021-03-22 03:42:05,066] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:42:05,073] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.042 seconds
+[2021-03-22 03:42:38,786] {scheduler_job.py:182} INFO - Started process (PID=30077) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:42:38,787] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:42:38,788] {logging_mixin.py:104} INFO - [2021-03-22 03:42:38,788] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:42:38,794] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:42:38,805] {logging_mixin.py:104} INFO - [2021-03-22 03:42:38,805] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:42:38,814] {logging_mixin.py:104} INFO - [2021-03-22 03:42:38,813] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:42:38,820] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.037 seconds
+[2021-03-22 03:43:12,068] {scheduler_job.py:182} INFO - Started process (PID=30120) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:43:12,070] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:43:12,071] {logging_mixin.py:104} INFO - [2021-03-22 03:43:12,070] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:43:12,076] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:43:12,087] {logging_mixin.py:104} INFO - [2021-03-22 03:43:12,086] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:43:12,096] {logging_mixin.py:104} INFO - [2021-03-22 03:43:12,095] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:43:12,102] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.037 seconds
+[2021-03-22 03:44:02,317] {scheduler_job.py:182} INFO - Started process (PID=30159) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:44:02,319] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:44:02,320] {logging_mixin.py:104} INFO - [2021-03-22 03:44:02,320] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:44:02,329] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:44:02,344] {logging_mixin.py:104} INFO - [2021-03-22 03:44:02,344] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:44:02,354] {logging_mixin.py:104} INFO - [2021-03-22 03:44:02,353] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:44:02,361] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.048 seconds
+[2021-03-22 03:45:02,549] {scheduler_job.py:182} INFO - Started process (PID=30204) to work on /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:45:02,551] {scheduler_job.py:629} INFO - Processing file /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2021-03-22 03:45:02,552] {logging_mixin.py:104} INFO - [2021-03-22 03:45:02,552] {dagbag.py:448} INFO - Filling up the DagBag from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:45:02,558] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py
+[2021-03-22 03:45:02,570] {logging_mixin.py:104} INFO - [2021-03-22 03:45:02,570] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-03-22 03:45:02,579] {logging_mixin.py:104} INFO - [2021-03-22 03:45:02,578] {dag.py:2273} INFO - Setting next_dagrun for example_task_group to 2021-03-20 00:00:00+00:00
+[2021-03-22 03:45:02,585] {scheduler_job.py:190} INFO - Processing /Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py took 0.039 seconds

@@ -1,0 +1,105 @@
+[2021-03-22 03:24:50,579] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: Annotation-Pipeline.SentimentAnalysis 2021-03-22T07:24:38.893757+00:00 [queued]>
+[2021-03-22 03:24:50,585] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: Annotation-Pipeline.SentimentAnalysis 2021-03-22T07:24:38.893757+00:00 [queued]>
+[2021-03-22 03:24:50,585] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-22 03:24:50,585] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2021-03-22 03:24:50,585] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-03-22 03:24:50,591] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): SentimentAnalysis> on 2021-03-22T07:24:38.893757+00:00
+[2021-03-22 03:24:50,595] {standard_task_runner.py:52} INFO - Started process 29163 to run task
+[2021-03-22 03:24:50,601] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'Annotation-Pipeline', 'SentimentAnalysis', '2021-03-22T07:24:38.893757+00:00', '--job-id', '13', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/annotate_dag.py', '--cfg-path', '/var/folders/72/wg5j0dn16kg6cvrgzdsd9q380000gn/T/tmpxfpp3iyk', '--error-file', '/var/folders/72/wg5j0dn16kg6cvrgzdsd9q380000gn/T/tmpyrhntz_h']
+[2021-03-22 03:24:50,602] {standard_task_runner.py:77} INFO - Job 13: Subtask SentimentAnalysis
+[2021-03-22 03:24:50,629] {logging_mixin.py:104} INFO - Running <TaskInstance: Annotation-Pipeline.SentimentAnalysis 2021-03-22T07:24:38.893757+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2021-03-22 03:24:50,647] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=Annotation-Pipeline
+AIRFLOW_CTX_TASK_ID=SentimentAnalysis
+AIRFLOW_CTX_EXECUTION_DATE=2021-03-22T07:24:38.893757+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-03-22T07:24:38.893757+00:00
+[2021-03-22 03:27:41,738] {local_task_job.py:177} WARNING - The recorded hostname 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa does not match this instance's hostname Akshays-MacBook-Pro.local
+[2021-03-22 03:27:41,747] {process_utils.py:100} INFO - Sending Signals.SIGTERM to GPID 29163
+[2021-03-22 03:27:41,747] {taskinstance.py:1239} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-03-22 03:27:41,748] {taskinstance.py:1455} ERROR - An HTTP Client raised an unhandled exception: Task received SIGTERM signal
+Traceback (most recent call last):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/httpsession.py", line 320, in send
+    chunked=self._chunked(request.headers),
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/connection.py", line 421, in connect
+    tls_in_tls=tls_in_tls,
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 429, in ssl_wrap_socket
+    sock, context, tls_in_tls, server_hostname=server_hostname
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 472, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1241, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/dags/annotate_dag.py", line 14, in sentiment_analysis
+    edgar_sentiment_analysis.cleaning_files()
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/edgar_sentiment_analysis.py", line 36, in cleaning_files
+    res = scaling.get_sentiment(s)
+  File "/Users/akshaybhoge/PycharmProjects/Edgar/scaling.py", line 8, in get_sentiment
+    response = comprehend.detect_sentiment(Text=text, LanguageCode='en')
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/client.py", line 357, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/client.py", line 663, in _make_api_call
+    operation_model, request_dict, request_context)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/client.py", line 682, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/endpoint.py", line 102, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/endpoint.py", line 137, in _send_request
+    success_response, exception):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/endpoint.py", line 256, in _needs_retry
+    caught_exception=caught_exception, request_dict=request_dict)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/hooks.py", line 356, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/hooks.py", line 228, in emit
+    return self._emit(event_name, kwargs)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/hooks.py", line 211, in _emit
+    response = handler(**kwargs)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 183, in __call__
+    if self._checker(attempts, response, caught_exception):
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 251, in __call__
+    caught_exception)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 269, in _should_retry
+    return self._checker(attempt_number, response, caught_exception)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 317, in __call__
+    caught_exception)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 223, in __call__
+    attempt_number, caught_exception)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/retryhandler.py", line 359, in _check_caught_exception
+    raise caught_exception
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/endpoint.py", line 200, in _do_get_response
+    http_response = self._send(request)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/endpoint.py", line 269, in _send
+    return self.http_session.send(request)
+  File "/Users/akshaybhoge/PycharmProjects/venvEdgar/lib/python3.7/site-packages/botocore/httpsession.py", line 356, in send
+    raise HTTPClientError(error=e)
+botocore.exceptions.HTTPClientError: An HTTP Client raised an unhandled exception: Task received SIGTERM signal
+[2021-03-22 03:27:41,760] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=Annotation-Pipeline, task_id=SentimentAnalysis, execution_date=20210322T072438, start_date=20210322T072450, end_date=20210322T072741
+[2021-03-22 03:27:41,778] {process_utils.py:66} INFO - Process psutil.Process(pid=29163, status='terminated', exitcode=1, started='03:24:50') (29163) terminated with exit code 1
