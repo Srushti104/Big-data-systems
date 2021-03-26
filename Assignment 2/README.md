@@ -66,7 +66,7 @@
    * Used the BERTBaseUncased model to train and fine tune on labeled data to predict the sentiment of the data
    * Saving the trained model to s3 bucket in .bin format 
     
-## inference pipeline:
+## Inference pipeline:
    * The pipeline would dynamically get the file from EDGAR, pre-process the file,create a list ofsentences for inference. 
    * Jsonify the sentences and invoke the the flask server runnning on the docker image 
    * Post the input data and get back the sentiments and Format the output to a csv file and store it to a bucket.
