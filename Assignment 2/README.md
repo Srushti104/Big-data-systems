@@ -11,9 +11,11 @@
      created 
      
  ## Running the Flask Server on Docker Image:
+ 
+ ![MicrosoftTeams-image 9](https://user-images.githubusercontent.com/78016518/112602815-89481b80-8dea-11eb-8e6b-34427700924e.png)
   
-  The objective of the project is to POST the input in JSON format to the flask server running on a docker file which returns the sentiment for 
-  the input using the pretrained saved model
+  The objective of the project is to POST the input in JSON format to the flask server running on a docker file 
+  which returns the sentiment for the input using the pretrained saved model
   
   To serve the provided pre-trained model, follow these steps:
   
@@ -21,10 +23,41 @@
    * cd Assignment2/Bert_model
    * Use the ```docker build -t edgar:latest .```  to create docker image which creates a blueprint of the environment with all the requirements
    * Run ```docker images``` & find the image id of the newly built Docker image
-   * To run the docker image -- ```docker run -it --rm -p 5000:5000 {image_id}'''
+   * To run the docker image -- ```docker run -it --rm -p 5000:5000 {image_id}```
      
-     
-     
+   If everything worked properly, you should now have a container running, which:
+   Spins up a Flask server that accepts POST requests at http://0.0.0.0:5000/predict
+   
+   To test :
+   Write your own POST request (e.g. using [Postman](https://www.postman.com/), here is an example response:
+  
+  ```
+   {
+    "input": {
+        "data": [
+            "this workshop is fun",
+            "this workshop is boring"
+        ]
+    },
+    "pred": [
+        [
+            0.9856576323509216      # closer to 1 => positive
+        ],
+        [
+            0.19903425872325897     # closer to 0 => negative
+        ]
+    ]
+}
+```
+
+    you can also pass a Curl command from the terminal once the Docker image is up and running. Example:
+    
+    ```
+    curl -i -H "Content-Type: application/json" \
+		    -X POST -d '{"data": ["this is the best!", "this is the worst!"]}' http://0.0.0.0:5000/predict
+    ```
+    
+    
  ## Annotation Pipeline:
    * Uploading the provided data on s3 bucket 
    * Accessing the data on s3 Preprocessing the data into list of sentences and Using Amazon Comprehend to label the lines with the sentiment analysis score 
