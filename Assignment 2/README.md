@@ -50,10 +50,10 @@
 
     you can also pass a Curl command from the terminal once the Docker image is up and running. Example:
     
-    ```
+    
     curl -i -H "Content-Type: application/json" \
 		    -X POST -d '{"data": ["this is the best!", "this is the worst!"]}' http://0.0.0.0:5000/predict
-    ```
+    
     
     
  ## Annotation Pipeline:
