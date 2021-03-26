@@ -2,6 +2,10 @@
 
 As part of CSYE 7245 - Big Data Systems & Intelligence Analytics Labs, we have covered below tool and platforms.
 
+## Team Members
+Srushti Dhamangaonkar  
+Gnana tej Cherukuru
+
 ## Content 
 ### Lab :
 - [x] Lab1 - AWS Getting Started + Lambda
