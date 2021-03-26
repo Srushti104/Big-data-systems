@@ -9,6 +9,18 @@
   * Training Pipeline: We configured the pipeline to train a sentiment analysis model using BERT on saved data
   * Inference Pipeline: We designed the inference pipeline to take new data in json format and get back the predictions from the microservice running on the Docker image
      created 
+  
+ ## Requirements:
+  * Python 3.7
+  * AWS account - S3 bucket
+  * Install Docker 
+  * AWS comprehend
+  * Airflow 
+  * Flask
+  * Postman
+  * Install requirements.txt
+
+     
      
  ## Running the Flask Server on Docker Image:
 
@@ -67,8 +79,8 @@
    * Saving the trained model to s3 bucket in .bin format 
     
 ## Inference pipeline:
-   * The pipeline would dynamically get the file from EDGAR, pre-process the file,create a list ofsentences for inference. 
-   * Jsonify the sentences and invoke the the flask server runnning on the docker image 
+   * The pipeline would dynamically get the file from EDGAR, pre-process the file,create a list of sentences for inference. 
+   * Jsonify the sentences and invoke the the flask server running on the docker image 
    * Post the input data and get back the sentiments and Format the output to a csv file and store it to a bucket.
 
 
