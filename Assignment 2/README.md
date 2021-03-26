@@ -17,7 +17,8 @@
   * Airflow 
   * Flask
   * Postman
-  * Install requirements.txt
+  * Install the dependencies as outlined in the ```requirements.txt``` by running     
+ 	 ```pip install -r requirements.txt```
 
      
  ## Running the Flask Server on Docker Image:
@@ -74,7 +75,7 @@ Example:
    ```curl -i -H "Content-Type: application/json" -X POST -d '{"data": ["this is the best!", "this is the worst!"]}' http://0.0.0.0:5050/predict```
   
  * NOTE: Microservices are hosted on port 5050 in docker. Building docker images may take several minute.
-    
+   
  ## Annotation Pipeline:
    * Uploading the provided data on s3 bucket 
    * Accessing the data on s3 and preprocess the data into list of sentences using Amazon Comprehend API to label the lines with the sentiment analysis score 
@@ -90,7 +91,53 @@ Example:
    * Jsonify the sentences and invoke the the flask server running on the docker image 
    * Post the input data and get back the sentiments and Format the output to a csv file and store it to a bucket.
 
+ ## Running above pipelines in Airflow:
+ Once installations are completed, configure Airflow by running:
+ 
 
+Use your present working directory as the airflow home
+```
+export AIRFLOW_HOME=~(pwd)
+```
+
+Export Python Path to allow use of custom modules by Airflow
+```
+export PYTHONPATH="${PYTHONPATH}:${AIRFLOW_HOME}"
+```
+Initialize the database
+```
+airflow db init 
+
+
+airflow users create \
+    --username admin \
+    --firstname <YourName> \
+    --lastname <YourLastName> \
+    --role Admin \
+    --email example@example.com
+```
+Start the Airflow server in daemon
+```
+airflow webserver -D
+```
+Start the Airflow Scheduler
+```airflow scheduler```
+
+Once both are running - you should be able to access the Airflow UI by visiting http://127.0.0.1:8080/home on your browser.
+
+To kill the Airflow webserver daemon:
+```lsof -i tcp:8080  ```
+
+``` 
+COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+Python  33911 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91569 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91636 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91699 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91743 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN) 
+```
+
+Kill the process by running kill <PID> - in this case, it would be ```kill 33911```
 
 ## Project Structure:
 ```
