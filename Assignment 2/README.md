@@ -8,7 +8,6 @@
   * Annotation Pipeline: We built pipeline using Airflow for pre processing and labeling the data using AWS comprehend API 
   * Training Pipeline: We configured the pipeline to train a sentiment analysis model using BERT on saved data
   * Inference Pipeline: We designed the inference pipeline to take new data in json format and get back the predictions from the microservice running on the Docker image
-     created 
   
  ## Requirements:
   * Python 3.7
@@ -21,7 +20,6 @@
   * Install requirements.txt
 
      
-     
  ## Running the Flask Server on Docker Image:
 
   The objective of the project is to POST the input in JSON format to the flask server running on a docker file 
@@ -33,16 +31,26 @@
    * cd Assignment2/Bert_model
    * Use the ```docker build -t edgar:latest .```  to create docker image which creates a blueprint of the environment with all the requirements
    * Run ```docker images``` & find the image id of the newly built Docker image
-   * To run the docker image -- ```docker run -it --rm -p 5000:5000 {image_id}```
+   * To run the docker image -- ```docker run -it --rm -p 5050:5050 {image_id}```
      
    If everything worked properly, you should now have a container running, which:
-   Spins up a Flask server that accepts POST requests at http://0.0.0.0:5000/predict
+   Spins up a Flask server that accepts POST requests at http://0.0.0.0:5050/predict
    
    To test :
    Write your own POST request (e.g. using [Postman](https://www.postman.com/), here is an example response:
   
+  Input JOSN:
+  ```{
+  	"data": [
+		"this workshop is fun", 
+		"this workshop is boring"
+		]
+     }
   ```
-   {
+  
+  Output JSON:
+  
+  ``` {
     "input": {
         "data": [
             "this workshop is fun",
@@ -54,23 +62,22 @@
             0.9856576323509216      # closer to 1 => positive
         ],
         [
-            0.19903425872325897     # closer to 0 => negative
+            -0.89903425872325897     # closer to -1 => negative
         ]
     ]
 }
 ```
 
-    you can also pass a Curl command from the terminal once the Docker image is up and running. Example:
-    
-    
-    curl -i -H "Content-Type: application/json" \
-		    -X POST -d '{"data": ["this is the best!", "this is the worst!"]}' http://0.0.0.0:5000/predict
-    
-    
+You can also pass a curl command from the terminal once the Docker image is up and running. 
+Example:
+
+   ```curl -i -H "Content-Type: application/json" -X POST -d '{"data": ["this is the best!", "this is the worst!"]}' http://0.0.0.0:5050/predict```
+  
+ * NOTE: Microservices are hosted on port 5050 in docker. Building docker images may take several minute.
     
  ## Annotation Pipeline:
    * Uploading the provided data on s3 bucket 
-   * Accessing the data on s3 Preprocessing the data into list of sentences and Using Amazon Comprehend to label the lines with the sentiment analysis score 
+   * Accessing the data on s3 and preprocess the data into list of sentences using Amazon Comprehend API to label the lines with the sentiment analysis score 
    * Scaling the returned output and storing the data on AWS s3 Bucket
 
  ## Training Pipeline:
@@ -87,38 +94,39 @@
 
 ## Project Structure:
 ```
-Assignment 2/
-├── annotation/
-│   ├── csv_s3_upload.py
-│   ├── edgar_sentiment_analysis.py
-│   ├── s3_upload.py
-│   └── scaling.py
-├── BERT_model/
-│   ├── app.py
-│   ├── config.py
-│   ├── dataset.py
-│   ├── Dockerfile
-│   ├── engine.py
+Assignment 2/ - root folder
+├── annotation/ - folder with annotation pipeline script to label data
+│   ├── csv_s3_upload.py - 
+│   ├── edgar_sentiment_analysis.py - cleaning and preprocessing text file
+│   ├── s3_upload.py - upload company earnings transcripts to S3
+│   └── scaling.py - invoke AWS comprehend to get sentiment for each sentence
+├── BERT_model/ - folder with model training scripts
+│   ├── app.py - flask app
+│   ├── config.py - config file
+│   ├── dataset.py - set up dataset
+│   ├── Dockerfile - Docker file
+│   ├── engine.py - train and evaluate model
 │   ├── LICENSE
-│   ├── model.py
+│   ├── model.py - BERT model
 │   ├── requirements.txt
-│   └── train.py
-├── dags/
-│   ├── annotate_dag.py
-│   ├── inference_dag.py
-│   └── training_dag.py
-├── inference/
-│   ├── CompanyList.csv
-│   ├── flask_scraperAPI.py
-│   ├── read_flaskAPI.py
-│   ├── read_scraperAPI.py
-│   └── save_inference_s3.py
+│   └── train.py - main script to invoke all the training and model scripts and save model
+├── dags/ - folder with airflow dags
+│   ├── annotate_dag.py - annotation pipeline dag
+│   ├── inference_dag.py - inference pipeline dag
+│   └── training_dag.py - training pipeline dag
+├── inference/ folder with inference pipeline to hit dockerised flask API
+│   ├── CompanyList.csv - list of company to hit Fast API to get transcripts
+│   ├── flask_scraperAPI.py - script to hit simulated scraper - FastAPI  
+│   ├── read_flaskAPI.py - hit flask API to get inference of sentences
+│   ├── read_scraperAPI.py - read trancript and breakdown to sentences
+│   └── save_inference_s3.py - save the csv to s3
 ├── README.md
-└── training_model/
-    ├── csv_s3_download.py
-    ├── Labeled.csv
-    └── model_s3_upload.py
+└── training_model/ folder with training pipeline scripts
+    ├── csv_s3_download.py - save csv to s3
+    ├── Labeled.csv 
+    └── model_s3_upload.py - upload trained model to S3
 ```
+
 
 ## Codelab Document:
 For more information refer the [document](https://codelabs-preview.appspot.com/?file_id=1Lb87QSg0_9IAE_sXoK1Y7M6gNXkPkwvKuieT0NxWzN8#4)
