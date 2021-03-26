@@ -11,10 +11,7 @@
      created 
      
  ## Running the Flask Server on Docker Image:
- 
-![image](https://user-images.githubusercontent.com/78016518/112602983-bbf21400-8dea-11eb-84e0-b3178de787ce.png)
 
-  
   The objective of the project is to POST the input in JSON format to the flask server running on a docker file 
   which returns the sentiment for the input using the pretrained saved model
   
@@ -76,7 +73,7 @@
 
 
 
-
+## Project Structure:
 ```
 Assignment 2/
 ├── annotation/
@@ -110,3 +107,6 @@ Assignment 2/
     ├── Labeled.csv
     └── model_s3_upload.py
 ```
+
+Codelab Document:
+For more information refer the [document](https://codelabs-preview.appspot.com/?file_id=1Lb87QSg0_9IAE_sXoK1Y7M6gNXkPkwvKuieT0NxWzN8#4)
