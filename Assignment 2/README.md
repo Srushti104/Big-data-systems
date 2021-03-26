@@ -75,7 +75,7 @@ Example:
    ```curl -i -H "Content-Type: application/json" -X POST -d '{"data": ["this is the best!", "this is the worst!"]}' http://0.0.0.0:5050/predict```
   
 ### Images on DockerHub.com
-edagr-api [Link]( )
+edagr-api [Link](https://hub.docker.com/layers/143174921/srushti104/edgar-api/latest/images/sha256-8fda55fd64e9c015c549bef0acacc25538b49bab6715552716f5642235f84488?context=explore)
 
  * NOTE: Microservices are hosted on port 5050 in docker. Building docker images may take several minute.
    
