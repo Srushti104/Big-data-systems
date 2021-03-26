@@ -12,7 +12,8 @@
      
  ## Running the Flask Server on Docker Image:
  
- ![MicrosoftTeams-image 9](https://user-images.githubusercontent.com/78016518/112602815-89481b80-8dea-11eb-8e6b-34427700924e.png)
+![image](https://user-images.githubusercontent.com/78016518/112602983-bbf21400-8dea-11eb-84e0-b3178de787ce.png)
+
   
   The objective of the project is to POST the input in JSON format to the flask server running on a docker file 
   which returns the sentiment for the input using the pretrained saved model
