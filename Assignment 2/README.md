@@ -108,5 +108,5 @@ Assignment 2/
     └── model_s3_upload.py
 ```
 
-Codelab Document:
+## Codelab Document:
 For more information refer the [document](https://codelabs-preview.appspot.com/?file_id=1Lb87QSg0_9IAE_sXoK1Y7M6gNXkPkwvKuieT0NxWzN8#4)
