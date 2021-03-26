@@ -31,7 +31,7 @@
    * cd Assignment2/Bert_model
    * Use the ```docker build -t edgar:latest .```  to create docker image which creates a blueprint of the environment with all the requirements
    * Run ```docker images``` & find the image id of the newly built Docker image
-   * To run the docker image -- ```docker run -it --rm -p 5050:5050 {image_id}```
+   * To run the docker image -- ```docker run -d --name edgar-container-v1 -p 5050:5050 {image_id}```
      
    If everything worked properly, you should now have a container running, which:
    Spins up a Flask server that accepts POST requests at http://0.0.0.0:5050/predict
