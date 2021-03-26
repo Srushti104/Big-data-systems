@@ -10,20 +10,35 @@
   * Inference Pipeline: We designed the inference pipeline to take new data in json format and get back the predictions from the microservice running on the Docker image
      created 
      
+ ## Running the Flask Server on Docker Image:
+  
+  The objective of the project is to POST the input in JSON format to the flask server running on a docker file which returns the sentiment for 
+  the input using the pretrained saved model
+  
+  To serve the provided pre-trained model, follow these steps:
+  
+   * git clone this repo
+   * cd Assignment2/Bert_model
+   * Use the ```docker build -t edgar:latest .```  to create docker image which creates a blueprint of the environment with all the requirements
+   * Run ```docker images``` & find the image id of the newly built Docker image
+   * To run the docker image -- ```docker run -it --rm -p 5000:5000 {image_id}'''
+     
+     
+     
  ## Annotation Pipeline:
-    * Uploading the provided data on s3 bucket 
-    * Accessing the data on s3 Preprocessing the data into list of sentences and Using Amazon Comprehend to label the lines with the sentiment analysis score 
-    * Scaling the returned output and storing the data on AWS s3 Bucket
+   * Uploading the provided data on s3 bucket 
+   * Accessing the data on s3 Preprocessing the data into list of sentences and Using Amazon Comprehend to label the lines with the sentiment analysis score 
+   * Scaling the returned output and storing the data on AWS s3 Bucket
 
  ## Training Pipeline:
-    * Built a configurable pipeline to access the data on s3 bucket, train the model and upload the saved model to s3 bucket 
-    * Used the BERTBaseUncased model to train and fine tune on labeled data to predict the sentiment of the data
-    * Saving the trained model to s3 bucket in .bin format 
+   * Built a configurable pipeline to access the data on s3 bucket, train the model and upload the saved model to s3 bucket 
+   * Used the BERTBaseUncased model to train and fine tune on labeled data to predict the sentiment of the data
+   * Saving the trained model to s3 bucket in .bin format 
     
 ## inference pipeline:
-    * The pipeline would dynamically get the file from EDGAR, pre-process the file,create a list ofsentences for inference. 
-    * Jsonify the sentences and invoke the the flask server runnning on the docker image 
-    * Post the input data and get back the sentiments and Format the output to a csv file and store it to a bucket.
+   * The pipeline would dynamically get the file from EDGAR, pre-process the file,create a list ofsentences for inference. 
+   * Jsonify the sentences and invoke the the flask server runnning on the docker image 
+   * Post the input data and get back the sentiments and Format the output to a csv file and store it to a bucket.
 
 
 
