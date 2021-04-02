@@ -13,27 +13,27 @@ About the [stock dataset](https://www.kaggle.com/borismarjanovic/price-volume-da
   * Airflow
   * Postman
 
-## Configuration:
-Install Snowflake- Connector
+## Configuration:  
+Install Snowflake- Connector.   
 ```pip install --upgrade snowflake-connector-python```     
   
-FastAPI   
+FastAPI    
 ```pip3 install fastapi```      
 ```pip3 install uvicorn```   
 ```pip3 install iexfinance```      
 
-Pytest from Jupyter Notebook 
+Pytest from Jupyter Notebook   
 ```pip install pytest```   
 ```pip install -U ipytest```   
 ```pip install pytest-tornasync```  
 ```pip install nest_asyncio```    
 ```pip install ipynb```   
  
-Locust
+Locust.  
 ```pip install locust```
 
-Airflow
-```pip install -r requirements.txt ```
+Airflow.  
+```pip install -r requirements.txt ```   
 
 ## Data Ingestion pipeline
   * Add columns to identify ETF and stock and merge the data in one csv file
@@ -103,17 +103,17 @@ Put the above code in a file named locustfile.py in your current directory and r
 
 If your Locust file is located somewhere else, you can specify it using -f
 
-```locust -f locust_files/my_locust_file.py```    
+```locust -f locust_files/my_locust_file.py```     
 
-### Locust’s web interface
-Once you’ve started Locust using one of the above command lines, you should open up a browser and point it to http://127.0.0.1:8089    
+### Locust’s web interface.  
+Once you’ve started Locust using one of the above command lines, you should open up a browser and point it to http://127.0.0.1:8089     
 
-## Running pytest
-Confirm the correct version: 
-```pytest --version ``` 
+## Running pytest    
+Confirm the correct version:  
+```pytest --version ```  
   
-Execute the test function:   
-``` pytest```  
-
-## Codelab Document:
+Execute the test function:    
+``` pytest```   
+ 
+## Codelab Document:   
 For more information refer the [document](https://codelabs-preview.appspot.com/?file_id=1iF3m30Fu3eYKeD1B-BLeWZ6l2DBuktPcaK2GFXMrWUQ#0)
