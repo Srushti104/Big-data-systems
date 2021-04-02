@@ -98,11 +98,12 @@ http://127.0.0.1:8000/docs
 
 ## Running Locust
 
-Put the above code in a file named locustfile.py in your current directory and run:
+Put the above code in a file named locustfile.py in your current directory and run:   
+
 ```locust```     
 
-If your Locust file is located somewhere else, you can specify it using -f
-
+If your Locust file is located somewhere else, you can specify it using -f 
+ 
 ```locust -f locust_files/my_locust_file.py```     
 
 ### Locust’s web interface.  
