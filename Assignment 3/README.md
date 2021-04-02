@@ -119,5 +119,68 @@ Confirm the correct version:
 Execute the test function:    
 ``` pytest```   
  
+##Project Structure:
+Assignment 3/
+├── .DS_Store
+├── .idea/
+│   ├── .gitignore
+│   ├── inspectionProfiles/
+│   │   ├── profiles_settings.xml
+│   │   └── Project_Default.xml
+│   ├── misc.xml
+│   ├── modules.xml
+│   └── StockAPI.iml
+├── __pycache__/
+│   ├── ingest_db.cpython-37.pyc
+│   ├── merge_files.cpython-37.pyc
+│   ├── stockAPI.cpython-37.pyc
+│   └── test_stockAPI.cpython-37-pytest-6.2.2.pyc
+├── config/
+│   ├── __pycache__/
+│   │   └── config.cpython-37.pyc
+│   └── config.py
+├── dags/
+│   ├── __pycache__/
+│   │   └── ingestion_pipeline.cpython-37.pyc
+│   └── ingestion_pipeline.py
+├── data/
+│   ├── .DS_Store
+│   ├── ETFs/
+│   │   ├── .DS_Store
+│   │   ├── aadr.us.txt
+│   │   ├── aaxj.us.txt
+│   │   └── acim.us.txt
+│   └── Stocks/
+│       ├── .DS_Store
+│       └── a.us.txt
+├── diagram/
+│   ├── .DS_Store
+│   ├── creditedge_api.png
+│   ├── moodys_api.png
+│   ├── sample_moodys.py
+│   ├── stock_api.png
+│   └── StockAPI.py
+├── ingest_db.py
+├── locust_test/
+│   ├── __pycache__/
+│   │   ├── locust_company.cpython-37.pyc
+│   │   ├── locust_date.cpython-37.pyc
+│   │   └── locust_year.cpython-37.pyc
+│   ├── locust_company.py
+│   ├── locust_date.py
+│   └── locust_year.py
+├── merge_files.py
+├── notebook/
+│   ├── .ipynb_checkpoints/
+│   │   └── test_cases-checkpoint.ipynb
+│   ├── __pycache__/
+│   │   └── test_stockAPI.cpython-37-pytest-6.2.2.pyc
+│   └── StockAPI_testing.ipynb
+├── README.md
+├── requirements.txt
+├── stockAPI.py
+└── test_stockAPI.py
+
+
 ## Codelab Document:   
 For more information refer the [document](https://codelabs-preview.appspot.com/?file_id=1iF3m30Fu3eYKeD1B-BLeWZ6l2DBuktPcaK2GFXMrWUQ#0)
