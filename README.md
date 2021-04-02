@@ -25,4 +25,15 @@ The Storm EVent ImagRy (SEVIR) dataset is a collection of temporally and spatial
 - [x] Google Cloud Platform (GCP)  
 - [x] Snowflake  
 
+### Assignment 2:  
+In this assignment, we build a sentiment analysis micro service that could take a new Edgar file in json format and generate sentiments for each statement in the referenced EDGAR file and store it on S3 bucket.
+
+As part of the assignment, we orchestrated Airflow Pipelines as mentioned below:
+
+Annotation Pipeline: We built pipeline using Airflow for pre processing and labeling the data using AWS comprehend API
+Training Pipeline: We configured the pipeline to train a sentiment analysis model using BERT on saved data
+Inference Pipeline: We designed the inference pipeline to take new data in json format and get back the predictions from the microservice running on the Docker image.  
+
+### Assignemnt 3:
+
 *  NOTE: Refer README.md inside the respective directories for setup instructions. 
