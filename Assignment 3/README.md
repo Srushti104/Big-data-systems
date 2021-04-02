@@ -120,6 +120,8 @@ Execute the test function:
 ``` pytest```   
  
 ##Project Structure:
+
+```
 Assignment 3/
 ├── .DS_Store
 ├── .idea/
@@ -180,7 +182,7 @@ Assignment 3/
 ├── requirements.txt
 ├── stockAPI.py
 └── test_stockAPI.py
-
+```
 
 ## Codelab Document:   
 For more information refer the [document](https://codelabs-preview.appspot.com/?file_id=1iF3m30Fu3eYKeD1B-BLeWZ6l2DBuktPcaK2GFXMrWUQ#0)
