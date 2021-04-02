@@ -2,8 +2,6 @@
 
 In this assignment, we build an Airflow pipeline for preprocessing and ingesting the Stock data into Snowflake using Snowflake Connector. To access the data, we are designing and building authentication enabled API, while performing unit testing on the API and evaluating the API performance by executing stress testing.  
 
-About the stock dataset, it has full historical daily price and volume data for all US-based stocks and ETFs trading on the NYSE, NASDAQ, and NYSE MKT. The data is presented in CSV format as follows: Date, Open, High, Low, Close, Volume, OpenInt.  
-
 About the [stock dataset](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs), it has full historical daily price and volume data for all US-based stocks and ETFs trading on the NYSE, NASDAQ, and NYSE MKT. The data is presented in CSV format as follows: Date, Open, High, Low, Close, Volume, OpenInt. 
 
 ## Requirements
