@@ -16,19 +16,19 @@ About the [stock dataset](https://www.kaggle.com/borismarjanovic/price-volume-da
 ## Configuration:
 Install Snowflake- Connector
 ```pip install --upgrade snowflake-connector-python```     
-
+  
 FastAPI   
-```pip3 install fastapi```
-```pip3 install uvicorn```  
-```pip3 install iexfinance```   
+```pip3 install fastapi```      
+```pip3 install uvicorn```   
+```pip3 install iexfinance```      
 
 Pytest from Jupyter Notebook 
-```pip install pytest```
-```pip install -U ipytest```
-```pip install pytest-tornasync```
-```pip install nest_asyncio```
-```pip install ipynb```
-
+```pip install pytest```   
+```pip install -U ipytest```   
+```pip install pytest-tornasync```  
+```pip install nest_asyncio```    
+```pip install ipynb```   
+ 
 Locust
 ```pip install locust```
 
