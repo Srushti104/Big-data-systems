@@ -19,7 +19,8 @@ Install Snowflake- Connector
 
 FastAPI   
 ```pip3 install fastapi```
-```pip3 install uvicorn```        
+```pip3 install uvicorn```  
+```pip3 install iexfinance```   
 
 Pytest from Jupyter Notebook 
 ```pip install pytest```
@@ -87,3 +88,32 @@ Python  91743 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-al
 Kill the process by running kill <PID> - in this case, it would be ```kill 33911```
 
  
+## Rnning FastAPI 
+```uvicorn main:app --reload```   
+
+### API Documentation  
+http://127.0.0.1:8000/docs
+
+**Authentication key**: '1234567asdfgh'
+
+## Running Locust
+
+Put the above code in a file named locustfile.py in your current directory and run:
+```locust```     
+
+If your Locust file is located somewhere else, you can specify it using -f
+
+```locust -f locust_files/my_locust_file.py```    
+
+### Locust’s web interface
+Once you’ve started Locust using one of the above command lines, you should open up a browser and point it to http://127.0.0.1:8089    
+
+## Running pytest
+Confirm the correct version: 
+```pytest --version ``` 
+  
+Execute the test function:   
+``` pytest```  
+
+## Codelab Document:
+For more information refer the [document](https://codelabs-preview.appspot.com/?file_id=1iF3m30Fu3eYKeD1B-BLeWZ6l2DBuktPcaK2GFXMrWUQ#0)
