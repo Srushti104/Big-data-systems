@@ -121,65 +121,37 @@ Execute the test function:
 
 ```
 Assignment 3/
-├── .DS_Store
-├── .idea/
-│   ├── .gitignore
-│   ├── inspectionProfiles/
-│   │   ├── profiles_settings.xml
-│   │   └── Project_Default.xml
-│   ├── misc.xml
-│   ├── modules.xml
-│   └── StockAPI.iml
-├── __pycache__/
-│   ├── ingest_db.cpython-37.pyc
-│   ├── merge_files.cpython-37.pyc
-│   ├── stockAPI.cpython-37.pyc
-│   └── test_stockAPI.cpython-37-pytest-6.2.2.pyc
-├── config/
-│   ├── __pycache__/
-│   │   └── config.cpython-37.pyc
-│   └── config.py
+├── config/ 
+│   └── config.py - snowflake config file
 ├── dags/
-│   ├── __pycache__/
-│   │   └── ingestion_pipeline.cpython-37.pyc
-│   └── ingestion_pipeline.py
+│   └── ingestion_pipeline.py - ingestion pipeleine dag
 ├── data/
-│   ├── .DS_Store
-│   ├── ETFs/
+│   ├── ETFs/ ETF file folder
 │   │   ├── .DS_Store
 │   │   ├── aadr.us.txt
 │   │   ├── aaxj.us.txt
 │   │   └── acim.us.txt
-│   └── Stocks/
+│   └── Stocks/ - Stock file folder
 │       ├── .DS_Store
 │       └── a.us.txt
-├── diagram/
-│   ├── .DS_Store
+├── diagram/ - flow diagram using Diagrams
 │   ├── creditedge_api.png
 │   ├── moodys_api.png
 │   ├── sample_moodys.py
-│   ├── stock_api.png
-│   └── StockAPI.py
-├── ingest_db.py
-├── locust_test/
-│   ├── __pycache__/
-│   │   ├── locust_company.cpython-37.pyc
-│   │   ├── locust_date.cpython-37.pyc
-│   │   └── locust_year.cpython-37.pyc
-│   ├── locust_company.py
-│   ├── locust_date.py
-│   └── locust_year.py
-├── merge_files.py
+│   ├── stock_api.png - StockAPI diagram
+│   └── StockAPI.py - script to generate diagram
+├── ingest_db.py - script to ingest data to snowflake
+├── locust_test/ - folder with locust test scripts
+│   ├── locust_company.py - script to load test api with company name
+│   ├── locust_date.py - script to load test api with date name
+│   └── locust_year.py - script to load test api with year name
+├── merge_files.py - merge ETF and Stock files
 ├── notebook/
-│   ├── .ipynb_checkpoints/
-│   │   └── test_cases-checkpoint.ipynb
-│   ├── __pycache__/
-│   │   └── test_stockAPI.cpython-37-pytest-6.2.2.pyc
-│   └── StockAPI_testing.ipynb
+│   └── StockAPI_testing.ipynb - notebook with unit testing using pytest
 ├── README.md
-├── requirements.txt
-├── stockAPI.py
-└── test_stockAPI.py
+├── requirements.txt - airflow requirement
+├── stockAPI.py - FatsAPI script to query snowflake
+└── test_stockAPI.py 
 ```
 
 ## Codelab Document:   
