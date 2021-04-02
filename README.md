@@ -34,9 +34,26 @@ Annotation Pipeline: We built pipeline using Airflow for pre processing and labe
 Training Pipeline: We configured the pipeline to train a sentiment analysis model using BERT on saved data
 Inference Pipeline: We designed the inference pipeline to take new data in json format and get back the predictions from the microservice running on the Docker image.  
 
+- [x] AWS S3 bucket
+- [x] Docker
+- [x] AWS comprehend
+- [x] Airflow
+- [x] Flask
+- [x] Postman
+- [x] Sentiment analysis with BERT 
+
 ### Assignemnt 3:
 In this assignment, we build an Airflow pipeline for preprocessing and ingesting the Stock data into Snowflake using Snowflake Connector. To access the data, we are designing and building authentication enabled API, while performing unit testing on the API and evaluating the API performance by executing stress testing.  
 
 About the stock dataset, it has full historical daily price and volume data for all US-based stocks and ETFs trading on the NYSE, NASDAQ, and NYSE MKT. The data is presented in CSV format as follows: Date, Open, High, Low, Close, Volume, OpenInt.   
+
+- [x] SnowFlake Account
+- [x] Sql connector
+- [x] FastAPI
+- [x] Locust
+- [x] pytest
+- [x] Airflow
+- [x] Postman
+
 
 *  NOTE: Refer README.md inside the respective directories for setup instructions. 
