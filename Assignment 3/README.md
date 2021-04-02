@@ -1,28 +1,89 @@
-# CSYE7245_Spring2021 Lab 
+# Introduction
 
-As part of CSYE 7245 - Big Data Systems & Intelligence Analytics Labs, we have covered below tool and platforms.
+In this assignment, we are designing and building authentication enabled API, while performing unit testing on the API and evaluating the API performance by executing stress testing.  
+About the [stock dataset](https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs), it has full historical daily price and volume data for all US-based stocks and ETFs trading on the NYSE, NASDAQ, and NYSE MKT. The data is presented in CSV format as follows: Date, Open, High, Low, Close, Volume, OpenInt. 
 
-## Team Members
-Srushti Dhamangaonkar  
-Gnana tej Cherukuru
+## Requirements
+  * Python 3.7
+  * SnowFlake Account
+  * Sql connector
+  * FastAPI
+  * Locust
+  * pytest
+  * Airflow
+  * Postman
 
-## Content 
-### Lab :
-- [x] Lab1 - AWS Getting Started + Lambda
-- [x] Lab2 - GCP - Dataflow, Datalab
-- [x] Lab3 - Kafka
-- [x] Lab4 - SQL Alchemy
-- [x] Lab5 - Snowflake
-- [x] Lab6 - SEVIR Notebook
-- [x] Lab7 - Airflow TFX
-- [x] Lab8 - Airflow CNN - Model Training using the pipeline
-- [x] Lab9 - Streamlit
-- [x] Lab10 - FastAPI
+## Configuration:
+Install Snowflake- Connector
+```pip install --upgrade snowflake-connector-python```     
 
-### Assignment 1 :
-The Storm EVent ImagRy (SEVIR) dataset is a collection of temporally and spatially aligned images containing weather events captured by satellite and radar. We have implemented below three cloud architectures to query the datasets and sample.
-- [x] Amazon Web Services (AWS)  
-- [x] Google Cloud Platform (GCP)  
-- [x] Snowflake  
+FastAPI   
+```pip3 install fastapi```
+```pip3 install uvicorn```        
 
-*  NOTE: Refer README.md inside the respective directories for setup instructions. 
+Pytest from Jupyter Notebook 
+```pip install pytest```
+```pip install -U ipytest```
+```pip install pytest-tornasync```
+```pip install nest_asyncio```
+```pip install ipynb```
+
+Locust
+```pip install locust```
+
+Airflow
+```pip install -r requirements.txt ```
+
+## Data Ingestion pipeline
+  * Add columns to identify ETF and stock and merge the data in one csv file
+  * Upload the csv to snowflake by creating staging area
+
+## Running above pipelines in Airflow:
+ Once installations are completed, configure Airflow by running:
+ 
+
+Use your present working directory as the airflow home
+```
+export AIRFLOW_HOME=~(pwd)
+```
+
+Export Python Path to allow use of custom modules by Airflow
+```
+export PYTHONPATH="${PYTHONPATH}:${AIRFLOW_HOME}"
+```
+Initialize the database
+```
+airflow db init 
+
+
+airflow users create \
+    --username admin \
+    --firstname <YourName> \
+    --lastname <YourLastName> \
+    --role Admin \
+    --email example@example.com
+```
+Start the Airflow server in daemon
+```
+airflow webserver -D
+```
+Start the Airflow Scheduler
+```airflow scheduler```
+
+Once both are running - you should be able to access the Airflow UI by visiting http://127.0.0.1:8080/home on your browser.
+
+To kill the Airflow webserver daemon:
+```lsof -i tcp:8080  ```
+
+``` 
+COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+Python  33911 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91569 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91636 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91699 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN)
+Python  91743 akshaybhoge    6u  IPv4 0x5618802e5591d6b1      0t0  TCP *:http-alt (LISTEN) 
+```
+
+Kill the process by running kill <PID> - in this case, it would be ```kill 33911```
+
+ 
