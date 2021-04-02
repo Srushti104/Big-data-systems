@@ -151,7 +151,7 @@ Assignment 3/
 ├── README.md
 ├── requirements.txt - airflow requirement
 ├── stockAPI.py - FatsAPI script to query snowflake
-└── test_stockAPI.py 
+└── test_stockAPI.py - unit testing script
 ```
 
 ## Codelab Document:   
