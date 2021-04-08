@@ -1,5 +1,5 @@
 username='Gnana'
-password='Asdfg1234'
+password='*******'
 account='bf76137.us-east-2.aws'
 warehouse='COMPUTE_WH'
 database='STOCK_DATA'
