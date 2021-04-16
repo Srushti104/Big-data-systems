@@ -60,13 +60,12 @@ Locust.
 
 
  
-## Rnning FastAPI 
+## Running FastAPI 
 ```uvicorn main:app --reload```   
 
 ### API Documentation  
 http://127.0.0.1:8000/docs
 
-**Authentication key**: '1234567asdfgh'
 
 ## Running Locust
 
@@ -90,12 +89,16 @@ Execute the test function:
  
 ## Tensorflow serving
 
+TensorFlow models using TensorFlow Extended (TFX)![image](https://user-images.githubusercontent.com/59776740/114988710-a067af80-9e64-11eb-99d8-1804235333f8.png)
+
 Download the TensorFlow Serving Docker image and repo
 ```
 docker pull tensorflow/serving
 
 git clone https://github.com/tensorflow/serving
-
+```
+Start TensorFlow Serving container and open the REST API port
+```
 docker run -t --rm -p 8501:8501 -v "/Users/akshaybhoge/PycharmProjects/Assignment4/albert_exported_model/9:/models/saved_model" -e MODEL_NAME=saved_model tensorflow/serving &
 ```
  
@@ -107,4 +110,4 @@ Assignment 4/
 ```
 
 ## Codelab Document:   
-For more information refer the [document]()
+For more information refer the [document](https://codelabs-preview.appspot.com/?file_id=1F0GC-J0CQc6fa3UfzZ91Dgre0IbgdxhG4zWrbsCfJtE#0)
