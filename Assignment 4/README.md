@@ -88,6 +88,17 @@ Confirm the correct version:
 Execute the test function:    
 ``` pytest```   
  
+## Tensorflow serving
+
+Download the TensorFlow Serving Docker image and repo
+```
+docker pull tensorflow/serving
+
+git clone https://github.com/tensorflow/serving
+
+docker run -t --rm -p 8501:8501 -v "/Users/akshaybhoge/PycharmProjects/Assignment4/albert_exported_model/9:/models/saved_model" -e MODEL_NAME=saved_model tensorflow/serving &
+```
+ 
 ## Project Structure:
 
 ```
