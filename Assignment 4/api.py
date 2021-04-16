@@ -8,8 +8,8 @@ import os
 import logging
 from fastapi_cloudauth.cognito import Cognito, CognitoCurrentUser, CognitoClaims
 
-ACCESS_KEY = 'AKIAIN6VZUI6HDFIXJJA'
-SECRET_KEY = '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'
+ACCESS_KEY = ''
+SECRET_KEY = ''
 ddb = boto3.client('dynamodb', region_name='us-east-2', aws_access_key_id=ACCESS_KEY,
                    aws_secret_access_key=SECRET_KEY)
 comprehend = boto3.client(service_name='comprehend', region_name='us-east-2', aws_access_key_id=ACCESS_KEY,
@@ -182,27 +182,7 @@ def ananomize(s3_path: str, Mask_Entity: str, deidentify_Ent: str):
     BUCKET_NAME = "textfiles2"
     OUTPUT_BODY = deidentifiedmessage
     s3.Bucket(BUCKET_NAME).put_object(Key=f'maskoutput/anaonamized.txt', Body=OUTPUT_BODY)
-    #BUCKET_NAME = "textfiles2"
-    #OUTPUT_NAME = f"maskoutput/" + filename + ".json"
-    #OUTPUT_BODY = json.dumps(deidentifiedmessage)
-    #s3.Bucket(BUCKET_NAME).put_object(Key=OUTPUT_NAME, Body=OUTPUT_BODY)
-
-    # print((deidentifiedmessage))
-    # for line in deidentifiedmessage.splitlines():
-    #     if len(line) > 0:
-    #         deidentified_list.append(line)
-    #     else:
-    #         pass
-    # df = pd.DataFrame()
-    # df['Statement'] = deidentified_list
-    # print(df)
-    # # Converting the dataframe to csv and storing it in S3 bucket
-    # df_final = StringIO()
-    # df.to_csv(df_final, header=True, index=False)
-    # df_final.seek(0)
-    # client = boto3.client('s3', aws_access_key_id=ACCESS_KEY,
-    #                       aws_secret_access_key=SECRET_KEY)
-    # client.put_object(Bucket='textfiles2', Body=df_final.getvalue(), Key='anonymised.csv')
+    
     return {
         'body': json.dumps(deidentifiedmessage)
     }
