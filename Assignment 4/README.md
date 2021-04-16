@@ -123,8 +123,7 @@ Assignment 4/
 ├── locust/
 │   └── locustfile.py - locust file for load testing
 ├── README.md
-├── test_edgar.py
-├── test_inference.py
+├── test_edgar.py - Pytest script
 └── TFX_Pipeline_for_AlBert_Preprocessing.ipynb - notebook for training Albert model on IMDB
 
 ```
