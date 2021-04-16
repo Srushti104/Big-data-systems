@@ -8,7 +8,9 @@ The goal of this assignment is to create API that Anonmyizes the data through:
 **Part 2:** 
 Goal is to deploy a sentiment analysis model to create a Model-as-a-service for anonymized data using dockerised TFX servinf model Albert.
 Eventually builidng Streamlit app to host all the API and dockerised sentiment analysis model.
+  
 
+![image](https://user-images.githubusercontent.com/59776740/115056283-9f5c6f80-9eb0-11eb-91b3-45ee5af3e9d9.png)
 
 ## Requirements
   * Python 3.7
