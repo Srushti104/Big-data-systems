@@ -2,8 +2,8 @@
 
 **Part 1:**
 The goal of this assignment is to create API that Anonmyizes the data through: 
- ● Masking
- ● Anonymization
+ - Masking
+ - Anonymization
 
 **Part 2:** 
 Goal is to deploy a sentiment analysis model to create a Model-as-a-service for anonymized data using dockerised TFX servinf model Albert.
