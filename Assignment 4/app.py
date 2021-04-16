@@ -7,12 +7,10 @@ from io import StringIO
 from boto3.dynamodb.conditions import Key
 import os
 
-verified = "True"
 
-ACCESS_KEY = 'AKIAIN6VZUI6HDFIXJJA'
-SECRET_KEY = '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'
+ACCESS_KEY = ''
+SECRET_KEY = ''
 
-Bearer = 'Bearer eyJraWQiOiJFWGJweG9JNnlaRHozT3M4M2Q4M0JlNnBYZUlLUTlaNVM2eXRpT0FqQjZNPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI1c2UwNzQwZG1pcWdwN2l1a2I3cGY3bHJndSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoibGFiLWFwaVwvbGFtYmRhLWludm9rZSIsImF1dGhfdGltZSI6MTYxODUzOTM2MCwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfczRnYWN0Zm1vIiwiZXhwIjoxNjE4NTQyOTYwLCJpYXQiOjE2MTg1MzkzNjAsInZlcnNpb24iOjIsImp0aSI6IjIyYzVkNWU1LWU0N2UtNGMxNS1hOWU0LTEwM2FjYzMyZWFkZSIsImNsaWVudF9pZCI6IjVzZTA3NDBkbWlxZ3A3aXVrYjdwZjdscmd1In0.DiTXsRA0Zuv6wrZBaf2WGGRsVltMuYz0n7s03oxEAw9rejcld7MwWWIf5FjvlcCtxAeOAofoigP7zNk0lkopgra1PyJIWMCUYI3E8DCJIAgzXLxwhyROtWRL_iHExUsulJpFdmP28shkAEojUf1Dg0ZQoVcjr7E-y50DT7foSIx1GGmTRQGds03Y650vH8xBuTbdKxb4WsawoiplhFVCIduEcmW1BCU7iALQMxdLMF6N9kE_9WNcp_Thg3ydGgtSes1i9CGz4mrJvPpp4lwa5AVwpf5nObrov-eTHLICMgLIKa6UVHhWtlSWyCYiotezYFccS6VnInNCrXNy5OAqwQ'
 
 
 def token_generator():
@@ -159,12 +157,6 @@ def main():
         my_bucket = s3.Bucket('textfiles2')
 
         st.header("_Masking And Anonymization_")
-        # if st.button('Read Documentation'):
-        #     st.write(
-        #         f'<iframe src="http://localhost:8000/redoc", width=850, height=600  , scrolling=True></iframe>',
-        #         unsafe_allow_html=True,
-        #     )
-        # st.write("Please select the entities to be recognized")
         for obj in my_bucket.objects.filter(Delimiter='/', Prefix='call_transcripts/'):
             key.append(obj.key[17:])
         filename = st.selectbox("Select Company to pick Earnings Call", key[1:])
@@ -221,9 +213,6 @@ def main():
 
     elif choice == 'User Authentication':
 
-                # st.header('**_Deidentification System!_**')
-                # image = Image.open('img-2.png')
-                # st.image(image, caption='', use_column_width=True)
                 st.write('\n')
                 st.write('This application provides the user with a  data pipeline for masking \
                            and anonymizing private data contained in unstructured text. The four APIs provided\
@@ -294,12 +283,7 @@ def main():
                 # print(predictions)
                 st.subheader(text)
                 st.subheader(predictions)
-            # else:
-            #     st.markdown(
-            #         """
-            #         <span style="color:red">FILE NOT FOUND</span>
-            #         """,
-            #         unsafe_allow_html=True)
+      
 
 
 if __name__ == '__main__':
