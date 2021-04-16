@@ -106,6 +106,41 @@ docker run -t --rm -p 8501:8501 -v "/Users/akshaybhoge/PycharmProjects/Assignmen
 
 ```
 Assignment 4/
+├── .DS_Store
+├── .idea/
+│   ├── .gitignore
+│   ├── Assignment4.iml
+│   ├── inspectionProfiles/
+│   │   ├── profiles_settings.xml
+│   │   └── Project_Default.xml
+│   ├── misc.xml
+│   └── modules.xml
+├── albert_exported_model/
+│   ├── 9/
+│   │   ├── assets/
+│   │   │   └── 30k-clean.model
+│   │   ├── saved_model.pb
+│   │   ├── server.log
+│   │   └── variables/
+│   │       ├── variables.data-00000-of-00001
+│   │       └── variables.index
+│   └── dynamo.py
+├── api.py
+├── app.py
+├── inference/
+│   ├── __pycache__/
+│   │   └── main.cpython-37.pyc
+│   ├── Dockerfile
+│   ├── log
+│   └── main.py
+├── locust/
+│   ├── __pycache__/
+│   │   └── locustfile.cpython-37.pyc
+│   └── locustfile.py
+├── README.md
+├── test_edgar.py
+├── test_inference.py
+└── TFX_Pipeline_for_AlBert_Preprocessing.ipynb
 
 ```
 
