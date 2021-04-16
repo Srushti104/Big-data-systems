@@ -10,8 +10,8 @@ import uvicorn
 
 from fastapi import FastAPI
 
-ACCESS_KEY = 'AKIAIN6VZUI6HDFIXJJA'
-SECRET_KEY = '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'
+ACCESS_KEY = ''
+SECRET_KEY = ''
 
 app = FastAPI()
 
