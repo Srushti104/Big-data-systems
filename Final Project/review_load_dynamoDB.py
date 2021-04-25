@@ -4,10 +4,6 @@ import pandas as pd
 # from smart_open import smart_open
 
 DYNAMODB = boto3.resource('dynamodb')
-s3 = boto3.resource('s3')
-bucket = s3.Bucket('ids706')
-data_key = 'bitcoin_reddit_all.csv.zip'
-data_location = 's3://{}/{}'.format(bucket.name, data_key)
 
 
 def convert(filename):
