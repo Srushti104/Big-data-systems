@@ -12,11 +12,6 @@ import datetime
 import yfinance as yf
 import matplotlib.pyplot as plt
 
-ACCESS_KEY='AKIAWKCAZTNP6OC5P2VD'
-SECRET_KEY='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'
-
-
-
 
 
 
@@ -26,21 +21,6 @@ def main():
     choice = st.sidebar.selectbox("Menu", menu)
 
     st.markdown('<style>body{background-color: #FFF2C2;}</style>', unsafe_allow_html=True)
-
-    # st.sidebar.write("## Guide")
-    # st.sidebar.write("""
-    # - select coin(s) you would like data for
-    # - select the currency you wish to use
-    # - select a range of dates (this is for the candle stick plot)
-    # """)
-    #
-    # st.sidebar.write("## Info")
-    # st.sidebar.write("""
-    # - candle stick plot(s) -- default date range is last 30 days
-    # - 24 hour stats for the selected coins(s)
-    # - the order book for the selected coin(s)
-    # - the ticker for the selected coin(s)
-    # """)
 
     st.title("""
        Crypto Currency Dashboard
@@ -117,11 +97,6 @@ def main():
 
         else:
             st.write("### Please select a cryto")
-
-
-
-
-
 
 
 
