@@ -17,11 +17,11 @@ s3 = boto3.client('s3',
 app = FastAPI(debug=True)
 
 @app.get("/")
-def read_root():
+def hello():
     return {"Hello": "World"}
 
 @app.get("/bitcoin")
-def read_file(File_Name: str, start_date:str, end_date:str):
+def bitcoin_range(File_Name: str, start_date:str, end_date:str):
 
     DYNAMODB = boto3.resource('dynamodb',
                               region_name='us-east-2',
@@ -49,8 +49,11 @@ def read_file(File_Name: str, start_date:str, end_date:str):
         'body': (bitcoin)
     }
 
-@app.get("/today")
-def today():
+@app.get("/todaySentiment")
+def today_sentiment():
+
+    newrev = []
+    newdate = []
 
     bucket = 'bitcoin-prediction'
     filename = 'Bitcoin_sentiment.csv'
@@ -58,31 +61,49 @@ def today():
     obj = s3.get_object(Bucket=bucket, Key=filename)
 
     initial_df = pd.read_csv(obj['Body']) # 'Body' is a key word
+    initial_df.drop('Unnamed: 0', axis = 1, inplace = True)
+
+    date = initial_df['datetime'].tolist()
+
+    for item in date:
+        item = item.replace('[',"")
+        item = item.replace(']', "")
+        item = item.replace("'", "")
+        newdate.append(item)
+
+    review = initial_df['body'].tolist()
+
+    for item in review:
+        item = item.replace('[',"")
+        item = item.replace(']', "")
+        item = item.replace("'", "")
+        newrev.append(item)
+
+    sentiments = initial_df['Sentiment'].tolist()
+    initial_df = pd.DataFrame((zip(newdate, newrev, sentiments)),
+                 columns = ['date','review', 'sentiment'])
 
     initial_df = initial_df.to_json(orient="records")
 
     return {
-        'Sentiments': (initial_df)
+        'Sentiments': initial_df
     }
 
-@app.get("/allsentiments")
-def reviews():
+@app.get("/allSentiments")
+def all_reviews():
 
     newdate = []
 
     bucket = 'bitcoin-prediction'
     filename = 'review_sentiment.csv'
-    obj = s3.get_object(Bucket=bucket, Key=filename)
-
-    df = pd.read_csv(obj['Body']) # 'Body' is a key word
-
+    obj = s3.get_object(Bucket = bucket, Key = filename)
+    df = pd.read_csv(obj['Body'])
     date = df['date'].tolist()
 
     for item in date:
         item = item.replace('[',"")
         item = item.replace(']', "")
         item = item.replace("'", "")
-        print(item)
         newdate.append(item)
 
     sentiments = df['sentiments'].tolist()
@@ -90,14 +111,13 @@ def reviews():
                  columns = ['date', 'sentiments'])
 
     finaldf = df.to_json(orient = "records")
-    print(finaldf)
 
     return {
         'Sentiments' : finaldf
     }
 
-@app.get("/Predictions")
-def predict():
+@app.get("/predictions")
+def predictions():
     newPred = []
 
     bucket = 'bitcoin-prediction'
