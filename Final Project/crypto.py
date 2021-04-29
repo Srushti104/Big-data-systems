@@ -14,10 +14,6 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 
-# from tensorflow import keras
-# from keras.models import load_model
-# from sklearn.preprocessing import MinMaxScaler
-
 import yfinance as yf
 from forex_python.bitcoin import BtcConverter
 from forex_python.converter import CurrencyCodes
@@ -73,7 +69,7 @@ def main():
                 print(authValueFlag)
             except aws_client.exceptions.UsernameExistsException as e:
                 st.info("Login successfully")
-                st.balloons()
+
                 authValueFlag = True
             f = open('AuthenticationValue.txt', 'a')
             f.truncate(0)
@@ -241,151 +237,95 @@ def main():
         f.close()
         st.write("You have been Logged out")
 
-    # if choice == "Bitcoin Prediction":
-    #
-    #     b = BtcConverter()
-    #     c = CurrencyCodes()  # force_decimal=True to get Decimal rates
-    #
-    #     st.title("Forecast Bitcoin 💰 ")
-    #     col2, col3 = st.beta_columns((2, 1))
-    #
-    #     data = yf.download(tickers='BTC-USD', period='1d', interval='1m')
-    #
-    #     today_dt = data.iloc[-1:].index[0]
-    #     st.write("Todays Date: ", today_dt.strftime('%d %B %Y'))
-    #     st.write("Current Price ${:.2f}".format(b.get_latest_price('USD')))
-    #
-    #     closing_price = data.iloc[-1:]['Close'][0]
-    #     st.write("Closing Prices ${:.2f}".format(closing_price))
-    #
-    #     st.subheader("Currency Converter")
-    #     choice = st.selectbox("Select Currency to convert Bitcoin Price", (
-    #         'EUR - Euro Member Countries', 'IDR - Indonesia Rupiah', 'BGN - Bulgaria Lev', 'ILS - Israel Shekel',
-    #         'GBP - United Kingdom Pound', 'DKK - Denmark Krone', 'CAD - Canada Dollar', 'JPY - Japan Yen',
-    #         'HUF - Hungary Forint', 'RON - Romania New Leu', 'MYR - Malaysia Ringgit', 'SEK - Sweden Krona',
-    #         'SGD - Singapore Dollar', 'HKD - Hong Kong Dollar', 'AUD - Australia Dollar', 'CHF - Switzerland Franc',
-    #         'KRW - Korea (South) Won', 'CNY - China Yuan Renminbi', 'TRY - Turkey Lira', 'HRK - Croatia Kuna',
-    #         'NZD - New Zealand Dollar', 'THB - Thailand Baht', 'USD - United States Dollar', 'NOK - Norway Krone',
-    #         'RUB - Russia Ruble', 'INR - India Rupee', 'MXN - Mexico Peso', 'CZK - Czech Republic Koruna',
-    #         'BRL - Brazil Real', 'PLN - Poland Zloty', 'PHP - Philippines Peso', 'ZAR - South Africa Rand'))
-    #
-    #     amt = (b.get_latest_price(choice[:3]))
-    #     sym = (c.get_symbol(choice[:3]))
-    #     st.write("Current price in ", choice[:3], " is", sym, " ", "{:.2f}".format(amt))
-    #
-    #     with st.spinner('Loading predictions...'):
-    #
-    #         model = load_model('lstm_model.h5')
-    #         df = pd.read_csv('bitcoin_2018-3-1_2021-4-28.csv')
-    #
-    #         df['Date'] = pd.to_datetime(df['Date'])
-    #         df.sort_values(by='Date', inplace=True)
-    #         df1 = df.reset_index()['Close']
-    #
-    #         scaler = MinMaxScaler(feature_range=(0, 1))
-    #         df1 = scaler.fit_transform(np.array(df1).reshape(-1, 1))
-    #
-    #         # splitting dataset into train and test split
-    #         training_size = int(len(df1) * 0.7)
-    #         test_size = len(df1) - training_size
-    #         train_data, test_data = df1[0:training_size, :], df1[training_size:len(df1), :1]
-    #
-    #         # convert an array of values into a dataset matrix
-    #         def create_dataset(dataset, time_step=1):
-    #             data_x, data_y = [], []
-    #             for i in range(len(dataset) - time_step - 1):
-    #                 a = dataset[i:(i + time_step), 0]
-    #                 data_x.append(a)
-    #                 data_y.append(dataset[i + time_step, 0])
-    #             return np.array(data_x), np.array(data_y)
-    #
-    #         # reshape into X=t,t+1,t+2,t+3 and Y=t+4
-    #         time_step = 100
-    #         future_day = 30
-    #
-    #         X_train, y_train = create_dataset(train_data, time_step)
-    #         X_test, y_test = create_dataset(test_data, time_step)
-    #
-    #         # reshape input to be [samples, time steps, features] which is required for LSTM
-    #         X_train = X_train.reshape(X_train.shape[0], X_train.shape[1], 1)
-    #         X_test = X_test.reshape(X_test.shape[0], X_test.shape[1], 1)
-    #
-    #         # Lets Do the prediction
-    #         train_predict = model.predict(X_train)
-    #         test_predict = model.predict(X_test)
-    #
-    #         train_predict = scaler.inverse_transform(train_predict)
-    #         test_predict = scaler.inverse_transform(test_predict)
-    #
-    #         model = load_model('lstm_model.h5')
-    #
-    #         x_input = test_data[len(test_data) - time_step:].reshape(1, -1)
-    #
-    #         temp_input = list(x_input)
-    #         temp_input = temp_input[0].tolist()
-    #
-    #         lst_output = []
-    #         n_steps = time_step
-    #         i = 0
-    #         # Forecast next 10 days output
-    #         while i < future_day:
-    #
-    #             if len(temp_input) > 100:
-    #                 x_input = np.array(temp_input[1:])
-    #                 x_input = x_input.reshape(1, -1)
-    #                 x_input = x_input.reshape((1, n_steps, 1))
-    #                 yhat = model.predict(x_input, verbose=0)
-    #                 temp_input.extend(yhat[0].tolist())
-    #                 temp_input = temp_input[1:]
-    #                 lst_output.extend(yhat.tolist())
-    #                 i = i + 1
-    #             else:
-    #                 x_input = x_input.reshape((1, n_steps, 1))
-    #                 yhat = model.predict(x_input, verbose=0)
-    #                 temp_input.extend(yhat[0].tolist())
-    #                 lst_output.extend(yhat.tolist())
-    #                 i = i + 1
-    #
-    #         previous_days = np.arange(len(df1) - n_steps, len(df1))
-    #         predicted_future = np.arange(len(df1), len(df1) + future_day)
-    #
-    #         pred = requests.get('https://58jmyxbog3.execute-api.us-east-2.amazonaws.com/test/predictions')
-    #         data = pred.json()
-    #         pred_body = data['Predictions']
-    #         predictions = json.loads(pred_body)
-    #         df = pd.DataFrame(predictions, columns=['date', 'Predictions'])
-    #         df.columns = ['Date', 'Predictions']
-    #         st.table(df.assign(hack='').set_index('hack'))
-    #
-    #         def filedownload(df):
-    #             csv = df.to_csv(index=False)
-    #             b64 = base64.b64encode(csv.encode()).decode()  # strings <-> bytes conversions
-    #             href = f'<a href="data:file/csv;base64,{b64}" download="crypto.csv">Download File</a>'
-    #             return href
-    #
-    #         st.markdown(filedownload(df), unsafe_allow_html=True)
-    #
-    #         # Selecting last 10 days input from the dataframe df1 for first plot
-    #         fig2 = plt.figure()
-    #         plt.title("Forecasted prices of BTC for next " + str(future_day) + " days")
-    #         plt.xlabel("Future Days")
-    #         plt.ylabel("Closing Price")
-    #
-    #         outputlist = df1.tolist()
-    #         outputlist.extend(lst_output)
-    #         st.line_chart(scaler.inverse_transform(outputlist[len(df1):]))
-    #
-    #         if st.checkbox("Would you like to view combined original and forecasted graph"):
-    #             fig1 = plt.figure()
-    #             plt.title("Combined graph with forecasted price")
-    #             plt.xlabel(" Days")
-    #             plt.ylabel("Closing Price")
-    #             plt.plot(np.append(previous_days, predicted_future),
-    #                      scaler.inverse_transform(outputlist[len(df1) - n_steps:]))
-    #             plt.plot(predicted_future, scaler.inverse_transform(lst_output))
-    #             # st.pyplot(fig1)
-    #             chart = st.line_chart(scaler.inverse_transform(outputlist[len(df1) - n_steps:]))
-    #             chart.add_rows(scaler.inverse_transform(lst_output))
+    if choice == "Bitcoin Prediction":
+
+        b = BtcConverter()
+        c = CurrencyCodes()  # force_decimal=True to get Decimal rates
+
+        st.title("Forecast Bitcoin 💰 ")
+        col2, col3 = st.beta_columns((2, 1))
+
+        data = yf.download(tickers='BTC-USD', period='1d', interval='1m')
+
+        today_dt = data.iloc[-1:].index[0]
+        st.write("Todays Date: ", today_dt.strftime('%d %B %Y'))
+        st.write("Current Price ${:.2f}".format(b.get_latest_price('USD')))
+
+        closing_price = data.iloc[-1:]['Close'][0]
+        st.write("Closing Prices ${:.2f}".format(closing_price))
+
+        st.subheader("Currency Converter")
+        choice = st.selectbox("Select Currency to convert Bitcoin Price", (
+            'EUR - Euro Member Countries', 'IDR - Indonesia Rupiah', 'BGN - Bulgaria Lev', 'ILS - Israel Shekel',
+            'GBP - United Kingdom Pound', 'DKK - Denmark Krone', 'CAD - Canada Dollar', 'JPY - Japan Yen',
+            'HUF - Hungary Forint', 'RON - Romania New Leu', 'MYR - Malaysia Ringgit', 'SEK - Sweden Krona',
+            'SGD - Singapore Dollar', 'HKD - Hong Kong Dollar', 'AUD - Australia Dollar', 'CHF - Switzerland Franc',
+            'KRW - Korea (South) Won', 'CNY - China Yuan Renminbi', 'TRY - Turkey Lira', 'HRK - Croatia Kuna',
+            'NZD - New Zealand Dollar', 'THB - Thailand Baht', 'USD - United States Dollar', 'NOK - Norway Krone',
+            'RUB - Russia Ruble', 'INR - India Rupee', 'MXN - Mexico Peso', 'CZK - Czech Republic Koruna',
+            'BRL - Brazil Real', 'PLN - Poland Zloty', 'PHP - Philippines Peso', 'ZAR - South Africa Rand'))
+
+        amt = (b.get_latest_price(choice[:3]))
+        sym = (c.get_symbol(choice[:3]))
+        st.write("Current price in ", choice[:3], " is", sym, " ", "{:.2f}".format(amt))
+
+        with st.spinner('Loading predictions...'):
+            # Connect to Boto3
+            s3 = boto3.resource(
+                service_name='s3',
+                region_name='us-east-2')
+
+            # Your Bucket goes here
+            bucket_name = 'bitcoin-prediction'
+
+            # Your S3 Path goes here
+            filename = 'sagemaker/bitcoin_2018-3-1_2021-4-28.csv'
+
+            pred = requests.get('https://58jmyxbog3.execute-api.us-east-2.amazonaws.com/test/predictions')
+            data = pred.json()
+            pred_body = data['Predictions']
+            predictions = json.loads(pred_body)
+            df = pd.DataFrame(predictions, columns=['date', 'Predictions'])
+            df.columns = ['Date', 'Predictions']
+            df2 = df.copy()
+            # df['Date'] = pd.to_datetime(df['Date'], format='%d-%m-%Y')
+
+            # df = df.set_index('Date')
+            df['Predictions'] = df['Predictions'].astype(float)
+            df['Predictions'] = df['Predictions'].round(2)
+
+            st.dataframe(df)
+            df['Date'] = pd.to_datetime(df['Date'], format='%d-%m-%Y')
+            df = df.set_index('Date')
+            st.subheader("Forecast for 30 days ")
+            st.line_chart(df['Predictions'])
+
+            def filedownload(df):
+                csv = df.to_csv(index=False)
+                b64 = base64.b64encode(csv.encode()).decode()  # strings <-> bytes conversions
+                href = f'<a href="data:file/csv;base64,{b64}" download="crypto.csv">Download File</a>'
+                return href
+
+            st.markdown(filedownload(df), unsafe_allow_html=True)
+
+            s3 = boto3.client('s3',
+                              region_name='us-east-2',
+                              aws_access_key_id='AKIAWKCAZTNP6OC5P2VD',
+                              aws_secret_access_key='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')
+
+            obj = s3.get_object(Bucket=bucket_name, Key=filename)
+            df1 = pd.read_csv(obj['Body'])
+            # df1 = pd.read_csv('bitcoin_2018-3-1_2021-4-28.csv')
+            df1['Date'] = pd.to_datetime(df1['Date'], format='%b-%d-%Y')
+            df1.sort_values(by='Date', inplace=True)
+            df1 = df1.reset_index()['Close']
+            df = df.reset_index()['Predictions']
+
+            st.subheader("Overall trend ")
+            chart = st.line_chart(df1)
+            df3 = df1.tolist()
+            df3.extend(df)
+            chart.add_rows(df3[1100:])
 
     if choice == "Sentiment Analysis":
         st.header("Sentiment Analysis on Bitcoin Reviews 💰 ")
@@ -402,18 +342,52 @@ def main():
 
         df = pd.DataFrame(sentiment, columns=['date', 'sentiments'])
         df['date'] = pd.to_datetime(df['date']).dt.date
+        print(df['date'])
 
-        sentiment_count = df["sentiments"].value_counts()
-        sentiment_count = pd.DataFrame({"Sentiment": sentiment_count.index, "Reviews": sentiment_count.values})
+        date = st.radio(
+            "Select to see Trend of Sentiment ",
+            ('2 Days', '5 Days', '1 Week'))
 
-        st.subheader("Number of Reviews by Sentiment")
+        if date == '2 Days':
+            df['date'] = dt.date.today() - dt.timedelta(days=2)
 
-        fig = px.bar(sentiment_count, x="Sentiment", y="Reviews", color="Reviews")
-        st.plotly_chart(fig)
+            sentiment_count = df["sentiments"].value_counts()
+            sentiment_count = pd.DataFrame({"Sentiment": sentiment_count.index, "Reviews": sentiment_count.values})
 
-        fig = px.pie(sentiment_count, names=sentiment_count["Sentiment"], values=sentiment_count["Reviews"],
-                     color=sentiment_count["Sentiment"])
-        st.plotly_chart(fig)
+            st.subheader("Number of Reviews by Sentiment")
+            fig = px.bar(sentiment_count, x="Sentiment", y="Reviews", color="Reviews")
+            st.plotly_chart(fig)
+
+            fig = px.pie(sentiment_count, names=sentiment_count["Sentiment"], values=sentiment_count["Reviews"],
+                         color=sentiment_count["Sentiment"])
+            st.plotly_chart(fig)
+
+        if date == '5 Days':
+
+            sentiment_count = df["sentiments"].value_counts()
+            sentiment_count = pd.DataFrame({"Sentiment": sentiment_count.index, "Reviews": sentiment_count.values})
+
+            st.subheader("Number of Reviews by Sentiment")
+            fig = px.bar(sentiment_count, x="Sentiment", y="Reviews", color="Reviews")
+            st.plotly_chart(fig)
+
+            fig = px.pie(sentiment_count, names=sentiment_count["Sentiment"], values=sentiment_count["Reviews"],
+                         color=sentiment_count["Sentiment"])
+            st.plotly_chart(fig)
+
+        if date == '1 Week':
+
+            sentiment_count = df["sentiments"].value_counts()
+            sentiment_count = pd.DataFrame({"Sentiment": sentiment_count.index, "Reviews": sentiment_count.values})
+
+            st.subheader("Number of Reviews by Sentiment")
+            fig = px.bar(sentiment_count, x="Sentiment", y="Reviews", color="Reviews")
+            st.plotly_chart(fig)
+
+            fig = px.pie(sentiment_count, names=sentiment_count["Sentiment"], values=sentiment_count["Reviews"],
+                         color=sentiment_count["Sentiment"])
+            st.plotly_chart(fig)
+
 
 
 if __name__ == '__main__':
