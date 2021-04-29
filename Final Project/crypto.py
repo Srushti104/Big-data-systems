@@ -49,7 +49,9 @@ def main():
             current.truncate(0)
             try:
                 aws_client = boto3.client('cognito-idp',
-                                          region_name='us-east-2'
+                                          region_name='us-east-2',
+                                          aws_access_key_id='AKIAWKCAZTNP6OC5P2VD',
+                                          aws_secret_access_key='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'
                                           )
                 response = aws_client.admin_create_user(
                     UserPoolId='us-east-2_LUKFFoPeQ',
