@@ -26,7 +26,7 @@ currentFunction = ""
 def auth(authValueFlag):
     authValueFlag = False
 
-img = Image.open('bitcoin.png')
+img = Image.open('Images/bitcoin.png')
 st.set_page_config(page_title='Crypto Currency Forecast', page_icon=img, layout='wide')
 
 col1, col2, col3, col4= st.beta_columns(4)
@@ -101,7 +101,7 @@ def main():
                     f.close()
                     st.info("You have been logged out!")
                     break
-                img1 = Image.open('bitcoin2.png')
+                img1 = Image.open('Images/bitcoin2.png')
                 st.image(img1)
                 st.subheader('About:')
                 st.write('A cryptocurrency, broadly defined, is currency that takes the form of tokens or “coins” and '
