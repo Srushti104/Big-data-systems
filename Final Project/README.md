@@ -126,3 +126,29 @@ cd Team1_CSYE7245_Spring2021/Final Project/
 streamlit run crypto.py
 ```
 Now you can go to a browser and type the external URL to access your app.
+
+
+Project Structure
+```
+Final Project/
+├── .streamlit/
+│   └── config.toml
+├── api.py
+├── crypto.py
+├── Images/
+│   ├── BItcoin Architecture_Final.jpeg
+│   ├── bitcoin.png
+│   ├── bitcoin2.png
+│   └── cryptocurrency.jpeg
+├── Lambda/
+│   ├── everydaysentiment.py
+│   ├── reviews_s3new.py
+│   ├── reviewscrape_latest.py
+│   ├── sentimentAPI.py
+│   ├── test_scrape.py
+│   └── testdynamo_s3.py
+├── LSTM/
+│   └── lstm_model.py
+├── README.md
+└── requirements.txt
+```
