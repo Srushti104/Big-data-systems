@@ -42,7 +42,7 @@ Postman.
 
 ```pip3 install -r requirements.txt```
 
-##### Configuration.   
+#### Configuration.   
 FastAPI     
 ```pip3 install fastapi```  
 ```pip3 install uvicorn```   
