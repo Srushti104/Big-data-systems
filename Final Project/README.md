@@ -50,12 +50,12 @@ FastAPI
 
 #### Lambda Deployment:
 
-After cloning the repo and installing the required pacakages zip all the installed libraires. Move the lambda scripts to the zip folder.
-Upload the zip folder to the s3 bucket and make a note of the object URL
-Create associated lambda fucntions with IAM role of lambda ececute having policies of AWS S3full access,DynamoDB full access, ComprehendfullAccess, SQSfull access
-Upload the zip folder rmo s3 location to Lambda
-Once the lambda's are deployed make sure to check the configuration to avoid timeout error. 
-Create an SQS queue which acts as a trigger to your consumer Lambdas.
+* After cloning the repo and installing the required pacakages zip all the installed libraires. Move the lambda scripts to the zip folder.
+* Upload the zip folder to the s3 bucket and make a note of the object URL
+* Create associated lambda fucntions with IAM role of lambda ececute having policies of AWS S3full access,DynamoDB full access, ComprehendfullAccess, SQSfull access
+* Upload the zip folder rmo s3 location to Lambda
+* Once the lambda's are deployed make sure to check the configuration to avoid timeout error. 
+* Create an SQS queue which acts as a trigger to your consumer Lambdas.
 
 
 #### Part 1: Lambda Functions:
