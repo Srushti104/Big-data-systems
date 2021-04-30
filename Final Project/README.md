@@ -47,6 +47,17 @@ FastAPI
 ```pip3 install uvicorn```   
 ```pip3 install iexfinance```  
 
+
+#### Lambda Deployment:
+
+After cloning the repo and installing the required pacakages zip all the installed libraires. Move the lambda scripts to the zip folder.
+Upload the zip folder to the s3 bucket and make a note of the object URL
+Create associated lambda fucntions with IAM role of lambda ececute having policies of AWS S3full access,DynamoDB full access, ComprehendfullAccess, SQSfull access
+Upload the zip folder rmo s3 location to Lambda
+Once the lambda's are deployed make sure to check the configuration to avoid timeout error. 
+Create an SQS queue which acts as a trigger to your consumer Lambdas.
+
+
 #### Part 1: Lambda Functions:
 
 We have to sets of lambda functions one to scrape the price data and the second one to scrape and store the sentiments of reviews from the website:
