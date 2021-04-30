@@ -4,8 +4,6 @@
 Srushti Dhamangaonkar       
 Gnana tej Cherukuru
 
-## Table of Contents
-
 ### Introduction    
 As part of academic project for course CSYE 7245-Big Data Systems & Intelligence Analytics we have built an application on streamlit to predict bitcoin price
 
