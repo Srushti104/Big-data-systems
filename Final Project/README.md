@@ -101,7 +101,24 @@ Built a Streamlit application which is hosted on EC2 instance and available for 
 
 #### Part 4:Deployment on EC2
 
+* Setting up the Amazon Instance
+- Go to AWS Management Console using https://us-west-2.console.aws.amazon.com/console.
+- On the AWS Management Console, you can select “Launch a Virtual Machine”. 
+- Select the 18.04 Ubuntu Server since it is applicable for the Free Tier.
+- Git the Public DNS(IPv4) Address and the ```streamlit.pem``` file. 
+- run below command
 
+```
+chmod 400 streamlit.pem
+ssh -i "streamlit.pem" ubuntu@<Your Public DNS(IPv4) Address>
+```
 
+Install all the required packages.
+```
+git clone https://github.com/Srushti104/Team1_CSYE7245_Spring2021.git
+cd Team1_CSYE7245_Spring2021/Final Project/
+streamlit run crypto.py
+```
+Now you can go to a browser and type the external URL to access your app.
 
 
