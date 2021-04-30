@@ -30,6 +30,16 @@ FastAPI.
 Streamlit.   
 Postman.   
 
+#### Configuration.   
+
+Install Streamlit.     
+```pip install streamlit```.   
+
+FastAPI     
+```pip3 install fastapi```.  
+```pip3 install uvicorn```.   
+```pip3 install iexfinance```     
+
 ### Scraping website 
 [Bitcoin Price](https://coincodex.com/crypto/bitcoin/).  
 [Bitoin Review](https://www.trustpilot.com/review/bitcoin.com)
