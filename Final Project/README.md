@@ -23,29 +23,29 @@ Cognito.
 SQS.  
 IAM
 
-### Requirements    
-
-Python 3.7    
-FastAPI.   
-Streamlit.   
-Postman.   
-
-#### Configuration.   
-
-Install Streamlit.     
-```pip install streamlit```.   
-
-FastAPI     
-```pip3 install fastapi```.  
-```pip3 install uvicorn```.   
-```pip3 install iexfinance```     
-
 ### Scraping website 
 [Bitcoin Price](https://coincodex.com/crypto/bitcoin/).  
 [Bitoin Review](https://www.trustpilot.com/review/bitcoin.com)
 
 ### Architecture 
 Bitcoin Architecture![image](https://user-images.githubusercontent.com/59776740/116674003-16ded400-a972-11eb-9f15-82ce288522d4.png)
+
+### Setup
+Clone this repo to your local machine using ```https://github.com/Srushti104/Team1_CSYE7245_Spring2021.git```
+
+#### Requirements    
+Python 3.7    
+FastAPI.   
+Streamlit.   
+Postman.   
+
+```pip3 install -r requirements.txt```
+
+##### Configuration.   
+FastAPI     
+```pip3 install fastapi```  
+```pip3 install uvicorn```   
+```pip3 install iexfinance```  
 
 #### Part 1: Lambda Functions:
 
@@ -71,8 +71,6 @@ ComprehendFullAccess
 AWSLambdaExecute
 
 #### Part 2: LSTM(Long Short term memory) Model and AWS Comprehend
-LSTM:
-
 For training the model we used LSTM. We created the features using previous 3 years of prices for Open, High, Low, and close price to predict the next 30 days price.
 
 Sentiment Analysis:
@@ -81,7 +79,7 @@ Amazon Comprehend is a natural-language processing (NLP) service that uses machi
 Used AWS Comprehend to perform sentiment analysis on the reviews scared which is used in the Stream lit application to aggregate the sentiments based on the dates provided 
 
 #### Fast API:
-Built Lambda function with AWS API gateway as trigger to generate 3 API endpoints which communicate with the S3 bucket and the stremlit application  	
+Built Lambda function with AWS API gateway as trigger to generate 3 API endpoints which communicate with the S3 bucket and the streamlit application  	
 
 #### Part 3: Streamlit
 Built a Streamlit application which is hosted on EC2 instance and available for the user to access
@@ -89,7 +87,6 @@ Built a Streamlit application which is hosted on EC2 instance and available for 
 #### Features of the Application:
 
 **Bitcoin Prediction** 
-
 - Predicted price of the Bitcoin for the next 30 days 
 - Live Bitcoin Price 
 - A trend chart showing the trend of the bitcoin over the course of time 
@@ -110,7 +107,6 @@ Built a Streamlit application which is hosted on EC2 instance and available for 
 - Only authorised users can login
 
 #### Part 4:Deployment on EC2
-
 * Setting up the Amazon Instance
 - Go to AWS Management Console using https://us-west-2.console.aws.amazon.com/console.
 - On the AWS Management Console, you can select “Launch a Virtual Machine”. 
@@ -130,5 +126,3 @@ cd Team1_CSYE7245_Spring2021/Final Project/
 streamlit run crypto.py
 ```
 Now you can go to a browser and type the external URL to access your app.
-
-
