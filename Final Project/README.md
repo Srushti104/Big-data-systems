@@ -131,24 +131,19 @@ Now you can go to a browser and type the external URL to access your app.
 Project Structure
 ```
 Final Project/
-├── .streamlit/
-│   └── config.toml
-├── api.py
-├── crypto.py
-├── Images/
-│   ├── BItcoin Architecture_Final.jpeg
-│   ├── bitcoin.png
-│   ├── bitcoin2.png
-│   └── cryptocurrency.jpeg
+├── .streamlit/ - 
+│   └── config.toml - streamlit theme config
+├── api.py - Fast API script
+├── crypto.py - Streamlit app
 ├── Lambda/
-│   ├── everydaysentiment.py
-│   ├── reviews_s3new.py
-│   ├── reviewscrape_latest.py
-│   ├── sentimentAPI.py
-│   ├── test_scrape.py
-│   └── testdynamo_s3.py
+│   ├── everydaysentiment.py - gets all the review from dynamo to s3 (scheduled everyday once)
+│   ├── reviews_s3new.py - gets latest review from dynamo to s3, linked to SQS
+│   ├── reviewscrape_latest.py - scrapes reviews from website and stores to dynamodb 
+│   ├── sentimentAPI.py - Fast API package
+│   ├── test_scrape.py - scrapes bitcoin price from website and store dynamodb
+│   └── testdynamo_s3.py - moves bitcoin price from dynamo to s3
 ├── LSTM/
-│   └── lstm_model.py
+│   └── lstm_model.py - model training script
 ├── README.md
 └── requirements.txt
 ```
