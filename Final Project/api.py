@@ -5,8 +5,6 @@ import datetime
 import pandas as pd
 
 
-ACCESS_KEY = 'AKIAWKCAZTNP6OC5P2VD'
-SECRET_KEY = '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'
 
 s3 = boto3.client('s3',
                   region_name='us-east-2',
