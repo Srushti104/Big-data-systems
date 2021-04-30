@@ -27,6 +27,9 @@ IAM
 [Bitcoin Price](https://coincodex.com/crypto/bitcoin/).  
 [Bitoin Review](https://www.trustpilot.com/review/bitcoin.com)
 
+### Streamlit hosted on EC2 
+Link: http://3.16.82.118:8501/
+
 ### Architecture 
 Bitcoin Architecture![image](https://user-images.githubusercontent.com/59776740/116674003-16ded400-a972-11eb-9f15-82ce288522d4.png)
 
@@ -139,7 +142,8 @@ streamlit run crypto.py
 Now you can go to a browser and type the external URL to access your app.
 
 
-Project Structure
+### Project Structure
+
 ```
 Final Project/
 ├── .streamlit/ - 
@@ -158,3 +162,5 @@ Final Project/
 ├── README.md
 └── requirements.txt
 ```
+### Codelab Document:
+For more information refer the [document](https://codelabs-preview.appspot.com/?file_id=1juT4LFQtWbYCmqQhZJlFMNsBN9bD3xpbYq-HtJ4QDmg#0)
