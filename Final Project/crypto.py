@@ -30,58 +30,60 @@ def auth(authValueFlag):
 img = Image.open('Images/bitcoin.png')
 st.set_page_config(page_title='Crypto Currency Forecast', page_icon=img, layout='centered')
 
-col1, col2, col3 = st.beta_columns((1,3,1))
+
 
 if authValueFlag == True:
-    col3.button('Logout')
+    st.button('Logout')
 
 def main():
-    menu = ['Login', 'Home', 'Architecture', "Crypto Currency Dashboard", 'Sentiment Analysis', 'Bitcoin Prediction']
+    menu = ['Login', 'Home', 'Architecture', "Crypto Currency Dashboard", 'Bitcoin Prediction','Sentiment Analysis']
     st.sidebar.title("** Menu **")
     choice = st.sidebar.selectbox("Select the page from dropdown to browse ", menu)
-    col1, col2, col3 = st.beta_columns((1, 3, 1))
-    col2.title("**_Crypto Currency Forecast Application_**")
+    t1,t2,t3=st.beta_columns((2,6,2))
+    t2.title("**_Crypto Currency Forecast Application_**")
 
     if choice == "Login":
         #st.subheader("Login ")
-        col1, col2, col3 = st.beta_columns((1, 3, 1))
+        col1, col2, col3 = st.beta_columns((1, 6, 1))
         col2.subheader("Enter your Username and Password:")
         usrname = col2.text_input('Username')
         password = col2.text_input('Password', type="password")
         email = col2.text_input('Email')
         if col2.button('Login'):
-            f = open('AuthenticationValue.txt', 'a')
-            f.truncate(0)
-            current = open('Functionlocation.txt', 'a')
-            current.truncate(0)
             try:
-                aws_client = boto3.client('cognito-idp', region_name='us-east-2')
-                response = aws_client.admin_create_user(
-                    UserPoolId='us-east-2_LUKFFoPeQ',
-                    Username=usrname,
-                    UserAttributes=[
-                        {
-                            'Name': "name",
-                            'Value': usrname
-                        },
-                        {
-                            'Name': "email",
-                            'Value': email
-                        }
-                    ],
-                    DesiredDeliveryMediums=['EMAIL']
-                )
-                col2.info("user created")
-                authValueFlag = True
-                print(authValueFlag)
-            except aws_client.exceptions.UsernameExistsException as e:
-                col2.info("Login successfully")
-
-                authValueFlag = True
-            f = open('AuthenticationValue.txt', 'a')
-            f.truncate(0)
-            f.write(str(authValueFlag))
-            f.close()
+                        f = open('AuthenticationValue.txt', 'a')
+                        f.truncate(0)
+                        current = open('Functionlocation.txt', 'a')
+                        current.truncate(0)
+                        try:
+                            aws_client = boto3.client('cognito-idp', region_name='us-east-2')
+                            response = aws_client.admin_create_user(
+                                UserPoolId='us-east-2_LUKFFoPeQ',
+                                Username=usrname,
+                                UserAttributes=[
+                                    {
+                                        'Name': "name",
+                                        'Value': usrname
+                                    },
+                                    {
+                                        'Name': "email",
+                                        'Value': email
+                                    }
+                                ],
+                                DesiredDeliveryMediums=['EMAIL']
+                            )
+                            col2.info("user created")
+                            authValueFlag = True
+                            print(authValueFlag)
+                        except aws_client.exceptions.UsernameExistsException as e:
+                            col2.info("Login successfully")
+                            authValueFlag = True
+                        f = open('AuthenticationValue.txt', 'a')
+                        f.truncate(0)
+                        f.write(str(authValueFlag))
+                        f.close()
+            except:
+                st.info("Please enter username/password")
 
     if choice == "Home":
 
@@ -97,36 +99,36 @@ def main():
                     f.close()
                     st.info("You have been logged out!")
                     break
-                col1, col2, col3 = st.beta_columns((1, 2, 1))
+                i1, i2, i3 = st.beta_columns((3, 4, 3))
                 img1 = Image.open('Images/bitcoin2.png')
-                col2.image(img1)
+                i2.image(img1)
                 st.markdown('---')
-                col1, col2, col3, col4 = st.beta_columns((1, 1, 2, 1))
-                col2.subheader('About:')
-                col3.write('A cryptocurrency, broadly defined, is currency that takes the form of tokens or “coins” and '
-                         'exists on a distributed and decentralized ledger.Bitcoin continues to lead the pack of '
-                         'cryptocurrencies in terms of market capitalization, user base, and popularity.')
+                a1, a2, a3, a4 = st.beta_columns((1, 1, 7, 1))
+                a2.subheader('About:')
+                a3.write('As part of academic project for course CSYE 7245-Big Data Systems & Intelligence Analytics we have built an application on streamlit to predict bitcoin price'
+                         '- The application is especially helpful for Bitcoin daytraders or short-term traders that can use the real-time news data to determine entry and exit points for their trades.'
+                         '\n\n'
+                         'By no means do we believe the predictions are 100% accurate, nor would it be any kind of financial advice. However, it\'s interesting to see what the model predicts & check its accuracy over time.'
+)
                 st.markdown('---')
-                col1, col2, col3, col4 = st.beta_columns((1, 1, 2, 1))
-                col2.subheader('Content:')
-                col3.write("""
+                con1, con2, con3, con4 = st.beta_columns((1, 1, 7, 1))
+                con2.subheader('Content:')
+                con3.write("""
                     - Crypto Currencies Market value between selected time frame 
-                    - An efficient Predictive model to forecast future trends for Bitcoin Market for the next 30 days
+                    - A Predictive model to forecast future trends for Bitcoin Market for the next 30 days
                     - Sentiment analysis on User reviews to detect possible correlations with the price of cryptocurrencies and digital tokens
-                    - Technical indicators and Features such as Rate Of Change(ROC), Simple Moving Average, Exponential Moving Average""")
+                    - Technical indicators and features such as Rate Of Change(ROC), Simple Moving Average""")
                 st.markdown('---')
-                col1, col2, col3, col4 = st.beta_columns((1, 1, 2, 1))
-                col2.subheader('Machine Learning Model:')
+                col1, col2, col3, col4 = st.beta_columns((1, 1, 7, 1))
+                col2.subheader('Credit:')
                 col3.write("""
-                    - We used LSTM(Long Short term Memory Model) frequently used for time series modeling
-                    - Trained the LSTM model on data scraped from Coin Index using features Open, High,Low and Close 
-                    - Trained the model on 3 years to predict the Bitcoin price for next 30 days 
-                    - Amazon Comprehend is used for sentiment Analysis on the reviews which are scraped for every 30 min from Trust pilot bitcoin""")
+                    - Prof Sri Krishnamurthy for encouraging to push our limits and guiding us 
+                    - Dileep Holla for constant motivation and support""")
                 st.markdown('---')
 
 
             else:
-                st.write('Please login with credentials')
+                st.info('Please login with credentials')
 
     if choice == "Crypto Currency Dashboard":
         f = open('AuthenticationValue.txt', 'r')
@@ -158,13 +160,13 @@ def main():
 
                 st.write('View the Open, High, Low Close price and Volume of selected Crypto')
                 # st.subheader('Select crypto currency:')
-                col1,col2 = st.beta_columns((1,4))
-                ticker = col1.multiselect('Select crypto currency',
+                cd1,cd2 = st.beta_columns((5,5))
+                ticker = cd1.multiselect('Select crypto currency',
                                         ['BTC-USD', 'ETH-USD', 'ETC-USD', 'XRP-USD', 'LTC-USD',
                                          'ATOM', 'LINK-USD', 'ALGO-USD', 'OMG-USD'],
                                         default=["ETH-USD"])
 
-                date_picker = col1.date_input('Choose Date Range',
+                date_picker = cd2.date_input('Choose Date Range',
                                             [dt.date.today() - dt.timedelta(days=30), dt.date.today() + dt.timedelta(days=1)],
                                             min_value=dt.date.today() - dt.timedelta(days=365),
                                             max_value=dt.date.today() + dt.timedelta(days=1))
@@ -173,6 +175,7 @@ def main():
                 increment_date = date_picker[1]
                 while increment_date != date_picker[0]:
                     increment_date -= dt.timedelta(days=1)
+                    # increment_date -= dt.timedelta(days=1)
                     date_list.append(increment_date)
                 print(date_list)
 
@@ -184,12 +187,17 @@ def main():
                 if len(coin_list) != 0:
                     if len(date_list) != 0:
                         datanew = yf.download(tickers=ticker, start=date_picker[0], end=date_picker[1])
-                        col2.write(datanew)
+
+                        datacopy = datanew.copy()
+                        datacopy.reset_index(inplace=True)
+                        datacopy['Date'] = datacopy['Date'].astype(str)
+                        st.write(datacopy)
+
                         st.markdown('---')
-                        c1,c2 = st.beta_columns((1,4))
+                        c1,c2 = st.beta_columns((2,9))
                         ###################radio Button selection for values
                         c1.subheader('Select the values to see the trend')
-                        genre = c1.radio('\n',
+                        genre = c1.radio('\n\n',
                             ('Close', 'Open', 'High'))
                         if genre == 'Close':
                             c1.write('You selected Closing Values.')
@@ -227,7 +235,7 @@ def main():
                                 paper_bgcolor='rgba(0,0,0,0)',
                                 plot_bgcolor='rgba(0,0,0,0)'
                             )
-                            s1,s2=st.beta_columns((2,2))
+
                             fig = go.Figure(layout=layout)
                             fig.add_trace(
                                 go.Scatter(x=datanew.index, y=datanew['Open'], name="Open", line_color='crimson'))
@@ -238,11 +246,11 @@ def main():
                             fig.add_trace(
                                 go.Scatter(x=datanew.index, y=datanew['Low'], name="Low", line_color='darksalmon'))
 
-                            s1.subheader('Market Summary for selected timeframe')
+                            st.subheader('Market Summary for selected timeframe')
 
                             fig.layout.update(title_text='Check selected crypto currency Price with Range slider',
                                               xaxis_rangeslider_visible=True)
-                            s1.plotly_chart(fig)
+                            st.plotly_chart(fig)
 
                             avg_20 = datanew.Close.rolling(window=20, min_periods=1).mean()
                             avg_50 = datanew.Close.rolling(window=50, min_periods=1).mean()
@@ -260,24 +268,16 @@ def main():
                             data = [set1, set2, set3, set4]
                             fig = go.Figure(data=data, layout=layout)
 
-                            s2.subheader('Simple Moving Avgerage(SMA)')
+                            st.subheader('Simple Moving Avgerage(SMA)')
                             fig.layout.update(title_text='Check Simple Moving Average of selected crypto currency with Range slider',
                                               xaxis_rangeslider_visible=True)
-                            s2.plotly_chart(fig)
+                            st.plotly_chart(fig)
                             st.markdown('---')
 
                 else:
                     st.write("### Please select a Cryto Currency")
             else:
                 st.info('Please login with credentials')
-
-    # if choice == 'Logout':
-    #     authValueFlag = False
-    #     f = open('AuthenticationValue.txt', 'a')
-    #     f.truncate(0)
-    #     f.write(str(authValueFlag))
-    #     f.close()
-    #     st.info("You have been logged out!")
 
     if choice == "Bitcoin Prediction":
         f = open('AuthenticationValue.txt', 'r')
@@ -325,7 +325,7 @@ def main():
                         service_name='s3',
                         region_name='us-east-2')
                     bucket_name = 'bitcoin-prediction'
-                    filename = 'sagemaker/bitcoin_2018-3-1_2021-4-28.csv'
+                    filename = 'sagemaker/bitcoin_hist.csv'
 
                     pred = requests.get('https://58jmyxbog3.execute-api.us-east-2.amazonaws.com/test/predictions')
                     data = pred.json()
@@ -373,7 +373,7 @@ def main():
                     chart.add_rows(df3[1100:])
                     st.markdown('---')
             else:
-                st.write('Please login with credentials')
+                st.info('Please login with credentials')
 
     if choice == "Sentiment Analysis":
         f = open('AuthenticationValue.txt', 'r')
@@ -414,11 +414,9 @@ def main():
 
                 data_today = sentiment_td.json()
                 sentiment_today = json.loads(data_today['Sentiments'])
-                print(sentiment_today)
 
                 df1 = pd.DataFrame(sentiment_today, columns=['date', 'review', 'sentiment'])
                 df1['date'] = pd.to_datetime(df1['date']).dt.date
-                print('today sentiment', df1)
 
                 sentiment_count = df1["sentiment"].value_counts()
                 sentiment_count = pd.DataFrame({"Sentiment": sentiment_count.index, "Reviews": sentiment_count.values})
@@ -439,7 +437,6 @@ def main():
 
                 df = pd.DataFrame(sentiment, columns=['date', 'sentiments'])
                 df['date'] = pd.to_datetime(df['date']).dt.date
-                print(df['date'])
 
                 st.sidebar.subheader('Overall Sentiment Analysis:')
                 date = st.sidebar.radio(
@@ -462,9 +459,7 @@ def main():
 
                 days = DAYS
                 cutoff_date = dt.date.today() - pd.Timedelta(days=days)
-                print(cutoff_date)
                 df2 = df[df['date'] > cutoff_date]
-                print(df2)
                 sentiment_count = df2["sentiments"].value_counts()
                 sentiment_count = pd.DataFrame({"Sentiment": sentiment_count.index, "Reviews": sentiment_count.values})
 
@@ -489,16 +484,64 @@ def main():
                 st.subheader("Live Feed of Bitcoin Reviews")
                 st.markdown('---')
 
-                for message in data['messages']:
-                    col1, col2, col3, col4 = st.beta_columns((1, 1, 2, 1))
-                    col2.image(message['user']['avatar_url'])
-                    col2.write(message['user']['username'])
-                    col2.write(message['created_at'])
-                    col3.write(message['body'])
-                    st.markdown('---')
+                for i,message in enumerate(data['messages']):
+                        col1, col2, col3, col4 = st.beta_columns((1, 2, 6, 1))
+                        col2.image(message['user']['avatar_url'])
+                        col2.write(message['user']['username'])
+                        col2.write(message['created_at'])
+                        col3.write(message['body'])
+                        st.markdown('---')
+                        if i == 2:
+                            break
 
             else:
-                st.write('Please login with credentials')
+                st.info('Please login with credentials')
+
+    if choice == 'Architecture':
+        st.header("\n")
+        f = open('AuthenticationValue.txt', 'r')
+        for line in f:
+            if line == 'True':
+                logout = st.sidebar.button('Logout')
+                if logout:
+                    authValueFlag = False
+                    f = open('AuthenticationValue.txt', 'a')
+                    f.truncate(0)
+                    f.write(str(authValueFlag))
+                    f.close()
+                    st.info("You have been logged out!")
+                    break
+                col1,col2 = st.beta_columns((1,1))
+
+                col1.header('Architecture of the application')
+                st.markdown('---')
+                img2 = Image.open('Images/BItcoin Architecture_Final.jpeg')
+                st.image(img2)
+                st.markdown('---')
+                st.subheader("About the pipelines:")
+                st.write("""
+                - We have built Bitcoin price prediction based on historic data and sentiment analysis of every day reviews. 
+                - The whole application consists of two pipelines one to scrape and train bitcoin price, another to scrape 
+                    reviews every 30 mins and get sentiment score from  AWS Comprehend.
+                - The scraped data is stored in AWS DynamoDB
+                - AWS Lambdas are scheduled using AWS Cloudwatch to move latest data from DynamoDB to AWS S3 
+                - AWS sagemaker gets latest data from S3 and trains the model, once trained the model is saved to S3 for inference.
+                - We trained the LSTM model on Close price to predict next 30 days price and leveraged 3 years historic data to predict the price 
+                - Ultimately the predictions and sentiments are displayed to user on streamlit""")
+                st.subheader("About the compenents:")
+                st.write(""" 
+                - AWS Lambda
+                - AWS Cloudwatch
+                - AWS DynamoDB
+                - AWS Comprehend
+                - AWS Simple storage Service
+                - AWS Sagemaker
+                - API GAteway
+                - AWS Cognito
+                - Streamlit
+                    """)
+
+
 
 
 if __name__ == '__main__':
