@@ -1,4 +1,4 @@
-# CSYE7245_Spring2021 Assignments & Lab 
+# Big Data Systems -  Assignments & Lab 
 
 As part of CSYE 7245 - Big Data Systems & Intelligence Analytics Labs, we have covered below tool and platforms.
 
